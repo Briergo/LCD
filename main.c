@@ -3,25 +3,13 @@
 #include "menu.h"
 #include "TFT_8080.h"
 #include "Motor.h"
-#include "chprintf.h"
 #include "stdlib.h"
 #include <string.h>
 #include <stdio.h>
-//#include "ff.h"
 
-uint32_t impulseWidth=0 ;
 uint8_t flag_start=0;
 
 uint8_t tim_flag=0;
-
-uint8_t up_flag_ext=0;
-uint8_t down_flag_ext=0;
-uint8_t up_flag=0;
-uint8_t down_flag=0;
-uint8_t left_flag=0;
-uint8_t right_flag=0;
-uint8_t left_flag_ext=0;
-uint8_t right_flag_ext=0;
 int16_t holl_speed=0;
 
 int16_t speed = 5;
@@ -35,8 +23,6 @@ msg_t tft_mb_buffer[BUFFER_SIZE];
 
 struct regulator Reg1;
 
-
-
 void Uart_Init(void);
 void dbgprintf( const char* format, ... );
 void cbgptfun3(GPTDriver *gptp);
@@ -46,16 +32,6 @@ void Init_PID_Reg(void);
 
 GPTDriver *timer3 = &GPTD3;
 GPTDriver *timer4 = &GPTD4;
-
-SerialDriver *uart3 = &SD3;
-static BaseSequentialStream *uart3_stream = NULL;
-
-static const SerialConfig uart_conf = {
-  .speed = 115200,
-  .cr1 = 0,
-  .cr2 = 0,
-  .cr3 = 0
-};
 
 
 // Настраиваем частоту третьегоы таймера 50_000Гц (предделитель 4320, целое число, меньше чем 2^16) и указывает первую функцию как обработчик прерываний
@@ -227,10 +203,6 @@ int main(void)
         tim_flag=0;
       }
 
-
-
-
-
      }
 
 
@@ -244,34 +216,8 @@ void Init_PID_Reg(void)
   Reg1.Summ_Error=0;
   Reg1.Max_Summ_Error=MAX_I_Reg;
   Reg1.Last_Process_Value=0;
-
 }
 
-void Uart_Init(void)
-{
-  // запускаем драйвер в работу
-  sdStart(uart3, &uart_conf);
-  // Переводим ноги в состояние Rx, Tx
-  palSetPadMode( GPIOD, 8, PAL_MODE_ALTERNATE(7) );
-  palSetPadMode( GPIOD, 9, PAL_MODE_ALTERNATE(7) );
-  // Переопределяем указатель на поток
-  uart3_stream = (BaseSequentialStream *)uart3;
-}
-
-
-// Функция отправки строки в терминал
-void dbgprintf( const char* format, ... )
-{
-// Проверяем, что debug_stream_init() случился
-    if ( !uart3_stream )
-    return;
-
-// Отправляем в chvprintf() данные и ждём чуда
-    va_list ap;
-    va_start(ap, format);
-    chvprintf(uart3_stream, format, ap);
-    va_end(ap);
-}
 
 // callback функция таймера 3
 void cbgptfun3(GPTDriver *gptp)
@@ -286,127 +232,6 @@ void cbgptfun3(GPTDriver *gptp)
     tim_flag=1;
 }
 
-// callback функция таймера 4
-void cbgptfun4(GPTDriver *gptp)
-{
-    (void)gptp;
-    uint8_t arg = 5;
-    if(right_flag_ext)
-    {
-      palEnablePadEventI(RIGHT_GPIO_Port, RIGHT_Pin, PAL_EVENT_MODE_RISING_EDGE);
-      palSetPadCallbackI(RIGHT_GPIO_Port, RIGHT_Pin, right_button, &arg);
-      gptStopTimerI(timer4);
-      right_flag_ext=0;
-    }
-    if(left_flag_ext)
-    {
-      palEnablePadEventI(LEFT_GPIO_Port, LEFT_Pin, PAL_EVENT_MODE_RISING_EDGE);
-      palSetPadCallbackI(LEFT_GPIO_Port, LEFT_Pin, left_button, &arg);
-      gptStopTimerI(timer4);
-      left_flag_ext=0;
-    }
-    if(up_flag_ext)
-    {
-      palEnablePadEventI(UP_GPIO_Port, UP_Pin, PAL_EVENT_MODE_RISING_EDGE);
-      palSetPadCallbackI(UP_GPIO_Port, UP_Pin, up_button, &arg);
-      gptStopTimerI(timer4);
-      up_flag_ext=0;
-    }
-    if(down_flag_ext)
-    {
-      palEnablePadEventI(DOWN_GPIO_Port, DOWN_Pin, PAL_EVENT_MODE_RISING_EDGE);
-      palSetPadCallbackI(DOWN_GPIO_Port, DOWN_Pin, down_button, &arg);
-      gptStopTimerI(timer4);
-      down_flag_ext=0;
-    }
-}
 
-// callback функция, которая должна сработать по настроенному событию
-void holl(void* args)
-{
-    // Преобразование аргумента к требуемому типу, в данному случае к uint8_t
-    uint8_t arg = *((uint8_t*) args);
-    // Проверка, что передача аргумента работает
-    if (arg == 5)
-    {
-      if(palReadPad(GPIOB,8u)==1)
-      {
-        if(palReadPad(GPIOB,9u)==1)
-        {
-          holl_speed++;
-        }
-        if(palReadPad(GPIOB,9u)==0)
-        {
-          holl_speed--;
-        }
-      }
 
-      if(palReadPad(GPIOB,8u)==0)
-      {
-        if(palReadPad(GPIOB,9u)==0)
-        {
-          holl_speed++;
-        }
-        if(palReadPad(GPIOB,9u)==1)
-        {
-          holl_speed--;
-        }
-      }
-    }
-}
-// callback функция, которая должна сработать по настроенному событию
-void up_button(void* args)
-{
-    // Преобразование аргумента к требуемому типу, в данному случае к uint8_t
-    uint8_t arg = *((uint8_t*) args);
-    while(arg);
-    // Запрет прерываний
-    palDisablePadEventI(UP_GPIO_Port, UP_Pin);
-    up_flag=1;
-    up_flag_ext=1;
-    //запуск в непрерывном режиме с периодом 0.5 с
-    gptStartContinuousI(timer4, 25000);
-}
-
-// callback функция, которая должна сработать по настроенному событию
-void down_button(void* args)
-{
-    // Преобразование аргумента к требуемому типу, в данному случае к uint8_t
-    uint8_t arg = *((uint8_t*) args);
-    while(arg);
-    // Запрет прерываний
-    palDisablePadEventI(DOWN_GPIO_Port, DOWN_Pin);
-    down_flag=1;
-    down_flag_ext=1;
-    //запуск в непрерывном режиме с периодом 0.5 с
-    gptStartContinuousI(timer4, 25000);
-}
-
-// callback функция, которая должна сработать по настроенному событию
-void right_button(void* args)
-{
-    // Преобразование аргумента к требуемому типу, в данному случае к uint8_t
-    uint8_t arg = *((uint8_t*) args);
-    while(arg);
-    // Запрет прерываний
-    palDisablePadEventI(RIGHT_GPIO_Port, RIGHT_Pin);
-    right_flag=1;
-    right_flag_ext=1;
-    //запуск в непрерывном режиме с периодом 0.5 с
-    gptStartContinuousI(timer4, 25000);
-}
-
-// callback функция, которая должна сработать по настроенному событию
-void left_button(void* args)
-{
-    // Преобразование аргумента к требуемому типу, в данному случае к uint8_t
-    uint8_t arg = *((uint8_t*) args);
-    while(arg);
-    // Запрет прерываний
-    palDisablePadEventI(LEFT_GPIO_Port, LEFT_Pin);
-    left_flag=1;
-    left_flag_ext=1;
-    //запуск в непрерывном режиме с периодом 0.5 с
-    gptStartContinuousI(timer4, 25000);
-}
 

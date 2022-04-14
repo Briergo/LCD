@@ -1,13 +1,9 @@
 #include "Motor.h"
 #include "TFT_8080.h"
+#include "chprintf.h"
 
-
-
-
-// Положим указатель на драйвер в переменную
-static PWMDriver *pwm1Driver = &PWMD1;
-
-//uint32_t speed =0;
+SerialDriver *uart3 = &SD3;
+static BaseSequentialStream *uart3_stream;
 
 PWMConfig pwm1conf = {
     // Укажем частоту 500кГц (предделитель равен 436, так что значение допустимое)
@@ -29,18 +25,13 @@ PWMConfig pwm1conf = {
 };
 
 
-/*
- * @brief   Motor thread.
- *
- */
-
-
 void Motor_GPIO_Init(void)
 {
   palSetPadMode(IN2_PORT,IN2_PIN,PAL_MODE_OUTPUT_PUSHPULL);
   palSetPadMode(IN1_PORT,IN1_PIN,PAL_MODE_OUTPUT_PUSHPULL);
   palSetPadMode(ENA_PORT,ENA_PIN,  PAL_MODE_ALTERNATE(1) );
 }
+
 void Motor_Forward(void)
 {
   IN1_HI;
@@ -93,7 +84,66 @@ void PID_Reg(struct regulator parm, int zadanie, int measure)
 }
 
 
+void Uart_Init(void)
+{
+  // запускаем драйвер в работу
+  sdStart(uart3, &uart_conf);
+  // Переводим ноги в состояние Rx, Tx
+  palSetPadMode( GPIOD, 8, PAL_MODE_ALTERNATE(7) );
+  palSetPadMode( GPIOD, 9, PAL_MODE_ALTERNATE(7) );
+  // Переопределяем указатель на поток
+  uart3_stream = (BaseSequentialStream *)uart3;
+}
 
+
+// Функция отправки строки в терминал
+void dbgprintf( const char* format, ... )
+{
+// Проверяем, что debug_stream_init() случился
+    if ( !uart3_stream )
+    return;
+
+// Отправляем в chvprintf() данные и ждём чуда
+    va_list ap;
+    va_start(ap, format);
+    chvprintf(uart3_stream, format, ap);
+    va_end(ap);
+}
+
+
+// callback функция, которая должна сработать по настроенному событию
+void holl(void* args)
+{
+    // Преобразование аргумента к требуемому типу, в данному случае к uint8_t
+    uint8_t arg = *((uint8_t*) args);
+    // Проверка, что передача аргумента работает
+    if (arg == 5)
+    {
+      if(palReadPad(GPIOB,8u)==1)
+      {
+        if(palReadPad(GPIOB,9u)==1)
+        {
+          holl_speed++;
+        }
+        if(palReadPad(GPIOB,9u)==0)
+        {
+          holl_speed--;
+        }
+      }
+
+      if(palReadPad(GPIOB,8u)==0)
+      {
+        if(palReadPad(GPIOB,9u)==0)
+        {
+          holl_speed++;
+        }
+        if(palReadPad(GPIOB,9u)==1)
+        {
+          holl_speed--;
+        }
+      }
+    }
+}
 
 
 

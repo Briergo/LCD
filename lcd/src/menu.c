@@ -2,12 +2,20 @@
 #include <stdlib.h>
 #include "TFT_8080.h"
 
-
+extern GPTDriver *timer4;
 
 /*Vspomogat peremenn*/
 node_t* current=NULL;
 int count=0;
 char dataled=0xFF;
+unsigned char  up_flag_ext=0;
+unsigned char  down_flag_ext=0;
+unsigned char up_flag=0;
+unsigned char  down_flag=0;
+unsigned char  left_flag=0;
+unsigned char  right_flag=0;
+unsigned char  left_flag_ext=0;
+unsigned char  right_flag_ext=0;
 
 /*Create glavnoe menu*/ 
 node_t* menu1=NULL;
@@ -149,4 +157,96 @@ void Cursor(void)
 {
     TFT_Draw_String(current->x_pos,current->y_pos, RED, WHITE, current->text, 2);
 }
+
+// callback функци€, котора€ должна сработать по настроенному событию
+void up_button(void* args)
+{
+    // ѕреобразование аргумента к требуемому типу, в данному случае к uint8_t
+    uint8_t arg = *((uint8_t*) args);
+    while(arg);
+    // «апрет прерываний
+    palDisablePadEventI(UP_GPIO_Port, UP_Pin);
+    up_flag=1;
+    up_flag_ext=1;
+    //запуск в непрерывном режиме с периодом 0.5 с
+    gptStartContinuousI(timer4, 25000);
+}
+
+// callback функци€, котора€ должна сработать по настроенному событию
+void down_button(void* args)
+{
+    // ѕреобразование аргумента к требуемому типу, в данному случае к uint8_t
+    uint8_t arg = *((uint8_t*) args);
+    while(arg);
+    // «апрет прерываний
+    palDisablePadEventI(DOWN_GPIO_Port, DOWN_Pin);
+    down_flag=1;
+    down_flag_ext=1;
+    //запуск в непрерывном режиме с периодом 0.5 с
+    gptStartContinuousI(timer4, 25000);
+}
+
+// callback функци€, котора€ должна сработать по настроенному событию
+void right_button(void* args)
+{
+    // ѕреобразование аргумента к требуемому типу, в данному случае к uint8_t
+    uint8_t arg = *((uint8_t*) args);
+    while(arg);
+    // «апрет прерываний
+    palDisablePadEventI(RIGHT_GPIO_Port, RIGHT_Pin);
+    right_flag=1;
+    right_flag_ext=1;
+    //запуск в непрерывном режиме с периодом 0.5 с
+    gptStartContinuousI(timer4, 25000);
+}
+
+// callback функци€, котора€ должна сработать по настроенному событию
+void left_button(void* args)
+{
+    // ѕреобразование аргумента к требуемому типу, в данному случае к uint8_t
+    uint8_t arg = *((uint8_t*) args);
+    while(arg);
+    // «апрет прерываний
+    palDisablePadEventI(LEFT_GPIO_Port, LEFT_Pin);
+    left_flag=1;
+    left_flag_ext=1;
+    //запуск в непрерывном режиме с периодом 0.5 с
+    gptStartContinuousI(timer4, 25000);
+}
+
+// callback функци€ таймера 4
+void cbgptfun4(GPTDriver *gptp)
+{
+    (void)gptp;
+    uint8_t arg = 5;
+    if(right_flag_ext)
+    {
+      palEnablePadEventI(RIGHT_GPIO_Port, RIGHT_Pin, PAL_EVENT_MODE_RISING_EDGE);
+      palSetPadCallbackI(RIGHT_GPIO_Port, RIGHT_Pin, right_button, &arg);
+      gptStopTimerI(timer4);
+      right_flag_ext=0;
+    }
+    if(left_flag_ext)
+    {
+      palEnablePadEventI(LEFT_GPIO_Port, LEFT_Pin, PAL_EVENT_MODE_RISING_EDGE);
+      palSetPadCallbackI(LEFT_GPIO_Port, LEFT_Pin, left_button, &arg);
+      gptStopTimerI(timer4);
+      left_flag_ext=0;
+    }
+    if(up_flag_ext)
+    {
+      palEnablePadEventI(UP_GPIO_Port, UP_Pin, PAL_EVENT_MODE_RISING_EDGE);
+      palSetPadCallbackI(UP_GPIO_Port, UP_Pin, up_button, &arg);
+      gptStopTimerI(timer4);
+      up_flag_ext=0;
+    }
+    if(down_flag_ext)
+    {
+      palEnablePadEventI(DOWN_GPIO_Port, DOWN_Pin, PAL_EVENT_MODE_RISING_EDGE);
+      palSetPadCallbackI(DOWN_GPIO_Port, DOWN_Pin, down_button, &arg);
+      gptStopTimerI(timer4);
+      down_flag_ext=0;
+    }
+}
+
 

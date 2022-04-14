@@ -15,8 +15,18 @@
 #define MAX_I_Reg 2147483647
 #define MAX_VALUE 10000
 
+extern SerialDriver *uart3;
+
+
 extern uint8_t flag_start;
 extern int16_t holl_speed;
+
+static const SerialConfig uart_conf = {
+  .speed = 115200,
+  .cr1 = 0,
+  .cr2 = 0,
+  .cr3 = 0
+};
 
 struct regulator {
   int16_t P,
@@ -35,6 +45,10 @@ void Motor_Stop(void);
 void Motor_PWMD (void);
 void Motor_Speed(int16_t speed);
 void PID_Reg(struct regulator parm, int zadanie, int measure);
+void Uart_Init(void);
+void dbgprintf( const char* format, ... );
+
+
 
 
 

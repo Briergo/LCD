@@ -24,11 +24,12 @@
 #define RIGHT_Pin 5u
 #define RIGHT_GPIO_Port GPIOF
 
-/*#define UP_Read HAL_GPIO_ReadPin(UP_GPIO_Port, UP_Pin);
-#define SET_Read HAL_GPIO_ReadPin(SET_GPIO_Port, SET_Pin);
-#define LEFT_Read HAL_GPIO_ReadPin(LEFT_GPIO_Port, LEFT_Pin);
-#define DOWN_Read HAL_GPIO_ReadPin(DOWN_GPIO_Port, DOWN_Pin);
-#define RIGHT_Read HAL_GPIO_ReadPin(RIGHT_GPIO_Port, RIGHT_Pin);*/
+
+extern unsigned char up_flag;
+extern unsigned char  down_flag;
+extern unsigned char  left_flag;
+extern unsigned char  right_flag;
+
 
 typedef struct node 
 {
@@ -45,14 +46,7 @@ node_t;
 
 extern node_t* current;
 
-/* USER CODE END PD */
 
-/* Private variables ---------------------------------------------------------*/
-
-/* USER CODE BEGIN PV */
-
-
-/* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 
