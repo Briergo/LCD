@@ -1,0 +1,5314 @@
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 1
+
+
+   1              		.cpu cortex-m7
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 2
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"chprintf.c"
+  12              		.file 1 "d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\10.0 2020q4\\lib\\gcc\\arm-none-eabi\
+  13              		.file 2 "d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\10.0 2020q4\\arm-none-eabi\\include\\
+  14              		.file 3 "d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\10.0 2020q4\\arm-none-eabi\\include\\
+  15              		.file 4 "D:\\ChibiStudio20v0\\chibios203/os/common/ports/ARMCMx/compilers/GCC/chtypes.h"
+  16              		.file 5 "d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\10.0 2020q4\\lib\\gcc\\arm-none-eabi\
+  17              		.file 6 "D:\\ChibiStudio20v0\\chibios203/os/hal/include/hal_streams.h"
+  18              		.file 7 "D:\\ChibiStudio20v0\\chibios203/os/hal/lib/streams/memstreams.h"
+  19              		.file 8 "D:\\ChibiStudio20v0\\chibios203/os/hal/lib/streams/chprintf.c"
+  20              		.file 9 "<built-in>"
+  21              		.section	.gnu.debuglto_.debug_info,"e",%progbits
+  22              	.Ldebug_info0:
+  23              		.hidden	chprintf.c.33b4cc5b
+  24              		.weak	chprintf.c.33b4cc5b
+  25              	chprintf.c.33b4cc5b:
+  26 0000 36050000 		.4byte	0x536
+  27 0004 0400     		.2byte	0x4
+  28 0006 00000000 		.4byte	.Ldebug_abbrev0
+  29 000a 04       		.byte	0x4
+  30 000b 01       		.uleb128 0x1
+  31 000c 89000000 		.4byte	.LASF46
+  32 0010 0C       		.byte	0xc
+  33 0011 D0020000 		.4byte	.LASF47
+  34 0015 82010000 		.4byte	.LASF48
+  35 0019 00000000 		.4byte	.Ldebug_line0
+  36 001d 02       		.uleb128 0x2
+  37 001e 04       		.byte	0x4
+  38 001f 05       		.byte	0x5
+  39 0020 696E7400 		.ascii	"int\000"
+  40 0024 03       		.uleb128 0x3
+  41 0025 39000000 		.4byte	.LASF4
+  42 0029 01       		.byte	0x1
+  43 002a D1       		.byte	0xd1
+  44 002b 17       		.byte	0x17
+  45 002c 30000000 		.4byte	0x30
+  46 0030 04       		.uleb128 0x4
+  47 0031 04       		.byte	0x4
+  48 0032 07       		.byte	0x7
+  49 0033 27020000 		.4byte	.LASF0
+  50 0037 04       		.uleb128 0x4
+  51 0038 08       		.byte	0x8
+  52 0039 05       		.byte	0x5
+  53 003a 59010000 		.4byte	.LASF1
+  54 003e 04       		.uleb128 0x4
+  55 003f 08       		.byte	0x8
+  56 0040 04       		.byte	0x4
+  57 0041 E2010000 		.4byte	.LASF2
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 2
+
+
+  58 0045 04       		.uleb128 0x4
+  59 0046 01       		.byte	0x1
+  60 0047 06       		.byte	0x6
+  61 0048 FC010000 		.4byte	.LASF3
+  62 004c 03       		.uleb128 0x3
+  63 004d B4010000 		.4byte	.LASF5
+  64 0051 02       		.byte	0x2
+  65 0052 2B       		.byte	0x2b
+  66 0053 18       		.byte	0x18
+  67 0054 58000000 		.4byte	0x58
+  68 0058 04       		.uleb128 0x4
+  69 0059 01       		.byte	0x1
+  70 005a 08       		.byte	0x8
+  71 005b EE010000 		.4byte	.LASF6
+  72 005f 04       		.uleb128 0x4
+  73 0060 02       		.byte	0x2
+  74 0061 05       		.byte	0x5
+  75 0062 2F000000 		.4byte	.LASF7
+  76 0066 04       		.uleb128 0x4
+  77 0067 02       		.byte	0x2
+  78 0068 07       		.byte	0x7
+  79 0069 41020000 		.4byte	.LASF8
+  80 006d 03       		.uleb128 0x3
+  81 006e 9C020000 		.4byte	.LASF9
+  82 0072 02       		.byte	0x2
+  83 0073 4D       		.byte	0x4d
+  84 0074 18       		.byte	0x18
+  85 0075 79000000 		.4byte	0x79
+  86 0079 04       		.uleb128 0x4
+  87 007a 04       		.byte	0x4
+  88 007b 05       		.byte	0x5
+  89 007c 5E020000 		.4byte	.LASF10
+  90 0080 04       		.uleb128 0x4
+  91 0081 04       		.byte	0x4
+  92 0082 07       		.byte	0x7
+  93 0083 85020000 		.4byte	.LASF11
+  94 0087 04       		.uleb128 0x4
+  95 0088 08       		.byte	0x8
+  96 0089 07       		.byte	0x7
+  97 008a 08020000 		.4byte	.LASF12
+  98 008e 03       		.uleb128 0x3
+  99 008f 81000000 		.4byte	.LASF13
+ 100 0093 03       		.byte	0x3
+ 101 0094 18       		.byte	0x18
+ 102 0095 13       		.byte	0x13
+ 103 0096 4C000000 		.4byte	0x4c
+ 104 009a 05       		.uleb128 0x5
+ 105 009b 8E000000 		.4byte	0x8e
+ 106 009f 03       		.uleb128 0x3
+ 107 00a0 67020000 		.4byte	.LASF14
+ 108 00a4 03       		.byte	0x3
+ 109 00a5 2C       		.byte	0x2c
+ 110 00a6 13       		.byte	0x13
+ 111 00a7 6D000000 		.4byte	0x6d
+ 112 00ab 03       		.uleb128 0x3
+ 113 00ac 14030000 		.4byte	.LASF15
+ 114 00b0 04       		.byte	0x4
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 3
+
+
+ 115 00b1 2F       		.byte	0x2f
+ 116 00b2 1D       		.byte	0x1d
+ 117 00b3 9F000000 		.4byte	0x9f
+ 118 00b7 06       		.uleb128 0x6
+ 119 00b8 04       		.byte	0x4
+ 120 00b9 07       		.uleb128 0x7
+ 121 00ba 04       		.byte	0x4
+ 122 00bb C6000000 		.4byte	0xc6
+ 123 00bf 04       		.uleb128 0x4
+ 124 00c0 01       		.byte	0x1
+ 125 00c1 08       		.byte	0x8
+ 126 00c2 59020000 		.4byte	.LASF16
+ 127 00c6 05       		.uleb128 0x5
+ 128 00c7 BF000000 		.4byte	0xbf
+ 129 00cb 04       		.uleb128 0x4
+ 130 00cc 01       		.byte	0x1
+ 131 00cd 02       		.byte	0x2
+ 132 00ce 6F020000 		.4byte	.LASF17
+ 133 00d2 07       		.uleb128 0x7
+ 134 00d3 04       		.byte	0x4
+ 135 00d4 8E000000 		.4byte	0x8e
+ 136 00d8 03       		.uleb128 0x3
+ 137 00d9 C1020000 		.4byte	.LASF18
+ 138 00dd 05       		.byte	0x5
+ 139 00de 28       		.byte	0x28
+ 140 00df 1B       		.byte	0x1b
+ 141 00e0 E4000000 		.4byte	0xe4
+ 142 00e4 08       		.uleb128 0x8
+ 143 00e5 AA010000 		.4byte	.LASF49
+ 144 00e9 04       		.byte	0x4
+ 145 00ea 09       		.byte	0x9
+ 146 00eb 00       		.byte	0
+ 147 00ec FB000000 		.4byte	0xfb
+ 148 00f0 09       		.uleb128 0x9
+ 149 00f1 54020000 		.4byte	.LASF50
+ 150 00f5 B7000000 		.4byte	0xb7
+ 151 00f9 00       		.byte	0
+ 152 00fa 00       		.byte	0
+ 153 00fb 03       		.uleb128 0x3
+ 154 00fc 65000000 		.4byte	.LASF19
+ 155 0100 05       		.byte	0x5
+ 156 0101 63       		.byte	0x63
+ 157 0102 18       		.byte	0x18
+ 158 0103 D8000000 		.4byte	0xd8
+ 159 0107 0A       		.uleb128 0xa
+ 160 0108 2E030000 		.4byte	.LASF24
+ 161 010c 14       		.byte	0x14
+ 162 010d 06       		.byte	0x6
+ 163 010e 48       		.byte	0x48
+ 164 010f 08       		.byte	0x8
+ 165 0110 56010000 		.4byte	0x156
+ 166 0114 0B       		.uleb128 0xb
+ 167 0115 67010000 		.4byte	.LASF20
+ 168 0119 06       		.byte	0x6
+ 169 011a 49       		.byte	0x49
+ 170 011b 03       		.byte	0x3
+ 171 011c 24000000 		.4byte	0x24
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 4
+
+
+ 172 0120 00       		.byte	0
+ 173 0121 0B       		.uleb128 0xb
+ 174 0122 0C000000 		.4byte	.LASF21
+ 175 0126 06       		.byte	0x6
+ 176 0127 49       		.byte	0x49
+ 177 0128 03       		.byte	0x3
+ 178 0129 7A010000 		.4byte	0x17a
+ 179 012d 04       		.byte	0x4
+ 180 012e 0B       		.uleb128 0xb
+ 181 012f 54010000 		.4byte	.LASF22
+ 182 0133 06       		.byte	0x6
+ 183 0134 49       		.byte	0x49
+ 184 0135 03       		.byte	0x3
+ 185 0136 99010000 		.4byte	0x199
+ 186 013a 08       		.byte	0x8
+ 187 013b 0C       		.uleb128 0xc
+ 188 013c 70757400 		.ascii	"put\000"
+ 189 0140 06       		.byte	0x6
+ 190 0141 49       		.byte	0x49
+ 191 0142 03       		.byte	0x3
+ 192 0143 B3010000 		.4byte	0x1b3
+ 193 0147 0C       		.byte	0xc
+ 194 0148 0C       		.uleb128 0xc
+ 195 0149 67657400 		.ascii	"get\000"
+ 196 014d 06       		.byte	0x6
+ 197 014e 49       		.byte	0x49
+ 198 014f 03       		.byte	0x3
+ 199 0150 C8010000 		.4byte	0x1c8
+ 200 0154 10       		.byte	0x10
+ 201 0155 00       		.byte	0
+ 202 0156 05       		.uleb128 0x5
+ 203 0157 07010000 		.4byte	0x107
+ 204 015b 0D       		.uleb128 0xd
+ 205 015c 24000000 		.4byte	0x24
+ 206 0160 74010000 		.4byte	0x174
+ 207 0164 0E       		.uleb128 0xe
+ 208 0165 B7000000 		.4byte	0xb7
+ 209 0169 0E       		.uleb128 0xe
+ 210 016a 74010000 		.4byte	0x174
+ 211 016e 0E       		.uleb128 0xe
+ 212 016f 24000000 		.4byte	0x24
+ 213 0173 00       		.byte	0
+ 214 0174 07       		.uleb128 0x7
+ 215 0175 04       		.byte	0x4
+ 216 0176 9A000000 		.4byte	0x9a
+ 217 017a 07       		.uleb128 0x7
+ 218 017b 04       		.byte	0x4
+ 219 017c 5B010000 		.4byte	0x15b
+ 220 0180 0D       		.uleb128 0xd
+ 221 0181 24000000 		.4byte	0x24
+ 222 0185 99010000 		.4byte	0x199
+ 223 0189 0E       		.uleb128 0xe
+ 224 018a B7000000 		.4byte	0xb7
+ 225 018e 0E       		.uleb128 0xe
+ 226 018f D2000000 		.4byte	0xd2
+ 227 0193 0E       		.uleb128 0xe
+ 228 0194 24000000 		.4byte	0x24
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 5
+
+
+ 229 0198 00       		.byte	0
+ 230 0199 07       		.uleb128 0x7
+ 231 019a 04       		.byte	0x4
+ 232 019b 80010000 		.4byte	0x180
+ 233 019f 0D       		.uleb128 0xd
+ 234 01a0 AB000000 		.4byte	0xab
+ 235 01a4 B3010000 		.4byte	0x1b3
+ 236 01a8 0E       		.uleb128 0xe
+ 237 01a9 B7000000 		.4byte	0xb7
+ 238 01ad 0E       		.uleb128 0xe
+ 239 01ae 8E000000 		.4byte	0x8e
+ 240 01b2 00       		.byte	0
+ 241 01b3 07       		.uleb128 0x7
+ 242 01b4 04       		.byte	0x4
+ 243 01b5 9F010000 		.4byte	0x19f
+ 244 01b9 0D       		.uleb128 0xd
+ 245 01ba AB000000 		.4byte	0xab
+ 246 01be C8010000 		.4byte	0x1c8
+ 247 01c2 0E       		.uleb128 0xe
+ 248 01c3 B7000000 		.4byte	0xb7
+ 249 01c7 00       		.byte	0
+ 250 01c8 07       		.uleb128 0x7
+ 251 01c9 04       		.byte	0x4
+ 252 01ca B9010000 		.4byte	0x1b9
+ 253 01ce 0F       		.uleb128 0xf
+ 254 01cf 04       		.byte	0x4
+ 255 01d0 06       		.byte	0x6
+ 256 01d1 53       		.byte	0x53
+ 257 01d2 09       		.byte	0x9
+ 258 01d3 E5010000 		.4byte	0x1e5
+ 259 01d7 0C       		.uleb128 0xc
+ 260 01d8 766D7400 		.ascii	"vmt\000"
+ 261 01dc 06       		.byte	0x6
+ 262 01dd 55       		.byte	0x55
+ 263 01de 29       		.byte	0x29
+ 264 01df E5010000 		.4byte	0x1e5
+ 265 01e3 00       		.byte	0
+ 266 01e4 00       		.byte	0
+ 267 01e5 07       		.uleb128 0x7
+ 268 01e6 04       		.byte	0x4
+ 269 01e7 56010000 		.4byte	0x156
+ 270 01eb 03       		.uleb128 0x3
+ 271 01ec 40000000 		.4byte	.LASF23
+ 272 01f0 06       		.byte	0x6
+ 273 01f1 57       		.byte	0x57
+ 274 01f2 03       		.byte	0x3
+ 275 01f3 CE010000 		.4byte	0x1ce
+ 276 01f7 0A       		.uleb128 0xa
+ 277 01f8 74000000 		.4byte	.LASF25
+ 278 01fc 14       		.byte	0x14
+ 279 01fd 07       		.byte	0x7
+ 280 01fe 3D       		.byte	0x3d
+ 281 01ff 08       		.byte	0x8
+ 282 0200 46020000 		.4byte	0x246
+ 283 0204 0B       		.uleb128 0xb
+ 284 0205 67010000 		.4byte	.LASF20
+ 285 0209 07       		.byte	0x7
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 6
+
+
+ 286 020a 3E       		.byte	0x3e
+ 287 020b 03       		.byte	0x3
+ 288 020c 24000000 		.4byte	0x24
+ 289 0210 00       		.byte	0
+ 290 0211 0B       		.uleb128 0xb
+ 291 0212 0C000000 		.4byte	.LASF21
+ 292 0216 07       		.byte	0x7
+ 293 0217 3E       		.byte	0x3e
+ 294 0218 03       		.byte	0x3
+ 295 0219 7A010000 		.4byte	0x17a
+ 296 021d 04       		.byte	0x4
+ 297 021e 0B       		.uleb128 0xb
+ 298 021f 54010000 		.4byte	.LASF22
+ 299 0223 07       		.byte	0x7
+ 300 0224 3E       		.byte	0x3e
+ 301 0225 03       		.byte	0x3
+ 302 0226 99010000 		.4byte	0x199
+ 303 022a 08       		.byte	0x8
+ 304 022b 0C       		.uleb128 0xc
+ 305 022c 70757400 		.ascii	"put\000"
+ 306 0230 07       		.byte	0x7
+ 307 0231 3E       		.byte	0x3e
+ 308 0232 03       		.byte	0x3
+ 309 0233 B3010000 		.4byte	0x1b3
+ 310 0237 0C       		.byte	0xc
+ 311 0238 0C       		.uleb128 0xc
+ 312 0239 67657400 		.ascii	"get\000"
+ 313 023d 07       		.byte	0x7
+ 314 023e 3E       		.byte	0x3e
+ 315 023f 03       		.byte	0x3
+ 316 0240 C8010000 		.4byte	0x1c8
+ 317 0244 10       		.byte	0x10
+ 318 0245 00       		.byte	0
+ 319 0246 05       		.uleb128 0x5
+ 320 0247 F7010000 		.4byte	0x1f7
+ 321 024b 0F       		.uleb128 0xf
+ 322 024c 14       		.byte	0x14
+ 323 024d 07       		.byte	0x7
+ 324 024e 46       		.byte	0x46
+ 325 024f 09       		.byte	0x9
+ 326 0250 96020000 		.4byte	0x296
+ 327 0254 0C       		.uleb128 0xc
+ 328 0255 766D7400 		.ascii	"vmt\000"
+ 329 0259 07       		.byte	0x7
+ 330 025a 48       		.byte	0x48
+ 331 025b 1E       		.byte	0x1e
+ 332 025c 96020000 		.4byte	0x296
+ 333 0260 00       		.byte	0
+ 334 0261 0B       		.uleb128 0xb
+ 335 0262 7E020000 		.4byte	.LASF26
+ 336 0266 07       		.byte	0x7
+ 337 0267 49       		.byte	0x49
+ 338 0268 03       		.byte	0x3
+ 339 0269 D2000000 		.4byte	0xd2
+ 340 026d 04       		.byte	0x4
+ 341 026e 0B       		.uleb128 0xb
+ 342 026f 97020000 		.4byte	.LASF27
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 7
+
+
+ 343 0273 07       		.byte	0x7
+ 344 0274 49       		.byte	0x49
+ 345 0275 03       		.byte	0x3
+ 346 0276 24000000 		.4byte	0x24
+ 347 027a 08       		.byte	0x8
+ 348 027b 0C       		.uleb128 0xc
+ 349 027c 656F7300 		.ascii	"eos\000"
+ 350 0280 07       		.byte	0x7
+ 351 0281 49       		.byte	0x49
+ 352 0282 03       		.byte	0x3
+ 353 0283 24000000 		.4byte	0x24
+ 354 0287 0C       		.byte	0xc
+ 355 0288 0B       		.uleb128 0xb
+ 356 0289 A3010000 		.4byte	.LASF28
+ 357 028d 07       		.byte	0x7
+ 358 028e 49       		.byte	0x49
+ 359 028f 03       		.byte	0x3
+ 360 0290 24000000 		.4byte	0x24
+ 361 0294 10       		.byte	0x10
+ 362 0295 00       		.byte	0
+ 363 0296 07       		.uleb128 0x7
+ 364 0297 04       		.byte	0x4
+ 365 0298 46020000 		.4byte	0x246
+ 366 029c 03       		.uleb128 0x3
+ 367 029d 12000000 		.4byte	.LASF29
+ 368 02a1 07       		.byte	0x7
+ 369 02a2 4A       		.byte	0x4a
+ 370 02a3 03       		.byte	0x3
+ 371 02a4 4B020000 		.4byte	0x24b
+ 372 02a8 10       		.uleb128 0x10
+ 373 02a9 AD020000 		.4byte	.LASF32
+ 374 02ad 08       		.byte	0x8
+ 375 02ae BD01     		.2byte	0x1bd
+ 376 02b0 05       		.byte	0x5
+ 377 02b1 1D000000 		.4byte	0x1d
+ 378 02b5 20030000 		.4byte	0x320
+ 379 02b9 11       		.uleb128 0x11
+ 380 02ba 73747200 		.ascii	"str\000"
+ 381 02be 08       		.byte	0x8
+ 382 02bf BD01     		.2byte	0x1bd
+ 383 02c1 17       		.byte	0x17
+ 384 02c2 20030000 		.4byte	0x320
+ 385 02c6 12       		.uleb128 0x12
+ 386 02c7 97020000 		.4byte	.LASF27
+ 387 02cb 08       		.byte	0x8
+ 388 02cc BD01     		.2byte	0x1bd
+ 389 02ce 23       		.byte	0x23
+ 390 02cf 24000000 		.4byte	0x24
+ 391 02d3 11       		.uleb128 0x11
+ 392 02d4 666D7400 		.ascii	"fmt\000"
+ 393 02d8 08       		.byte	0x8
+ 394 02d9 BD01     		.2byte	0x1bd
+ 395 02db 35       		.byte	0x35
+ 396 02dc B9000000 		.4byte	0xb9
+ 397 02e0 11       		.uleb128 0x11
+ 398 02e1 617000   		.ascii	"ap\000"
+ 399 02e4 08       		.byte	0x8
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 8
+
+
+ 400 02e5 BD01     		.2byte	0x1bd
+ 401 02e7 42       		.byte	0x42
+ 402 02e8 FB000000 		.4byte	0xfb
+ 403 02ec 13       		.uleb128 0x13
+ 404 02ed 6D7300   		.ascii	"ms\000"
+ 405 02f0 08       		.byte	0x8
+ 406 02f1 BE01     		.2byte	0x1be
+ 407 02f3 10       		.byte	0x10
+ 408 02f4 9C020000 		.4byte	0x29c
+ 409 02f8 13       		.uleb128 0x13
+ 410 02f9 63687000 		.ascii	"chp\000"
+ 411 02fd 08       		.byte	0x8
+ 412 02fe BF01     		.2byte	0x1bf
+ 413 0300 19       		.byte	0x19
+ 414 0301 26030000 		.4byte	0x326
+ 415 0305 14       		.uleb128 0x14
+ 416 0306 00000000 		.4byte	.LASF30
+ 417 030a 08       		.byte	0x8
+ 418 030b C001     		.2byte	0x1c0
+ 419 030d 0A       		.byte	0xa
+ 420 030e 24000000 		.4byte	0x24
+ 421 0312 14       		.uleb128 0x14
+ 422 0313 6D000000 		.4byte	.LASF31
+ 423 0317 08       		.byte	0x8
+ 424 0318 C101     		.2byte	0x1c1
+ 425 031a 07       		.byte	0x7
+ 426 031b 1D000000 		.4byte	0x1d
+ 427 031f 00       		.byte	0
+ 428 0320 07       		.uleb128 0x7
+ 429 0321 04       		.byte	0x4
+ 430 0322 BF000000 		.4byte	0xbf
+ 431 0326 07       		.uleb128 0x7
+ 432 0327 04       		.byte	0x4
+ 433 0328 EB010000 		.4byte	0x1eb
+ 434 032c 10       		.uleb128 0x10
+ 435 032d 46030000 		.4byte	.LASF33
+ 436 0331 08       		.byte	0x8
+ 437 0332 9401     		.2byte	0x194
+ 438 0334 05       		.byte	0x5
+ 439 0335 1D000000 		.4byte	0x1d
+ 440 0339 7F030000 		.4byte	0x37f
+ 441 033d 11       		.uleb128 0x11
+ 442 033e 73747200 		.ascii	"str\000"
+ 443 0342 08       		.byte	0x8
+ 444 0343 9401     		.2byte	0x194
+ 445 0345 16       		.byte	0x16
+ 446 0346 20030000 		.4byte	0x320
+ 447 034a 12       		.uleb128 0x12
+ 448 034b 97020000 		.4byte	.LASF27
+ 449 034f 08       		.byte	0x8
+ 450 0350 9401     		.2byte	0x194
+ 451 0352 22       		.byte	0x22
+ 452 0353 24000000 		.4byte	0x24
+ 453 0357 11       		.uleb128 0x11
+ 454 0358 666D7400 		.ascii	"fmt\000"
+ 455 035c 08       		.byte	0x8
+ 456 035d 9401     		.2byte	0x194
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 9
+
+
+ 457 035f 34       		.byte	0x34
+ 458 0360 B9000000 		.4byte	0xb9
+ 459 0364 15       		.uleb128 0x15
+ 460 0365 13       		.uleb128 0x13
+ 461 0366 617000   		.ascii	"ap\000"
+ 462 0369 08       		.byte	0x8
+ 463 036a 9501     		.2byte	0x195
+ 464 036c 0B       		.byte	0xb
+ 465 036d FB000000 		.4byte	0xfb
+ 466 0371 14       		.uleb128 0x14
+ 467 0372 6D000000 		.4byte	.LASF31
+ 468 0376 08       		.byte	0x8
+ 469 0377 9601     		.2byte	0x196
+ 470 0379 07       		.byte	0x7
+ 471 037a 1D000000 		.4byte	0x1d
+ 472 037e 00       		.byte	0
+ 473 037f 10       		.uleb128 0x10
+ 474 0380 75020000 		.4byte	.LASF34
+ 475 0384 08       		.byte	0x8
+ 476 0385 6E01     		.2byte	0x16e
+ 477 0387 05       		.byte	0x5
+ 478 0388 1D000000 		.4byte	0x1d
+ 479 038c C5030000 		.4byte	0x3c5
+ 480 0390 11       		.uleb128 0x11
+ 481 0391 63687000 		.ascii	"chp\000"
+ 482 0395 08       		.byte	0x8
+ 483 0396 6E01     		.2byte	0x16e
+ 484 0398 24       		.byte	0x24
+ 485 0399 26030000 		.4byte	0x326
+ 486 039d 11       		.uleb128 0x11
+ 487 039e 666D7400 		.ascii	"fmt\000"
+ 488 03a2 08       		.byte	0x8
+ 489 03a3 6E01     		.2byte	0x16e
+ 490 03a5 35       		.byte	0x35
+ 491 03a6 B9000000 		.4byte	0xb9
+ 492 03aa 15       		.uleb128 0x15
+ 493 03ab 13       		.uleb128 0x13
+ 494 03ac 617000   		.ascii	"ap\000"
+ 495 03af 08       		.byte	0x8
+ 496 03b0 6F01     		.2byte	0x16f
+ 497 03b2 0B       		.byte	0xb
+ 498 03b3 FB000000 		.4byte	0xfb
+ 499 03b7 14       		.uleb128 0x14
+ 500 03b8 55000000 		.4byte	.LASF35
+ 501 03bc 08       		.byte	0x8
+ 502 03bd 7001     		.2byte	0x170
+ 503 03bf 07       		.byte	0x7
+ 504 03c0 1D000000 		.4byte	0x1d
+ 505 03c4 00       		.byte	0
+ 506 03c5 16       		.uleb128 0x16
+ 507 03c6 24030000 		.4byte	.LASF36
+ 508 03ca 08       		.byte	0x8
+ 509 03cb 7D       		.byte	0x7d
+ 510 03cc 05       		.byte	0x5
+ 511 03cd 1D000000 		.4byte	0x1d
+ 512 03d1 92040000 		.4byte	0x492
+ 513 03d5 17       		.uleb128 0x17
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 10
+
+
+ 514 03d6 63687000 		.ascii	"chp\000"
+ 515 03da 08       		.byte	0x8
+ 516 03db 7D       		.byte	0x7d
+ 517 03dc 25       		.byte	0x25
+ 518 03dd 26030000 		.4byte	0x326
+ 519 03e1 17       		.uleb128 0x17
+ 520 03e2 666D7400 		.ascii	"fmt\000"
+ 521 03e6 08       		.byte	0x8
+ 522 03e7 7D       		.byte	0x7d
+ 523 03e8 36       		.byte	0x36
+ 524 03e9 B9000000 		.4byte	0xb9
+ 525 03ed 17       		.uleb128 0x17
+ 526 03ee 617000   		.ascii	"ap\000"
+ 527 03f1 08       		.byte	0x8
+ 528 03f2 7D       		.byte	0x7d
+ 529 03f3 43       		.byte	0x43
+ 530 03f4 FB000000 		.4byte	0xfb
+ 531 03f8 18       		.uleb128 0x18
+ 532 03f9 7000     		.ascii	"p\000"
+ 533 03fb 08       		.byte	0x8
+ 534 03fc 7E       		.byte	0x7e
+ 535 03fd 09       		.byte	0x9
+ 536 03fe 20030000 		.4byte	0x320
+ 537 0402 18       		.uleb128 0x18
+ 538 0403 7300     		.ascii	"s\000"
+ 539 0405 08       		.byte	0x8
+ 540 0406 7E       		.byte	0x7e
+ 541 0407 0D       		.byte	0xd
+ 542 0408 20030000 		.4byte	0x320
+ 543 040c 18       		.uleb128 0x18
+ 544 040d 6300     		.ascii	"c\000"
+ 545 040f 08       		.byte	0x8
+ 546 0410 7E       		.byte	0x7e
+ 547 0411 10       		.byte	0x10
+ 548 0412 BF000000 		.4byte	0xbf
+ 549 0416 19       		.uleb128 0x19
+ 550 0417 A6020000 		.4byte	.LASF37
+ 551 041b 08       		.byte	0x8
+ 552 041c 7E       		.byte	0x7e
+ 553 041d 13       		.byte	0x13
+ 554 041e BF000000 		.4byte	0xbf
+ 555 0422 18       		.uleb128 0x18
+ 556 0423 6900     		.ascii	"i\000"
+ 557 0425 08       		.byte	0x8
+ 558 0426 7F       		.byte	0x7f
+ 559 0427 07       		.byte	0x7
+ 560 0428 1D000000 		.4byte	0x1d
+ 561 042c 19       		.uleb128 0x19
+ 562 042d 1A030000 		.4byte	.LASF38
+ 563 0431 08       		.byte	0x8
+ 564 0432 7F       		.byte	0x7f
+ 565 0433 0A       		.byte	0xa
+ 566 0434 1D000000 		.4byte	0x1d
+ 567 0438 19       		.uleb128 0x19
+ 568 0439 4E010000 		.4byte	.LASF39
+ 569 043d 08       		.byte	0x8
+ 570 043e 7F       		.byte	0x7f
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 11
+
+
+ 571 043f 15       		.byte	0x15
+ 572 0440 1D000000 		.4byte	0x1d
+ 573 0444 18       		.uleb128 0x18
+ 574 0445 6E00     		.ascii	"n\000"
+ 575 0447 08       		.byte	0x8
+ 576 0448 80       		.byte	0x80
+ 577 0449 07       		.byte	0x7
+ 578 044a 1D000000 		.4byte	0x1d
+ 579 044e 19       		.uleb128 0x19
+ 580 044f B9020000 		.4byte	.LASF40
+ 581 0453 08       		.byte	0x8
+ 582 0454 81       		.byte	0x81
+ 583 0455 08       		.byte	0x8
+ 584 0456 CB000000 		.4byte	0xcb
+ 585 045a 19       		.uleb128 0x19
+ 586 045b 77010000 		.4byte	.LASF41
+ 587 045f 08       		.byte	0x8
+ 588 0460 81       		.byte	0x81
+ 589 0461 11       		.byte	0x11
+ 590 0462 CB000000 		.4byte	0xcb
+ 591 0466 19       		.uleb128 0x19
+ 592 0467 BE010000 		.4byte	.LASF42
+ 593 046b 08       		.byte	0x8
+ 594 046c 81       		.byte	0x81
+ 595 046d 1D       		.byte	0x1d
+ 596 046e CB000000 		.4byte	0xcb
+ 597 0472 18       		.uleb128 0x18
+ 598 0473 6C00     		.ascii	"l\000"
+ 599 0475 08       		.byte	0x8
+ 600 0476 82       		.byte	0x82
+ 601 0477 08       		.byte	0x8
+ 602 0478 79000000 		.4byte	0x79
+ 603 047c 19       		.uleb128 0x19
+ 604 047d 34020000 		.4byte	.LASF43
+ 605 0481 08       		.byte	0x8
+ 606 0482 87       		.byte	0x87
+ 607 0483 08       		.byte	0x8
+ 608 0484 92040000 		.4byte	0x492
+ 609 0488 1A       		.uleb128 0x1a
+ 610 0489 1F000000 		.4byte	.LASF51
+ 611 048d 08       		.byte	0x8
+ 612 048e 2901     		.2byte	0x129
+ 613 0490 01       		.byte	0x1
+ 614 0491 00       		.byte	0
+ 615 0492 1B       		.uleb128 0x1b
+ 616 0493 BF000000 		.4byte	0xbf
+ 617 0497 A2040000 		.4byte	0x4a2
+ 618 049b 1C       		.uleb128 0x1c
+ 619 049c 30000000 		.4byte	0x30
+ 620 04a0 0B       		.byte	0xb
+ 621 04a1 00       		.byte	0
+ 622 04a2 1D       		.uleb128 0x1d
+ 623 04a3 1F020000 		.4byte	.LASF52
+ 624 04a7 08       		.byte	0x8
+ 625 04a8 48       		.byte	0x48
+ 626 04a9 0E       		.byte	0xe
+ 627 04aa 20030000 		.4byte	0x320
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 12
+
+
+ 628 04ae D5040000 		.4byte	0x4d5
+ 629 04b2 17       		.uleb128 0x17
+ 630 04b3 7000     		.ascii	"p\000"
+ 631 04b5 08       		.byte	0x8
+ 632 04b6 48       		.byte	0x48
+ 633 04b7 1C       		.byte	0x1c
+ 634 04b8 20030000 		.4byte	0x320
+ 635 04bc 17       		.uleb128 0x17
+ 636 04bd 6E756D00 		.ascii	"num\000"
+ 637 04c1 08       		.byte	0x8
+ 638 04c2 48       		.byte	0x48
+ 639 04c3 24       		.byte	0x24
+ 640 04c4 79000000 		.4byte	0x79
+ 641 04c8 1E       		.uleb128 0x1e
+ 642 04c9 3B020000 		.4byte	.LASF44
+ 643 04cd 08       		.byte	0x8
+ 644 04ce 48       		.byte	0x48
+ 645 04cf 32       		.byte	0x32
+ 646 04d0 30000000 		.4byte	0x30
+ 647 04d4 00       		.byte	0
+ 648 04d5 1F       		.uleb128 0x1f
+ 649 04d6 C6010000 		.4byte	.LASF53
+ 650 04da 08       		.byte	0x8
+ 651 04db 26       		.byte	0x26
+ 652 04dc 0E       		.byte	0xe
+ 653 04dd 20030000 		.4byte	0x320
+ 654 04e1 17       		.uleb128 0x17
+ 655 04e2 7000     		.ascii	"p\000"
+ 656 04e4 08       		.byte	0x8
+ 657 04e5 26       		.byte	0x26
+ 658 04e6 30       		.byte	0x30
+ 659 04e7 20030000 		.4byte	0x320
+ 660 04eb 17       		.uleb128 0x17
+ 661 04ec 6E756D00 		.ascii	"num\000"
+ 662 04f0 08       		.byte	0x8
+ 663 04f1 27       		.byte	0x27
+ 664 04f2 2F       		.byte	0x2f
+ 665 04f3 79000000 		.4byte	0x79
+ 666 04f7 1E       		.uleb128 0x1e
+ 667 04f8 3B020000 		.4byte	.LASF44
+ 668 04fc 08       		.byte	0x8
+ 669 04fd 28       		.byte	0x28
+ 670 04fe 33       		.byte	0x33
+ 671 04ff 30000000 		.4byte	0x30
+ 672 0503 1E       		.uleb128 0x1e
+ 673 0504 0C030000 		.4byte	.LASF45
+ 674 0508 08       		.byte	0x8
+ 675 0509 29       		.byte	0x29
+ 676 050a 2F       		.byte	0x2f
+ 677 050b 79000000 		.4byte	0x79
+ 678 050f 18       		.uleb128 0x18
+ 679 0510 6900     		.ascii	"i\000"
+ 680 0512 08       		.byte	0x8
+ 681 0513 2A       		.byte	0x2a
+ 682 0514 07       		.byte	0x7
+ 683 0515 1D000000 		.4byte	0x1d
+ 684 0519 18       		.uleb128 0x18
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 13
+
+
+ 685 051a 7100     		.ascii	"q\000"
+ 686 051c 08       		.byte	0x8
+ 687 051d 2B       		.byte	0x2b
+ 688 051e 09       		.byte	0x9
+ 689 051f 20030000 		.4byte	0x320
+ 690 0523 18       		.uleb128 0x18
+ 691 0524 6C00     		.ascii	"l\000"
+ 692 0526 08       		.byte	0x8
+ 693 0527 2C       		.byte	0x2c
+ 694 0528 08       		.byte	0x8
+ 695 0529 79000000 		.4byte	0x79
+ 696 052d 18       		.uleb128 0x18
+ 697 052e 6C6C00   		.ascii	"ll\000"
+ 698 0531 08       		.byte	0x8
+ 699 0532 2C       		.byte	0x2c
+ 700 0533 0B       		.byte	0xb
+ 701 0534 79000000 		.4byte	0x79
+ 702 0538 00       		.byte	0
+ 703 0539 00       		.byte	0
+ 704              		.section	.gnu.debuglto_.debug_abbrev,"e",%progbits
+ 705              	.Ldebug_abbrev0:
+ 706 0000 01       		.uleb128 0x1
+ 707 0001 11       		.uleb128 0x11
+ 708 0002 01       		.byte	0x1
+ 709 0003 25       		.uleb128 0x25
+ 710 0004 0E       		.uleb128 0xe
+ 711 0005 13       		.uleb128 0x13
+ 712 0006 0B       		.uleb128 0xb
+ 713 0007 03       		.uleb128 0x3
+ 714 0008 0E       		.uleb128 0xe
+ 715 0009 1B       		.uleb128 0x1b
+ 716 000a 0E       		.uleb128 0xe
+ 717 000b 10       		.uleb128 0x10
+ 718 000c 17       		.uleb128 0x17
+ 719 000d 00       		.byte	0
+ 720 000e 00       		.byte	0
+ 721 000f 02       		.uleb128 0x2
+ 722 0010 24       		.uleb128 0x24
+ 723 0011 00       		.byte	0
+ 724 0012 0B       		.uleb128 0xb
+ 725 0013 0B       		.uleb128 0xb
+ 726 0014 3E       		.uleb128 0x3e
+ 727 0015 0B       		.uleb128 0xb
+ 728 0016 03       		.uleb128 0x3
+ 729 0017 08       		.uleb128 0x8
+ 730 0018 00       		.byte	0
+ 731 0019 00       		.byte	0
+ 732 001a 03       		.uleb128 0x3
+ 733 001b 16       		.uleb128 0x16
+ 734 001c 00       		.byte	0
+ 735 001d 03       		.uleb128 0x3
+ 736 001e 0E       		.uleb128 0xe
+ 737 001f 3A       		.uleb128 0x3a
+ 738 0020 0B       		.uleb128 0xb
+ 739 0021 3B       		.uleb128 0x3b
+ 740 0022 0B       		.uleb128 0xb
+ 741 0023 39       		.uleb128 0x39
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 14
+
+
+ 742 0024 0B       		.uleb128 0xb
+ 743 0025 49       		.uleb128 0x49
+ 744 0026 13       		.uleb128 0x13
+ 745 0027 00       		.byte	0
+ 746 0028 00       		.byte	0
+ 747 0029 04       		.uleb128 0x4
+ 748 002a 24       		.uleb128 0x24
+ 749 002b 00       		.byte	0
+ 750 002c 0B       		.uleb128 0xb
+ 751 002d 0B       		.uleb128 0xb
+ 752 002e 3E       		.uleb128 0x3e
+ 753 002f 0B       		.uleb128 0xb
+ 754 0030 03       		.uleb128 0x3
+ 755 0031 0E       		.uleb128 0xe
+ 756 0032 00       		.byte	0
+ 757 0033 00       		.byte	0
+ 758 0034 05       		.uleb128 0x5
+ 759 0035 26       		.uleb128 0x26
+ 760 0036 00       		.byte	0
+ 761 0037 49       		.uleb128 0x49
+ 762 0038 13       		.uleb128 0x13
+ 763 0039 00       		.byte	0
+ 764 003a 00       		.byte	0
+ 765 003b 06       		.uleb128 0x6
+ 766 003c 0F       		.uleb128 0xf
+ 767 003d 00       		.byte	0
+ 768 003e 0B       		.uleb128 0xb
+ 769 003f 0B       		.uleb128 0xb
+ 770 0040 00       		.byte	0
+ 771 0041 00       		.byte	0
+ 772 0042 07       		.uleb128 0x7
+ 773 0043 0F       		.uleb128 0xf
+ 774 0044 00       		.byte	0
+ 775 0045 0B       		.uleb128 0xb
+ 776 0046 0B       		.uleb128 0xb
+ 777 0047 49       		.uleb128 0x49
+ 778 0048 13       		.uleb128 0x13
+ 779 0049 00       		.byte	0
+ 780 004a 00       		.byte	0
+ 781 004b 08       		.uleb128 0x8
+ 782 004c 13       		.uleb128 0x13
+ 783 004d 01       		.byte	0x1
+ 784 004e 03       		.uleb128 0x3
+ 785 004f 0E       		.uleb128 0xe
+ 786 0050 0B       		.uleb128 0xb
+ 787 0051 0B       		.uleb128 0xb
+ 788 0052 3A       		.uleb128 0x3a
+ 789 0053 0B       		.uleb128 0xb
+ 790 0054 3B       		.uleb128 0x3b
+ 791 0055 0B       		.uleb128 0xb
+ 792 0056 01       		.uleb128 0x1
+ 793 0057 13       		.uleb128 0x13
+ 794 0058 00       		.byte	0
+ 795 0059 00       		.byte	0
+ 796 005a 09       		.uleb128 0x9
+ 797 005b 0D       		.uleb128 0xd
+ 798 005c 00       		.byte	0
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 15
+
+
+ 799 005d 03       		.uleb128 0x3
+ 800 005e 0E       		.uleb128 0xe
+ 801 005f 49       		.uleb128 0x49
+ 802 0060 13       		.uleb128 0x13
+ 803 0061 38       		.uleb128 0x38
+ 804 0062 0B       		.uleb128 0xb
+ 805 0063 34       		.uleb128 0x34
+ 806 0064 19       		.uleb128 0x19
+ 807 0065 00       		.byte	0
+ 808 0066 00       		.byte	0
+ 809 0067 0A       		.uleb128 0xa
+ 810 0068 13       		.uleb128 0x13
+ 811 0069 01       		.byte	0x1
+ 812 006a 03       		.uleb128 0x3
+ 813 006b 0E       		.uleb128 0xe
+ 814 006c 0B       		.uleb128 0xb
+ 815 006d 0B       		.uleb128 0xb
+ 816 006e 3A       		.uleb128 0x3a
+ 817 006f 0B       		.uleb128 0xb
+ 818 0070 3B       		.uleb128 0x3b
+ 819 0071 0B       		.uleb128 0xb
+ 820 0072 39       		.uleb128 0x39
+ 821 0073 0B       		.uleb128 0xb
+ 822 0074 01       		.uleb128 0x1
+ 823 0075 13       		.uleb128 0x13
+ 824 0076 00       		.byte	0
+ 825 0077 00       		.byte	0
+ 826 0078 0B       		.uleb128 0xb
+ 827 0079 0D       		.uleb128 0xd
+ 828 007a 00       		.byte	0
+ 829 007b 03       		.uleb128 0x3
+ 830 007c 0E       		.uleb128 0xe
+ 831 007d 3A       		.uleb128 0x3a
+ 832 007e 0B       		.uleb128 0xb
+ 833 007f 3B       		.uleb128 0x3b
+ 834 0080 0B       		.uleb128 0xb
+ 835 0081 39       		.uleb128 0x39
+ 836 0082 0B       		.uleb128 0xb
+ 837 0083 49       		.uleb128 0x49
+ 838 0084 13       		.uleb128 0x13
+ 839 0085 38       		.uleb128 0x38
+ 840 0086 0B       		.uleb128 0xb
+ 841 0087 00       		.byte	0
+ 842 0088 00       		.byte	0
+ 843 0089 0C       		.uleb128 0xc
+ 844 008a 0D       		.uleb128 0xd
+ 845 008b 00       		.byte	0
+ 846 008c 03       		.uleb128 0x3
+ 847 008d 08       		.uleb128 0x8
+ 848 008e 3A       		.uleb128 0x3a
+ 849 008f 0B       		.uleb128 0xb
+ 850 0090 3B       		.uleb128 0x3b
+ 851 0091 0B       		.uleb128 0xb
+ 852 0092 39       		.uleb128 0x39
+ 853 0093 0B       		.uleb128 0xb
+ 854 0094 49       		.uleb128 0x49
+ 855 0095 13       		.uleb128 0x13
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 16
+
+
+ 856 0096 38       		.uleb128 0x38
+ 857 0097 0B       		.uleb128 0xb
+ 858 0098 00       		.byte	0
+ 859 0099 00       		.byte	0
+ 860 009a 0D       		.uleb128 0xd
+ 861 009b 15       		.uleb128 0x15
+ 862 009c 01       		.byte	0x1
+ 863 009d 27       		.uleb128 0x27
+ 864 009e 19       		.uleb128 0x19
+ 865 009f 49       		.uleb128 0x49
+ 866 00a0 13       		.uleb128 0x13
+ 867 00a1 01       		.uleb128 0x1
+ 868 00a2 13       		.uleb128 0x13
+ 869 00a3 00       		.byte	0
+ 870 00a4 00       		.byte	0
+ 871 00a5 0E       		.uleb128 0xe
+ 872 00a6 05       		.uleb128 0x5
+ 873 00a7 00       		.byte	0
+ 874 00a8 49       		.uleb128 0x49
+ 875 00a9 13       		.uleb128 0x13
+ 876 00aa 00       		.byte	0
+ 877 00ab 00       		.byte	0
+ 878 00ac 0F       		.uleb128 0xf
+ 879 00ad 13       		.uleb128 0x13
+ 880 00ae 01       		.byte	0x1
+ 881 00af 0B       		.uleb128 0xb
+ 882 00b0 0B       		.uleb128 0xb
+ 883 00b1 3A       		.uleb128 0x3a
+ 884 00b2 0B       		.uleb128 0xb
+ 885 00b3 3B       		.uleb128 0x3b
+ 886 00b4 0B       		.uleb128 0xb
+ 887 00b5 39       		.uleb128 0x39
+ 888 00b6 0B       		.uleb128 0xb
+ 889 00b7 01       		.uleb128 0x1
+ 890 00b8 13       		.uleb128 0x13
+ 891 00b9 00       		.byte	0
+ 892 00ba 00       		.byte	0
+ 893 00bb 10       		.uleb128 0x10
+ 894 00bc 2E       		.uleb128 0x2e
+ 895 00bd 01       		.byte	0x1
+ 896 00be 3F       		.uleb128 0x3f
+ 897 00bf 19       		.uleb128 0x19
+ 898 00c0 03       		.uleb128 0x3
+ 899 00c1 0E       		.uleb128 0xe
+ 900 00c2 3A       		.uleb128 0x3a
+ 901 00c3 0B       		.uleb128 0xb
+ 902 00c4 3B       		.uleb128 0x3b
+ 903 00c5 05       		.uleb128 0x5
+ 904 00c6 39       		.uleb128 0x39
+ 905 00c7 0B       		.uleb128 0xb
+ 906 00c8 27       		.uleb128 0x27
+ 907 00c9 19       		.uleb128 0x19
+ 908 00ca 49       		.uleb128 0x49
+ 909 00cb 13       		.uleb128 0x13
+ 910 00cc 01       		.uleb128 0x1
+ 911 00cd 13       		.uleb128 0x13
+ 912 00ce 00       		.byte	0
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 17
+
+
+ 913 00cf 00       		.byte	0
+ 914 00d0 11       		.uleb128 0x11
+ 915 00d1 05       		.uleb128 0x5
+ 916 00d2 00       		.byte	0
+ 917 00d3 03       		.uleb128 0x3
+ 918 00d4 08       		.uleb128 0x8
+ 919 00d5 3A       		.uleb128 0x3a
+ 920 00d6 0B       		.uleb128 0xb
+ 921 00d7 3B       		.uleb128 0x3b
+ 922 00d8 05       		.uleb128 0x5
+ 923 00d9 39       		.uleb128 0x39
+ 924 00da 0B       		.uleb128 0xb
+ 925 00db 49       		.uleb128 0x49
+ 926 00dc 13       		.uleb128 0x13
+ 927 00dd 00       		.byte	0
+ 928 00de 00       		.byte	0
+ 929 00df 12       		.uleb128 0x12
+ 930 00e0 05       		.uleb128 0x5
+ 931 00e1 00       		.byte	0
+ 932 00e2 03       		.uleb128 0x3
+ 933 00e3 0E       		.uleb128 0xe
+ 934 00e4 3A       		.uleb128 0x3a
+ 935 00e5 0B       		.uleb128 0xb
+ 936 00e6 3B       		.uleb128 0x3b
+ 937 00e7 05       		.uleb128 0x5
+ 938 00e8 39       		.uleb128 0x39
+ 939 00e9 0B       		.uleb128 0xb
+ 940 00ea 49       		.uleb128 0x49
+ 941 00eb 13       		.uleb128 0x13
+ 942 00ec 00       		.byte	0
+ 943 00ed 00       		.byte	0
+ 944 00ee 13       		.uleb128 0x13
+ 945 00ef 34       		.uleb128 0x34
+ 946 00f0 00       		.byte	0
+ 947 00f1 03       		.uleb128 0x3
+ 948 00f2 08       		.uleb128 0x8
+ 949 00f3 3A       		.uleb128 0x3a
+ 950 00f4 0B       		.uleb128 0xb
+ 951 00f5 3B       		.uleb128 0x3b
+ 952 00f6 05       		.uleb128 0x5
+ 953 00f7 39       		.uleb128 0x39
+ 954 00f8 0B       		.uleb128 0xb
+ 955 00f9 49       		.uleb128 0x49
+ 956 00fa 13       		.uleb128 0x13
+ 957 00fb 00       		.byte	0
+ 958 00fc 00       		.byte	0
+ 959 00fd 14       		.uleb128 0x14
+ 960 00fe 34       		.uleb128 0x34
+ 961 00ff 00       		.byte	0
+ 962 0100 03       		.uleb128 0x3
+ 963 0101 0E       		.uleb128 0xe
+ 964 0102 3A       		.uleb128 0x3a
+ 965 0103 0B       		.uleb128 0xb
+ 966 0104 3B       		.uleb128 0x3b
+ 967 0105 05       		.uleb128 0x5
+ 968 0106 39       		.uleb128 0x39
+ 969 0107 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 18
+
+
+ 970 0108 49       		.uleb128 0x49
+ 971 0109 13       		.uleb128 0x13
+ 972 010a 00       		.byte	0
+ 973 010b 00       		.byte	0
+ 974 010c 15       		.uleb128 0x15
+ 975 010d 18       		.uleb128 0x18
+ 976 010e 00       		.byte	0
+ 977 010f 00       		.byte	0
+ 978 0110 00       		.byte	0
+ 979 0111 16       		.uleb128 0x16
+ 980 0112 2E       		.uleb128 0x2e
+ 981 0113 01       		.byte	0x1
+ 982 0114 3F       		.uleb128 0x3f
+ 983 0115 19       		.uleb128 0x19
+ 984 0116 03       		.uleb128 0x3
+ 985 0117 0E       		.uleb128 0xe
+ 986 0118 3A       		.uleb128 0x3a
+ 987 0119 0B       		.uleb128 0xb
+ 988 011a 3B       		.uleb128 0x3b
+ 989 011b 0B       		.uleb128 0xb
+ 990 011c 39       		.uleb128 0x39
+ 991 011d 0B       		.uleb128 0xb
+ 992 011e 27       		.uleb128 0x27
+ 993 011f 19       		.uleb128 0x19
+ 994 0120 49       		.uleb128 0x49
+ 995 0121 13       		.uleb128 0x13
+ 996 0122 01       		.uleb128 0x1
+ 997 0123 13       		.uleb128 0x13
+ 998 0124 00       		.byte	0
+ 999 0125 00       		.byte	0
+ 1000 0126 17       		.uleb128 0x17
+ 1001 0127 05       		.uleb128 0x5
+ 1002 0128 00       		.byte	0
+ 1003 0129 03       		.uleb128 0x3
+ 1004 012a 08       		.uleb128 0x8
+ 1005 012b 3A       		.uleb128 0x3a
+ 1006 012c 0B       		.uleb128 0xb
+ 1007 012d 3B       		.uleb128 0x3b
+ 1008 012e 0B       		.uleb128 0xb
+ 1009 012f 39       		.uleb128 0x39
+ 1010 0130 0B       		.uleb128 0xb
+ 1011 0131 49       		.uleb128 0x49
+ 1012 0132 13       		.uleb128 0x13
+ 1013 0133 00       		.byte	0
+ 1014 0134 00       		.byte	0
+ 1015 0135 18       		.uleb128 0x18
+ 1016 0136 34       		.uleb128 0x34
+ 1017 0137 00       		.byte	0
+ 1018 0138 03       		.uleb128 0x3
+ 1019 0139 08       		.uleb128 0x8
+ 1020 013a 3A       		.uleb128 0x3a
+ 1021 013b 0B       		.uleb128 0xb
+ 1022 013c 3B       		.uleb128 0x3b
+ 1023 013d 0B       		.uleb128 0xb
+ 1024 013e 39       		.uleb128 0x39
+ 1025 013f 0B       		.uleb128 0xb
+ 1026 0140 49       		.uleb128 0x49
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 19
+
+
+ 1027 0141 13       		.uleb128 0x13
+ 1028 0142 00       		.byte	0
+ 1029 0143 00       		.byte	0
+ 1030 0144 19       		.uleb128 0x19
+ 1031 0145 34       		.uleb128 0x34
+ 1032 0146 00       		.byte	0
+ 1033 0147 03       		.uleb128 0x3
+ 1034 0148 0E       		.uleb128 0xe
+ 1035 0149 3A       		.uleb128 0x3a
+ 1036 014a 0B       		.uleb128 0xb
+ 1037 014b 3B       		.uleb128 0x3b
+ 1038 014c 0B       		.uleb128 0xb
+ 1039 014d 39       		.uleb128 0x39
+ 1040 014e 0B       		.uleb128 0xb
+ 1041 014f 49       		.uleb128 0x49
+ 1042 0150 13       		.uleb128 0x13
+ 1043 0151 00       		.byte	0
+ 1044 0152 00       		.byte	0
+ 1045 0153 1A       		.uleb128 0x1a
+ 1046 0154 0A       		.uleb128 0xa
+ 1047 0155 00       		.byte	0
+ 1048 0156 03       		.uleb128 0x3
+ 1049 0157 0E       		.uleb128 0xe
+ 1050 0158 3A       		.uleb128 0x3a
+ 1051 0159 0B       		.uleb128 0xb
+ 1052 015a 3B       		.uleb128 0x3b
+ 1053 015b 05       		.uleb128 0x5
+ 1054 015c 39       		.uleb128 0x39
+ 1055 015d 0B       		.uleb128 0xb
+ 1056 015e 00       		.byte	0
+ 1057 015f 00       		.byte	0
+ 1058 0160 1B       		.uleb128 0x1b
+ 1059 0161 01       		.uleb128 0x1
+ 1060 0162 01       		.byte	0x1
+ 1061 0163 49       		.uleb128 0x49
+ 1062 0164 13       		.uleb128 0x13
+ 1063 0165 01       		.uleb128 0x1
+ 1064 0166 13       		.uleb128 0x13
+ 1065 0167 00       		.byte	0
+ 1066 0168 00       		.byte	0
+ 1067 0169 1C       		.uleb128 0x1c
+ 1068 016a 21       		.uleb128 0x21
+ 1069 016b 00       		.byte	0
+ 1070 016c 49       		.uleb128 0x49
+ 1071 016d 13       		.uleb128 0x13
+ 1072 016e 2F       		.uleb128 0x2f
+ 1073 016f 0B       		.uleb128 0xb
+ 1074 0170 00       		.byte	0
+ 1075 0171 00       		.byte	0
+ 1076 0172 1D       		.uleb128 0x1d
+ 1077 0173 2E       		.uleb128 0x2e
+ 1078 0174 01       		.byte	0x1
+ 1079 0175 03       		.uleb128 0x3
+ 1080 0176 0E       		.uleb128 0xe
+ 1081 0177 3A       		.uleb128 0x3a
+ 1082 0178 0B       		.uleb128 0xb
+ 1083 0179 3B       		.uleb128 0x3b
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 20
+
+
+ 1084 017a 0B       		.uleb128 0xb
+ 1085 017b 39       		.uleb128 0x39
+ 1086 017c 0B       		.uleb128 0xb
+ 1087 017d 27       		.uleb128 0x27
+ 1088 017e 19       		.uleb128 0x19
+ 1089 017f 49       		.uleb128 0x49
+ 1090 0180 13       		.uleb128 0x13
+ 1091 0181 01       		.uleb128 0x1
+ 1092 0182 13       		.uleb128 0x13
+ 1093 0183 00       		.byte	0
+ 1094 0184 00       		.byte	0
+ 1095 0185 1E       		.uleb128 0x1e
+ 1096 0186 05       		.uleb128 0x5
+ 1097 0187 00       		.byte	0
+ 1098 0188 03       		.uleb128 0x3
+ 1099 0189 0E       		.uleb128 0xe
+ 1100 018a 3A       		.uleb128 0x3a
+ 1101 018b 0B       		.uleb128 0xb
+ 1102 018c 3B       		.uleb128 0x3b
+ 1103 018d 0B       		.uleb128 0xb
+ 1104 018e 39       		.uleb128 0x39
+ 1105 018f 0B       		.uleb128 0xb
+ 1106 0190 49       		.uleb128 0x49
+ 1107 0191 13       		.uleb128 0x13
+ 1108 0192 00       		.byte	0
+ 1109 0193 00       		.byte	0
+ 1110 0194 1F       		.uleb128 0x1f
+ 1111 0195 2E       		.uleb128 0x2e
+ 1112 0196 01       		.byte	0x1
+ 1113 0197 03       		.uleb128 0x3
+ 1114 0198 0E       		.uleb128 0xe
+ 1115 0199 3A       		.uleb128 0x3a
+ 1116 019a 0B       		.uleb128 0xb
+ 1117 019b 3B       		.uleb128 0x3b
+ 1118 019c 0B       		.uleb128 0xb
+ 1119 019d 39       		.uleb128 0x39
+ 1120 019e 0B       		.uleb128 0xb
+ 1121 019f 27       		.uleb128 0x27
+ 1122 01a0 19       		.uleb128 0x19
+ 1123 01a1 49       		.uleb128 0x49
+ 1124 01a2 13       		.uleb128 0x13
+ 1125 01a3 00       		.byte	0
+ 1126 01a4 00       		.byte	0
+ 1127 01a5 00       		.byte	0
+ 1128              		.section	.gnu.debuglto_.debug_line,"e",%progbits
+ 1129              	.Ldebug_line0:
+ 1130 0000 4F020000 		.4byte	.LELT0-.LSLT0
+ 1131              	.LSLT0:
+ 1132 0004 0400     		.2byte	0x4
+ 1133 0006 49020000 		.4byte	.LELTP0-.LASLTP0
+ 1134              	.LASLTP0:
+ 1135 000a 01       		.byte	0x1
+ 1136 000b 01       		.byte	0x1
+ 1137 000c 01       		.byte	0x1
+ 1138 000d F6       		.byte	0xf6
+ 1139 000e F2       		.byte	0xf2
+ 1140 000f 0D       		.byte	0xd
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 21
+
+
+ 1141 0010 00       		.byte	0
+ 1142 0011 01       		.byte	0x1
+ 1143 0012 01       		.byte	0x1
+ 1144 0013 01       		.byte	0x1
+ 1145 0014 01       		.byte	0x1
+ 1146 0015 00       		.byte	0
+ 1147 0016 00       		.byte	0
+ 1148 0017 00       		.byte	0
+ 1149 0018 01       		.byte	0x1
+ 1150 0019 00       		.byte	0
+ 1151 001a 00       		.byte	0
+ 1152 001b 01       		.byte	0x1
+ 1153 001c 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\chibios203/os/common/ports/ARM"
+ 1153      68696269 
+ 1153      53747564 
+ 1153      696F3230 
+ 1153      76305C63 
+ 1154 004d 434D782F 		.ascii	"CMx/compilers/GCC"
+ 1154      636F6D70 
+ 1154      696C6572 
+ 1154      732F4743 
+ 1154      43
+ 1155 005e 00       		.byte	0
+ 1156 005f 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\chibios203/os/hal/include"
+ 1156      68696269 
+ 1156      53747564 
+ 1156      696F3230 
+ 1156      76305C63 
+ 1157 008b 00       		.byte	0
+ 1158 008c 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\chibios203/os/hal/lib/streams"
+ 1158      68696269 
+ 1158      53747564 
+ 1158      696F3230 
+ 1158      76305C63 
+ 1159 00bc 00       		.byte	0
+ 1160 00bd 643A5C63 		.ascii	"d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\"
+ 1160      68696269 
+ 1160      73747564 
+ 1160      696F3230 
+ 1160      76305C74 
+ 1161 00ed 31302E30 		.ascii	"10.0 2020q4\\arm-none-eabi\\include\\machine"
+ 1161      20323032 
+ 1161      3071345C 
+ 1161      61726D2D 
+ 1161      6E6F6E65 
+ 1162 0116 00       		.byte	0
+ 1163 0117 643A5C63 		.ascii	"d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\"
+ 1163      68696269 
+ 1163      73747564 
+ 1163      696F3230 
+ 1163      76305C74 
+ 1164 0147 31302E30 		.ascii	"10.0 2020q4\\arm-none-eabi\\include\\sys"
+ 1164      20323032 
+ 1164      3071345C 
+ 1164      61726D2D 
+ 1164      6E6F6E65 
+ 1165 016c 00       		.byte	0
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 22
+
+
+ 1166 016d 643A5C63 		.ascii	"d:\\chibistudio20v0\\tools\\gnu tools arm embedded\\"
+ 1166      68696269 
+ 1166      73747564 
+ 1166      696F3230 
+ 1166      76305C74 
+ 1167 019d 31302E30 		.ascii	"10.0 2020q4\\lib\\gcc\\arm-none-eabi\\10.2.1\\inclu"
+ 1167      20323032 
+ 1167      3071345C 
+ 1167      6C69625C 
+ 1167      6763635C 
+ 1168 01cb 6465     		.ascii	"de"
+ 1169 01cd 00       		.byte	0
+ 1170 01ce 00       		.byte	0
+ 1171 01cf 73746464 		.ascii	"stddef.h\000"
+ 1171      65662E68 
+ 1171      00
+ 1172 01d8 06       		.uleb128 0x6
+ 1173 01d9 00       		.uleb128 0
+ 1174 01da 00       		.uleb128 0
+ 1175 01db 5F646566 		.ascii	"_default_types.h\000"
+ 1175      61756C74 
+ 1175      5F747970 
+ 1175      65732E68 
+ 1175      00
+ 1176 01ec 04       		.uleb128 0x4
+ 1177 01ed 00       		.uleb128 0
+ 1178 01ee 00       		.uleb128 0
+ 1179 01ef 5F737464 		.ascii	"_stdint.h\000"
+ 1179      696E742E 
+ 1179      6800
+ 1180 01f9 05       		.uleb128 0x5
+ 1181 01fa 00       		.uleb128 0
+ 1182 01fb 00       		.uleb128 0
+ 1183 01fc 63687479 		.ascii	"chtypes.h\000"
+ 1183      7065732E 
+ 1183      6800
+ 1184 0206 01       		.uleb128 0x1
+ 1185 0207 00       		.uleb128 0
+ 1186 0208 00       		.uleb128 0
+ 1187 0209 73746461 		.ascii	"stdarg.h\000"
+ 1187      72672E68 
+ 1187      00
+ 1188 0212 06       		.uleb128 0x6
+ 1189 0213 00       		.uleb128 0
+ 1190 0214 00       		.uleb128 0
+ 1191 0215 68616C5F 		.ascii	"hal_streams.h\000"
+ 1191      73747265 
+ 1191      616D732E 
+ 1191      6800
+ 1192 0223 02       		.uleb128 0x2
+ 1193 0224 00       		.uleb128 0
+ 1194 0225 00       		.uleb128 0
+ 1195 0226 6D656D73 		.ascii	"memstreams.h\000"
+ 1195      74726561 
+ 1195      6D732E68 
+ 1195      00
+ 1196 0233 03       		.uleb128 0x3
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 23
+
+
+ 1197 0234 00       		.uleb128 0
+ 1198 0235 00       		.uleb128 0
+ 1199 0236 63687072 		.ascii	"chprintf.c\000"
+ 1199      696E7466 
+ 1199      2E6300
+ 1200 0241 03       		.uleb128 0x3
+ 1201 0242 00       		.uleb128 0
+ 1202 0243 00       		.uleb128 0
+ 1203 0244 3C627569 		.ascii	"<built-in>\000"
+ 1203      6C742D69 
+ 1203      6E3E00
+ 1204 024f 00       		.uleb128 0
+ 1205 0250 00       		.uleb128 0
+ 1206 0251 00       		.uleb128 0
+ 1207 0252 00       		.byte	0
+ 1208              	.LELTP0:
+ 1209              	.LELT0:
+ 1210              		.section	.gnu.debuglto_.debug_str,"eMS",%progbits,1
+ 1211              	.LASF30:
+ 1212 0000 73697A65 		.ascii	"size_wo_nul\000"
+ 1212      5F776F5F 
+ 1212      6E756C00 
+ 1213              	.LASF21:
+ 1214 000c 77726974 		.ascii	"write\000"
+ 1214      6500
+ 1215              	.LASF29:
+ 1216 0012 4D656D6F 		.ascii	"MemoryStream\000"
+ 1216      72795374 
+ 1216      7265616D 
+ 1216      00
+ 1217              	.LASF51:
+ 1218 001f 756E7369 		.ascii	"unsigned_common\000"
+ 1218      676E6564 
+ 1218      5F636F6D 
+ 1218      6D6F6E00 
+ 1219              	.LASF7:
+ 1220 002f 73686F72 		.ascii	"short int\000"
+ 1220      7420696E 
+ 1220      7400
+ 1221              	.LASF4:
+ 1222 0039 73697A65 		.ascii	"size_t\000"
+ 1222      5F7400
+ 1223              	.LASF23:
+ 1224 0040 42617365 		.ascii	"BaseSequentialStream\000"
+ 1224      53657175 
+ 1224      656E7469 
+ 1224      616C5374 
+ 1224      7265616D 
+ 1225              	.LASF35:
+ 1226 0055 666F726D 		.ascii	"formatted_bytes\000"
+ 1226      61747465 
+ 1226      645F6279 
+ 1226      74657300 
+ 1227              	.LASF19:
+ 1228 0065 76615F6C 		.ascii	"va_list\000"
+ 1228      69737400 
+ 1229              	.LASF31:
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 24
+
+
+ 1230 006d 72657476 		.ascii	"retval\000"
+ 1230      616C00
+ 1231              	.LASF25:
+ 1232 0074 4D656D53 		.ascii	"MemStreamVMT\000"
+ 1232      74726561 
+ 1232      6D564D54 
+ 1232      00
+ 1233              	.LASF13:
+ 1234 0081 75696E74 		.ascii	"uint8_t\000"
+ 1234      385F7400 
+ 1235              	.LASF46:
+ 1236 0089 474E5520 		.ascii	"GNU C17 10.2.1 20201103 (release) -mcpu=cortex-m7 -"
+ 1236      43313720 
+ 1236      31302E32 
+ 1236      2E312032 
+ 1236      30323031 
+ 1237 00bc 6D746875 		.ascii	"mthumb -mfloat-abi=soft -march=armv7e-m -ggdb -O2 -"
+ 1237      6D62202D 
+ 1237      6D666C6F 
+ 1237      61742D61 
+ 1237      62693D73 
+ 1238 00ef 666F6D69 		.ascii	"fomit-frame-pointer -falign-functions=16 -ffunction"
+ 1238      742D6672 
+ 1238      616D652D 
+ 1238      706F696E 
+ 1238      74657220 
+ 1239 0122 2D736563 		.ascii	"-sections -fdata-sections -fno-common -flto\000"
+ 1239      74696F6E 
+ 1239      73202D66 
+ 1239      64617461 
+ 1239      2D736563 
+ 1240              	.LASF39:
+ 1241 014e 77696474 		.ascii	"width\000"
+ 1241      6800
+ 1242              	.LASF22:
+ 1243 0154 72656164 		.ascii	"read\000"
+ 1243      00
+ 1244              	.LASF1:
+ 1245 0159 6C6F6E67 		.ascii	"long long int\000"
+ 1245      206C6F6E 
+ 1245      6720696E 
+ 1245      7400
+ 1246              	.LASF20:
+ 1247 0167 696E7374 		.ascii	"instance_offset\000"
+ 1247      616E6365 
+ 1247      5F6F6666 
+ 1247      73657400 
+ 1248              	.LASF41:
+ 1249 0177 6C656674 		.ascii	"left_align\000"
+ 1249      5F616C69 
+ 1249      676E00
+ 1250              	.LASF48:
+ 1251 0182 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\workspace\\LCD\000"
+ 1251      68696269 
+ 1251      53747564 
+ 1251      696F3230 
+ 1251      76305C77 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 25
+
+
+ 1252              	.LASF28:
+ 1253 01a3 6F666673 		.ascii	"offset\000"
+ 1253      657400
+ 1254              	.LASF49:
+ 1255 01aa 5F5F7661 		.ascii	"__va_list\000"
+ 1255      5F6C6973 
+ 1255      7400
+ 1256              	.LASF5:
+ 1257 01b4 5F5F7569 		.ascii	"__uint8_t\000"
+ 1257      6E74385F 
+ 1257      7400
+ 1258              	.LASF42:
+ 1259 01be 646F5F73 		.ascii	"do_sign\000"
+ 1259      69676E00 
+ 1260              	.LASF53:
+ 1261 01c6 6C6F6E67 		.ascii	"long_to_string_with_divisor\000"
+ 1261      5F746F5F 
+ 1261      73747269 
+ 1261      6E675F77 
+ 1261      6974685F 
+ 1262              	.LASF2:
+ 1263 01e2 6C6F6E67 		.ascii	"long double\000"
+ 1263      20646F75 
+ 1263      626C6500 
+ 1264              	.LASF6:
+ 1265 01ee 756E7369 		.ascii	"unsigned char\000"
+ 1265      676E6564 
+ 1265      20636861 
+ 1265      7200
+ 1266              	.LASF3:
+ 1267 01fc 7369676E 		.ascii	"signed char\000"
+ 1267      65642063 
+ 1267      68617200 
+ 1268              	.LASF12:
+ 1269 0208 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1269      206C6F6E 
+ 1269      6720756E 
+ 1269      7369676E 
+ 1269      65642069 
+ 1270              	.LASF52:
+ 1271 021f 63685F6C 		.ascii	"ch_ltoa\000"
+ 1271      746F6100 
+ 1272              	.LASF0:
+ 1273 0227 756E7369 		.ascii	"unsigned int\000"
+ 1273      676E6564 
+ 1273      20696E74 
+ 1273      00
+ 1274              	.LASF43:
+ 1275 0234 746D7062 		.ascii	"tmpbuf\000"
+ 1275      756600
+ 1276              	.LASF44:
+ 1277 023b 72616469 		.ascii	"radix\000"
+ 1277      7800
+ 1278              	.LASF8:
+ 1279 0241 73686F72 		.ascii	"short unsigned int\000"
+ 1279      7420756E 
+ 1279      7369676E 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 26
+
+
+ 1279      65642069 
+ 1279      6E7400
+ 1280              	.LASF50:
+ 1281 0254 5F5F6170 		.ascii	"__ap\000"
+ 1281      00
+ 1282              	.LASF16:
+ 1283 0259 63686172 		.ascii	"char\000"
+ 1283      00
+ 1284              	.LASF10:
+ 1285 025e 6C6F6E67 		.ascii	"long int\000"
+ 1285      20696E74 
+ 1285      00
+ 1286              	.LASF14:
+ 1287 0267 696E7433 		.ascii	"int32_t\000"
+ 1287      325F7400 
+ 1288              	.LASF17:
+ 1289 026f 5F426F6F 		.ascii	"_Bool\000"
+ 1289      6C00
+ 1290              	.LASF34:
+ 1291 0275 63687072 		.ascii	"chprintf\000"
+ 1291      696E7466 
+ 1291      00
+ 1292              	.LASF26:
+ 1293 027e 62756666 		.ascii	"buffer\000"
+ 1293      657200
+ 1294              	.LASF11:
+ 1295 0285 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1295      20756E73 
+ 1295      69676E65 
+ 1295      6420696E 
+ 1295      7400
+ 1296              	.LASF27:
+ 1297 0297 73697A65 		.ascii	"size\000"
+ 1297      00
+ 1298              	.LASF9:
+ 1299 029c 5F5F696E 		.ascii	"__int32_t\000"
+ 1299      7433325F 
+ 1299      7400
+ 1300              	.LASF37:
+ 1301 02a6 66696C6C 		.ascii	"filler\000"
+ 1301      657200
+ 1302              	.LASF32:
+ 1303 02ad 63687673 		.ascii	"chvsnprintf\000"
+ 1303      6E707269 
+ 1303      6E746600 
+ 1304              	.LASF40:
+ 1305 02b9 69735F6C 		.ascii	"is_long\000"
+ 1305      6F6E6700 
+ 1306              	.LASF18:
+ 1307 02c1 5F5F676E 		.ascii	"__gnuc_va_list\000"
+ 1307      75635F76 
+ 1307      615F6C69 
+ 1307      737400
+ 1308              	.LASF47:
+ 1309 02d0 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\chibios203/os/hal/lib/streams/"
+ 1309      68696269 
+ 1309      53747564 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 27
+
+
+ 1309      696F3230 
+ 1309      76305C63 
+ 1310 0301 63687072 		.ascii	"chprintf.c\000"
+ 1310      696E7466 
+ 1310      2E6300
+ 1311              	.LASF45:
+ 1312 030c 64697669 		.ascii	"divisor\000"
+ 1312      736F7200 
+ 1313              	.LASF15:
+ 1314 0314 6D73675F 		.ascii	"msg_t\000"
+ 1314      7400
+ 1315              	.LASF38:
+ 1316 031a 70726563 		.ascii	"precision\000"
+ 1316      6973696F 
+ 1316      6E00
+ 1317              	.LASF36:
+ 1318 0324 63687670 		.ascii	"chvprintf\000"
+ 1318      72696E74 
+ 1318      6600
+ 1319              	.LASF24:
+ 1320 032e 42617365 		.ascii	"BaseSequentialStreamVMT\000"
+ 1320      53657175 
+ 1320      656E7469 
+ 1320      616C5374 
+ 1320      7265616D 
+ 1321              	.LASF33:
+ 1322 0346 6368736E 		.ascii	"chsnprintf\000"
+ 1322      7072696E 
+ 1322      746600
+ 1323              		.text
+ 1324              		.section	.gnu.lto_.profile.18ae6f3c,"e",%progbits
+ 1325 0000 789CE360 		.ascii	"x\234\343`\000\002FF\020\311\000\000\000y\000\013"
+ 1325      00024646 
+ 1325      10C90000 
+ 1325      0079000B 
+ 1326              		.text
+ 1327              		.section	.gnu.lto_.icf.18ae6f3c,"e",%progbits
+ 1328 0000 789C5360 		.ascii	"x\234S`@\000V\206\203\233\372\236p0\366\236\\\372\213"
+ 1328      40005686 
+ 1328      839BFA9E 
+ 1328      7030F69E 
+ 1328      5CFA8B
+ 1329 0013 99696353 		.ascii	"\231icSG#\027\363\326E'\257\260\261|kxs\203\217\001"
+ 1329      472317F3 
+ 1329      D64527AF 
+ 1329      B0B17C6B 
+ 1329      7873838F 
+ 1330 0028 00EF640E 		.ascii	"\000\357d\016\235"
+ 1330      9D
+ 1331              		.text
+ 1332              		.section	.gnu.lto_.ipa_sra.18ae6f3c,"e",%progbits
+ 1333 0000 789C9BCC 		.ascii	"x\234\233\314\200\000\314\014,\014h\200\231\221\031"
+ 1333      8000CC0C 
+ 1333      2C0C6880 
+ 1333      999119
+ 1334 000f 48B22054 		.ascii	"H\262 T\000\001\023c\003T\200\221\024&3\302p\016\006"
+ 1334      00011363 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 28
+
+
+ 1334      03548091 
+ 1334      142633C2 
+ 1334      700E06
+ 1335 0022 76B06960 		.ascii	"v\260i`\343\030\233\240\022L\030\26632\000\000Y\206"
+ 1335      E3189BA0 
+ 1335      124C18B6 
+ 1335      33320000 
+ 1335      5986
+ 1336 0034 03FB     		.ascii	"\003\373"
+ 1337              		.text
+ 1338              		.section	.gnu.lto_.inline.18ae6f3c,"e",%progbits
+ 1339 0000 789C8590 		.ascii	"x\234\205\220\273JCA\020\206\377\271\234\020\315\301"
+ 1339      BB4A4341 
+ 1339      1086FFB9 
+ 1339      9C10CDC1 
+ 1340 0010 24A88579 		.ascii	"$\250\205y\000\213<\314>\204\027\022\210\026\276\200"
+ 1340      008B3CCC 
+ 1340      3E841712 
+ 1340      8816BE80 
+ 1341 0020 2436B68B 		.ascii	"$6\266\213`\023,\217\251R\244\020\322\332\250\205\020"
+ 1341      60132C8F 
+ 1341      A952A410 
+ 1341      D2DAA885 
+ 1341      10
+ 1342 0031 04DFC04A 		.ascii	"\004\337\300J,-,R9\263\347(\261\220L\261\373-\373\317"
+ 1342      2C2D2C52 
+ 1342      39B3E728 
+ 1342      B1904CB1 
+ 1342      FB2DFBCF 
+ 1343 0045 E59F5BC2 		.ascii	"\345\237[\302od\300\336\333\373\303X\006$rV\010\256"
+ 1343      6F64C0DE 
+ 1343      DBFBC358 
+ 1343      06247256 
+ 1343      08AE
+ 1344 0057 C40E1708 		.ascii	"\304\016\027\010\031x\330\355o\3357\335\265\014\200"
+ 1344      1978D8ED 
+ 1344      6FDD37DD 
+ 1344      B50C80
+ 1345 0066 DAD0828F 		.ascii	"\332\320\202\217\030\014-\021up\242C\264<#\177\244\217"
+ 1345      180C2D11 
+ 1345      7570A243 
+ 1345      B43C237F 
+ 1345      A48F
+ 1346 0078 A7E7059F 		.ascii	"\247\347\005\237\022x\316\237\223\342\206O\200\306\335"
+ 1346      1278CE9F 
+ 1346      93E2864F 
+ 1346      80C6DD
+ 1347 0087 72FAC53D 		.ascii	"r\372\305=\317\263\"M+\252\210!\206\212\023\"k\333/"
+ 1347      CFB3224D 
+ 1347      2BAA8821 
+ 1347      868A1322 
+ 1347      6BDB2F
+ 1348 009a CFF475E3 		.ascii	"\317\364u\343\207b(\351r\373\242\233\265M\311\256,i"
+ 1348      876228E9 
+ 1348      72FBA29B 
+ 1348      B54DC9AE 
+ 1348      2C69
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 29
+
+
+ 1349 00ac D18981B5 		.ascii	"\321\211\201\265a\255\357\245\007/<2>\3773c\025\204"
+ 1349      61ADEFA5 
+ 1349      072F3C32 
+ 1349      3EFF3363 
+ 1349      1584
+ 1350 00be 6CCB6D79 		.ascii	"l\313myr\014\222#\311eg\327\204\005\367\211\311\354"
+ 1350      720C9223 
+ 1350      C96567D7 
+ 1350      8405F789 
+ 1350      C9EC
+ 1351 00d0 B3DB67B7 		.ascii	"\263\333g\267Kf\333su3U:\376\317\266\367\343\003E]}"
+ 1351      4B66DB73 
+ 1351      7533553A 
+ 1351      FECFB6F7 
+ 1351      E303455D 
+ 1352 00e5 9BA94332 		.ascii	"\233\251C2\225\260\362\247\232\233\352e\375\204\265"
+ 1352      95B0F2A7 
+ 1352      9A9BEA65 
+ 1352      FD84B5
+ 1353 00f4 26AA45AC 		.ascii	"&\252E\254\316\210o\016mT\223"
+ 1353      CE886F0E 
+ 1353      6D5493
+ 1354              		.text
+ 1355              		.section	.gnu.lto_.jmpfuncs.18ae6f3c,"e",%progbits
+ 1356 0000 789CAD52 		.ascii	"x\234\255R1\016\3020\014\364\331i\033u)3Sg\246>\200"
+ 1356      310EC230 
+ 1356      0CF4D969 
+ 1356      1B752933 
+ 1356      5367A63E 
+ 1357 0015 B7B57FE0 		.ascii	"\267\265\177\340\015<\001$\004\014<\014Q\334\244\"\201"
+ 1357      0D3C0124 
+ 1357      040C3C0C 
+ 1357      51DCA422 
+ 1357      81
+ 1358 0026 36D0014B 		.ascii	"6\320\001K''\216}q.\336\012\275,#\003\265\252\333\013"
+ 1358      27278E7D 
+ 1358      712EDE0A 
+ 1358      BD2C2303 
+ 1358      B5AADB0B 
+ 1359 003a 14A490C1 		.ascii	"\024\244\220\301C4Z\350\312(2En\211p3 E\257V\201w\262"
+ 1359      43345AE8 
+ 1359      CA283245 
+ 1359      6E897033 
+ 1359      2045AF56 
+ 1360 0051 9702F0CE 		.ascii	"\227\002\360\316\305BJGa\275\366\251\002\353\335\312"
+ 1360      C5424A47 
+ 1360      61BDF6A9 
+ 1360      02EBDDCA 
+ 1361 0061 6D092183 		.ascii	"m\011!\203h\312\216\003pD\3148\262\224.T\2722\306\011"
+ 1361      68CA8E03 
+ 1361      7044CC38 
+ 1361      B2942E54 
+ 1361      BA32C609 
+ 1362 0075 118B312D 		.ascii	"\021\2131-}\020E\373\306\367aQ{\327t\365\367\202\036"
+ 1362      7D1045FB 
+ 1362      C6F76151 
+ 1362      7BD774F5 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 30
+
+
+ 1362      F7821E
+ 1363 0088 F42B4539 		.ascii	"\364+E9q\006.\370\003\227Ka\206j\257\272+2\016\207\367"
+ 1363      71062EF8 
+ 1363      03974B61 
+ 1363      866AAFBA 
+ 1363      2B320E87 
+ 1364 009d 58957C86 		.ascii	"X\225|\206\307\264\230R\253$\011\012\306&\022N\336\246"
+ 1364      C7B49852 
+ 1364      AB24090A 
+ 1364      C626124E 
+ 1364      DEA6
+ 1365 00af 8031FE79 		.ascii	"\2001\376y\236(6-O\257wSe\223\025\204\364\303\303<1"
+ 1365      9E28362D 
+ 1365      4FAF7753 
+ 1365      65931584 
+ 1365      F4C3C33C 
+ 1366 00c4 C8BBC710 		.ascii	"\310\273\307\020c\\\337\276\327\015\2456\007\214M\246"
+ 1366      635CDFBE 
+ 1366      D70DA536 
+ 1366      078C4DA6 
+ 1367 00d4 04B2CB04 		.ascii	"\004\262\313\004\232y\307r\315\350\011}]\314&"
+ 1367      9A79C772 
+ 1367      CDE8097D 
+ 1367      5DCC26
+ 1368              		.text
+ 1369              		.section	.gnu.lto_.pureconst.18ae6f3c,"e",%progbits
+ 1370 0000 789C1360 		.ascii	"x\234\023````e\230\305\302\270\213\205i\006\013\363"
+ 1370      60606065 
+ 1370      98C5C2B8 
+ 1370      8B856906 
+ 1370      0BF3
+ 1371 0012 2C169619 		.ascii	",\026\226\031,\000\033\310\003R"
+ 1371      2C001BC8 
+ 1371      0352
+ 1372              		.text
+ 1373              		.section	.gnu.lto_.lto.18ae6f3c,"e",%progbits
+ 1374 0000 09000200 		.ascii	"\011\000\002\000\001\000\000\000"
+ 1374      01000000 
+ 1375              		.text
+ 1376              		.section	.gnu.lto_long_to_string_with_divisor.366.18ae6f3c,"e",%progbits
+ 1377 0000 789C5D94 		.ascii	"x\234]\224kh\\E\024\307\347\334\231{\357\356\335\273"
+ 1377      6B685C45 
+ 1377      14C7E7DC 
+ 1377      997BEFEE 
+ 1377      DDBB
+ 1378 0012 7940B6A5 		.ascii	"y@\266\245y\220MB,\012\355\306\306b\025\305\204\212"
+ 1378      79904D42 
+ 1378      2C0AEDC6 
+ 1378      C66215C5 
+ 1378      848A
+ 1379 0024 882008A2 		.ascii	"\210 \010\242\037$\037\314C\311b\322\244IZ\372\2557"
+ 1379      1F241FCC 
+ 1379      43C962D2 
+ 1379      A4495AFA 
+ 1379      AD37
+ 1380 0036 6F4831C9 		.ascii	"oH1\311\246\015Mm,\262\206*HS\022\322\272j\233\256\306"
+ 1380      A60D4D6D 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 31
+
+
+ 1380      2CB2862A 
+ 1380      485312D2 
+ 1380      BA6A9BAE 
+ 1381 004b 6EFBA54D 		.ascii	"n\373\245M(\304Wm\305\200\230*$\253R\037K5\2363\223"
+ 1381      28C4576D 
+ 1381      C580982A 
+ 1381      24AB521F 
+ 1381      4B359E33 
+ 1382 0060 7D641776 		.ascii	"}d\027v\356\231\231\3379s\316\177\316\275+\006c\355"
+ 1382      EE9999DF 
+ 1382      3973CE7F 
+ 1382      CEBD2B06 
+ 1382      63ED
+ 1383 0072 8CB13FF1 		.ascii	"\214\261?\361\017^\006c\241!\2159\216ScjZ_\350\230\006"
+ 1383      0F5E0663 
+ 1383      A1218D39 
+ 1383      8E53636A 
+ 1383      5A5FE898 
+ 1384 0087 D700677E 		.ascii	"\327\000g~\321\033\312\221O\016'R\204\200\361\220%-"
+ 1384      D11BCA91 
+ 1384      4F0E2752 
+ 1384      8480F190 
+ 1384      252D
+ 1385 0099 5D1BC860 		.ascii	"]\033\310`\0077Y\003N\246XS\233\034\235-C\342V<\261"
+ 1385      07375903 
+ 1385      4EA65853 
+ 1385      9B1C9D2D 
+ 1385      43E2563C 
+ 1386 00ae 4F4C8CAE 		.ascii	"OL\214\256\300\364H\277)l\030\237\311S\204\013N\215"
+ 1386      C0F448BF 
+ 1386      296C189F 
+ 1386      C953840B 
+ 1386      4E8D
+ 1387 00c0 85419A6E 		.ascii	"\205A\232n\355t\006\374N\022\366 1\260\031\317\202\356"
+ 1387      ED7406FC 
+ 1387      4E12F620 
+ 1387      31B019CF 
+ 1387      82EE
+ 1388 00d2 D0D0FAC4 		.ascii	"\320\320\372\304\234P\207\326\230\300\216j\\\350\206"
+ 1388      9C5087D6 
+ 1388      98C08E6A 
+ 1388      5CE886
+ 1389 00e1 69BBDC1E 		.ascii	"i\273\334\036\013\216r\235\245\177n\006Q\001\377mll"
+ 1389      0B8E729D 
+ 1389      A57F6E06 
+ 1389      5101FF6D 
+ 1389      6C6C
+ 1390 00f3 982923B9 		.ascii	"\230)#\271w\234Or\030\343S\234\201\330\264\000\374\017"
+ 1390      779C4F72 
+ 1390      18E3539C 
+ 1390      81D8B400 
+ 1390      FC0F
+ 1391 0105 471DE7EF 		.ascii	"G\035\347\357\276\017\316D^\212\212)\256\2613\270}\001"
+ 1391      BE0FCE44 
+ 1391      5E8A8A29 
+ 1391      AEB133B8 
+ 1391      7D01
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 32
+
+
+ 1392 0117 600EC805 		.ascii	"`\016\310\0051\376\014\333\211\310\322j\304q\334\014"
+ 1392      31FE0CDB 
+ 1392      89C8D26A 
+ 1392      C471DC0C 
+ 1393 0127 09F81832 		.ascii	"\011\370\0302\030\\\250\375\321M\334\253l'\346\027_"
+ 1393      185CA8FD 
+ 1393      D14DDCAB 
+ 1393      6C27E617 
+ 1393      5F
+ 1394 0138 9C3FF8FC 		.ascii	"\234?\370\374\024\347\360\311V\212\327\376*\251\327"
+ 1394      14E7F0C9 
+ 1394      568AD7FE 
+ 1394      2AA9D7
+ 1395 0147 64B4F837 		.ascii	"d\264\3707_\021%\340\263\255\224\250\375KR\257\253X"
+ 1395      5F1125E0 
+ 1395      B3AD94A8 
+ 1395      FD4B52AF 
+ 1395      AB58
+ 1396 0159 DF6EC6BA 		.ascii	"\337n\306\272\234\035\253\327R\2715\323XI\350\367\027"
+ 1396      9C1DABD7 
+ 1396      52B935D3 
+ 1396      5849E8F7 
+ 1396      17
+ 1397 016a DBAF3B82 		.ascii	"\333\257;\202\340+\260\245\204\332s\026\221o%\311\245"
+ 1397      E02BB0A5 
+ 1397      84DA7316 
+ 1397      916F25C9 
+ 1397      A5
+ 1398 017b 092AC44F 		.ascii	"\011*\304O\344\347Y\344\373\222l\225$%y{V\305\324`!"
+ 1398      E4E759E4 
+ 1398      FB926C95 
+ 1398      2425797B 
+ 1398      56C5D460 
+ 1399 0190 8B3C25C9 		.ascii	"\213<%\311\266\324\351\337\015\017:y}\030T\207\253Y"
+ 1399      B6D4E9DF 
+ 1399      0D0F3A79 
+ 1399      7D185487 
+ 1399      AB59
+ 1400 01a2 E8886530 		.ascii	"\350\210e0\210\001|\011\360\005@\024H`jA\306D\346\362"
+ 1400      88017C09 
+ 1400      F0054014 
+ 1400      48606A41 
+ 1400      C644E6F2 
+ 1401 01b6 F95B7AD4 		.ascii	"\371[z\324y\2601\3428\213\375\360\363\273\317=\004X"
+ 1401      79B031E2 
+ 1401      388BFDF0 
+ 1401      F3BBCF3D 
+ 1401      0458
+ 1402 01c8 A8A1D1C0 		.ascii	"\250\241\321\300q0\005CT\247\251A\203I\203\213A\004"
+ 1402      71300543 
+ 1402      54A7A941 
+ 1402      8349838B 
+ 1402      4104
+ 1403 01da E84E4C8B 		.ascii	"\350NL\213,\017\235c\323\340%8\207\206\\\206\341\363"
+ 1403      2C0F9D63 
+ 1403      D3E02538 
+ 1403      87865C86 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 33
+
+
+ 1403      E1F3
+ 1404 01ec B029209F 		.ascii	"\260) \237\206\002\200O\301\0070\017\333\000=\266\023"
+ 1404      8602804F 
+ 1404      C107300F 
+ 1404      DB003DB6 
+ 1404      13
+ 1405 01fd B203E012 		.ascii	"\262\003\340\022\024\222[\021\015\3054\224\320F)\371"
+ 1405      14925B11 
+ 1405      0DC53494 
+ 1405      D04629F9 
+ 1406 020d FAC9AD8C 		.ascii	"\372\311\255\214\326\312i\255\202\016\252\244)c#\234"
+ 1406      D6CA69AD 
+ 1406      820EAAA4 
+ 1406      2963239C 
+ 1407 021d C5131FEE 		.ascii	"\305\023\037\356\003'\312\330(\327\244\335\215\366/"
+ 1407      0327CAD8 
+ 1407      28D7A4DD 
+ 1407      8DF62F
+ 1408 022c E0AC5CF0 		.ascii	"\340\254\\\360\312\307E\220\217\210z\\\242G\317{\036"
+ 1408      CAC74590 
+ 1408      8F887A5C 
+ 1408      A247CF7B 
+ 1408      1E
+ 1409 023d 0C1BE605 		.ascii	"\014\033\346\005r\351\212\227\335\203\276\325\205\302"
+ 1409      72E98A97 
+ 1409      DD83BED5 
+ 1409      85C2
+ 1410 024b 30F75143 		.ascii	"0\367QCrP\275:\312y\344\362\211\342T\274e\237t}\024"
+ 1410      7250BD3A 
+ 1410      CA79E4F2 
+ 1410      89E254BC 
+ 1410      659F747D 
+ 1411 0260 93415202 		.ascii	"\223AR\002\"\343\300\236\032&w\362$|\373E|W\330\032"
+ 1411      22E3C09E 
+ 1411      1A2677F2 
+ 1411      247CFB45 
+ 1411      7C57D81A 
+ 1412 0274 F4CE0EEC 		.ascii	"\364\316\016\354\012\363\355a\276Mu\275\207H?V\201\213"
+ 1412      0AF3ED61 
+ 1412      BE4D75BD 
+ 1412      87483F56 
+ 1412      818B
+ 1413 0286 8C25200F 		.ascii	"\214% \017\263\320\206\33760\"?\353\305\220:\336\245"
+ 1413      B3D086DF 
+ 1413      3630223F 
+ 1413      EBC5903A 
+ 1413      DEA5
+ 1414 0298 23B262E6 		.ascii	"#\262b\346\243\255\311\224s\245E\356\252\272;\362\034"
+ 1414      A3ADC994 
+ 1414      73A545EE 
+ 1414      AABA3BF2 
+ 1414      1C
+ 1415 02a9 B27EF0E1 		.ascii	"\262~\360\341q=\017\006oha.A<|i\000-5\337\241v\237\016"
+ 1415      713D0F06 
+ 1415      6F68612E 
+ 1415      413C7C69 
+ 1415      002D35DF 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 34
+
+
+ 1416 02c1 73AC5353 		.ascii	"s\254SSY\304p\275P:\377F\316\275\223\003\270]\204k\224"
+ 1416      59C470BD 
+ 1416      503AFF46 
+ 1416      CEBD9303 
+ 1416      B85D846B 
+ 1417 02d6 AB0E5569 		.ascii	"\253\016Ui\252HR\177\370H\251;\013\015\270\240\220'"
+ 1417      AA48527F 
+ 1417      F848A93B 
+ 1417      0B0DB8A0 
+ 1417      9027
+ 1418 02e8 48A80478 		.ascii	"H\250\004x\261\032q\367\034\202%\366\315E#\001\271X"
+ 1418      B11A71F7 
+ 1418      1C8225F6 
+ 1418      CD452301 
+ 1418      B958
+ 1419 02fa 9658FB08 		.ascii	"\226X\373\010\027J\355\273\353\220\200|\024F\010\026"
+ 1419      174AEDBB 
+ 1419      EB90807C 
+ 1419      14460816 
+ 1420 030a E67E7B6D 		.ascii	"\346~{m\344\005\312y\224\033\335X\252\226\322\367~\211"
+ 1420      E405CA79 
+ 1420      941BDD58 
+ 1420      AA96D2F7 
+ 1420      7E89
+ 1421 031c CAE1067A 		.ascii	"\312\341\006z\025\247\222x<\235D\261\324\334\314\026"
+ 1421      15A79278 
+ 1421      3C9D44B1 
+ 1421      D4DCCC16 
+ 1422 032c 88B63C32 		.ascii	"\210\266<2\302?\257\244D_\246\\P$\245:~\2026r\323\312"
+ 1422      C23FAFA4 
+ 1422      445FA65C 
+ 1422      5024A53A 
+ 1422      7E823672 
+ 1423 0342 97282DD0 		.ascii	"\227(-\320\342\344\212\223\370\020l~\2164`g\351#\267"
+ 1423      E2E48A93 
+ 1423      F8106C7E 
+ 1423      8E346067 
+ 1423      E923B7
+ 1424 0355 AA614F23 		.ascii	"\252aO#\0127\001\263\3462~B\006\217\220Jz\246\250T&"
+ 1424      0A3701B3 
+ 1424      E6327E42 
+ 1424      068F904A 
+ 1424      7AA6A854 
+ 1425 036a 2EA903E8 		.ascii	".\251\003\350\226J%\376o\253\332\276\2127`\320%Jg\334"
+ 1425      964A25FE 
+ 1425      6FABDABE 
+ 1425      8A3760D0 
+ 1425      254A67DC 
+ 1426 037e 36E53CED 		.ascii	"6\345<\355\354\307%\345L\227\355'\221\357-\344\240\005"
+ 1426      ECC725E5 
+ 1426      4C97ED27 
+ 1426      91EF2DE4 
+ 1426      A005
+ 1427 0390 D74109EC 		.ascii	"\327A\011\354A\305\365\341u\022\301\230>o`\337\333\241"
+ 1427      41C5F5E1 
+ 1427      7512C198 
+ 1427      3E6F60DF 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 35
+
+
+ 1427      DBA1
+ 1428 03a2 FEAFAFE1 		.ascii	"\376\257\257\341\307\023\025qmi\373PLf9G}W&[O\244%,"
+ 1428      C7131571 
+ 1428      6D69FB50 
+ 1428      4C663947 
+ 1428      7D57265B 
+ 1429 03ba A36002CB 		.ascii	"\243`\002\3132\361\232\320\325\235\022\023\224\230$"
+ 1429      32F19AD0 
+ 1429      D59D1213 
+ 1429      949824
+ 1430 03c9 4F8EEC31 		.ascii	"O\216\3541\302miE\320\262d\354\3431w\262\335\306c\232"
+ 1430      C26D6945 
+ 1430      D0B264EC 
+ 1430      E33177B2 
+ 1430      DDC6639A 
+ 1431 03dd 52FA3EEE 		.ascii	"R\372>\356\226\243S\262](B\271\332B\235*\3205\271Cq"
+ 1431      96A353B2 
+ 1431      5D2842B9 
+ 1431      DA429D2A 
+ 1431      D035B943 
+ 1432 03f2 2AA8E889 		.ascii	"*\250\350\211c?\241\351\226:\273\244\3149$\263\272\210"
+ 1432      633FA1E9 
+ 1432      963ABBA4 
+ 1432      CC3924B3 
+ 1432      BA88
+ 1433 0404 65C8D4DF 		.ascii	"e\310\324\337R\372\273\345\231'c\266j\021\274\331J\314"
+ 1433      52FABBE5 
+ 1433      992763B6 
+ 1433      6A11BCD9 
+ 1433      4ACC
+ 1434 0416 0E76A52B 		.ascii	"\016v\245+\253\224\252\355G\003\036Q\232Y\370\322\271"
+ 1434      AB94AAED 
+ 1434      47031E51 
+ 1434      9A59F8D2 
+ 1434      B9
+ 1435 0427 A8E52A3C 		.ascii	"\250\345*<\3233u\230w\002lT\3005<S\200\224g~\306N\000"
+ 1435      D3337598 
+ 1435      77026C54 
+ 1435      C0353C53 
+ 1435      8094677E 
+ 1436 043e 8A2C5C28 		.ascii	"\212,\\(\005\246\214\320\021\324\325\223\326\325\332"
+ 1436      05A68CD0 
+ 1436      11D4D593 
+ 1436      D6D5DA
+ 1437 044d A2EB69D4 		.ascii	"\242\353i\324\365w|\377\367\206\271K\306wad\367\364"
+ 1437      F5777CFF 
+ 1437      F786B94B 
+ 1437      C6776164 
+ 1437      F7F4
+ 1438 045f 4C313A41 		.ascii	"L1:A\352#\304\330S\317>Y\267\2779\330\020|\271\353P"
+ 1438      EA23C4D8 
+ 1438      53CF3E59 
+ 1438      B7BF39D8 
+ 1438      107CB9EB 
+ 1439 0474 53B06D4F 		.ascii	"S\260mO\325\341\252\272F\232\267u\356\251\252\016\264"
+ 1439      D5E1AABA 
+ 1439      469AB775 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 36
+
+
+ 1439      EEA9AA0E 
+ 1439      B4
+ 1440 0485 75069AEB 		.ascii	"u\006\232\353[\002-\301\206@gW\307\033\365\255\235\201"
+ 1440      5B022DC1 
+ 1440      86406757 
+ 1440      C71BF5AD 
+ 1440      9D81
+ 1441 0497 C6E6F68E 		.ascii	"\306\346\366\216\340\201\2567w72h/H\317vWW7<\326\330"
+ 1441      E081AE37 
+ 1441      77373268 
+ 1441      2F48CF76 
+ 1441      5757373C 
+ 1442 04ad B8B781F1 		.ascii	"\270\267\201\361\003\207Z\365\216\372\246\340\021\263"
+ 1442      03875AF5 
+ 1442      8EFAA6E0 
+ 1442      11B3
+ 1443 04bb 297838D8 		.ascii	")x8\330\331\326\241\265\264@\013\034\204\340\3775:\200"
+ 1443      D9D6A1B5 
+ 1443      B4400B1C 
+ 1443      84E0FF35 
+ 1443      3A80
+ 1444 04cd AF       		.ascii	"\257"
+ 1445              		.text
+ 1446              		.section	.gnu.lto_chvprintf.368.18ae6f3c,"e",%progbits
+ 1447 0000 789C8D3A 		.ascii	"x\234\215:ixN\327\326g\235\363f\036\021j\026C\220 \011"
+ 1447      69784ED7 
+ 1447      D6679DF3 
+ 1447      661E116A 
+ 1447      16439020 
+ 1448 0015 41103134 		.ascii	"A\02014\332\032:\337\347{\276\357G\277\333\032\257|"
+ 1448      DA1A3ADF 
+ 1448      E77BBEEF 
+ 1448      47BFDB1A 
+ 1448      AF7C
+ 1449 0027 3742256D 		.ascii	"7B%mux\352\255\220(\225\211\"\011\301+4ZM\205\270\215"
+ 1449      7578EAAD 
+ 1449      90289589 
+ 1449      2209C12B 
+ 1449      345A4D85 
+ 1450 003d 22D44C48 		.ascii	"\"\324LHH\314CPUCI\343\222\213\030\362\255\265\366\331"
+ 1450      48CC4350 
+ 1450      554349E3 
+ 1450      928B18F2 
+ 1450      ADB5F6D9 
+ 1451 0051 E79C3734 		.ascii	"\347\23474\367z\236\354w\237\265\327Z{\315{\235}\270"
+ 1451      F77A9EEC 
+ 1451      779FB5D7 
+ 1451      5A7BCD7B 
+ 1451      9D7DB8
+ 1452 0064 F45094BD 		.ascii	"\364P\224\275\212\242T\271(\012\274\252@f\306<U\261"
+ 1452      8AA254B9 
+ 1452      280ABCAA 
+ 1452      4066C63C 
+ 1452      55B1
+ 1453 0076 DBEDC3DC 		.ascii	"\333\355\303\334TX\224\341\3113\015\026\365\346\211"
+ 1453      545894E1 
+ 1453      C9330D16 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 37
+
+
+ 1453      F5E689
+ 1454 0085 4D9D9331 		.ascii	"M\235\2231_\205sprY\021\330\2223|\277\275R:\304\346"
+ 1454      5F857370 
+ 1454      725911D8 
+ 1454      92337CBF 
+ 1454      BD523AC4 
+ 1455 009a 02A9AB1D 		.ascii	"\002\251\253\035\213\252*g0\216\253\232\222\341\365"
+ 1455      8BAA2A67 
+ 1455      308EAB9A 
+ 1455      92E1F5
+ 1456 00a9 70455E07 		.ascii	"pE^\007\333\322\364_ \345\322\271@\233\033,\314\230"
+ 1456      DBD2F45F 
+ 1456      20E5D2B9 
+ 1456      409B1B2C 
+ 1456      CC98
+ 1457 00bb 77F15B5F 		.ascii	"w\361[_^wW\263\3227\302\255\325\227\233\333\262\021"
+ 1457      5E7757B3 
+ 1457      D237C2AD 
+ 1457      D5979BDB 
+ 1457      B211
+ 1458 00cd 61D1F9DC 		.ascii	"a\321\371\334\020\233\007dg::\212m=\325\234\364\215"
+ 1458      109B0764 
+ 1458      673A3A8A 
+ 1458      6D3DD59C 
+ 1458      F48D
+ 1459 00df 1D710F46 		.ascii	"\035q\017FY&Q\274`\231\201\342\255.\267\240\344J\024"
+ 1459      592651BC 
+ 1459      609981E2 
+ 1459      AD2EB7A0 
+ 1459      E44A14
+ 1460 00f2 1FC83550 		.ascii	"\037\3105P|\325\025\002e\376\201\225A\266\254$G\333"
+ 1460      7CD51502 
+ 1460      65FE8195 
+ 1460      41B6AC24 
+ 1460      47DB
+ 1461 0104 DA1F2FB6 		.ascii	"\332\037/\266\266\035T \177\026\010\024?X\217\350\210"
+ 1461      B61D5420 
+ 1461      7F160814 
+ 1461      3F588FE8 
+ 1461      88
+ 1462 0115 C24FFEEA 		.ascii	"\302O\376\352:\024\353\324\376]\232\355[d\270\256x\373"
+ 1462      3A14EBD4 
+ 1462      FE5D9AED 
+ 1462      5B64B8AE 
+ 1462      78FB
+ 1463 0127 605B1356 		.ascii	"`[\023V,\367b\276@i\252~\207(\274\262\036Q\030\267\031"
+ 1463      2CF762BE 
+ 1463      4069AA7E 
+ 1463      8728BCB2 
+ 1463      1E5118B7 
+ 1464 013c E467AEBD 		.ascii	"\344g\256\275\363\307UW\306\010P\277\227\272m\223R5"
+ 1464      F3C75557 
+ 1464      C60850BF 
+ 1464      97BA6D93 
+ 1464      5235
+ 1465 014e 570B10C6 		.ascii	"W\013\020\306\006\373\001al\261\026\314\270\340\356"
+ 1465      06FB0161 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 38
+
+
+ 1465      6CB116CC 
+ 1465      B8E0EE
+ 1466 015d 4AC1F805 		.ascii	"J\301\370\005\265\030QX\322\245R\322\226\260-\323!\226"
+ 1466      B5185158 
+ 1466      D2A552D2 
+ 1466      96B02DD3 
+ 1466      2196
+ 1467 016f 5BA93F49 		.ascii	"[\251?I\321rp\231\005(U`\253T\2445s\253\256\335\340"
+ 1467      D1727099 
+ 1467      05285560 
+ 1467      AB54A435 
+ 1467      73ABAEDD 
+ 1468 0184 21953960 		.ascii	"!\2259`Ym\243n\021\226`\272mR\360\266\352vd\212\030"
+ 1468      596DA36E 
+ 1468      119660BA 
+ 1468      6D52F0B6 
+ 1468      EA76648A 
+ 1469 0199 81B61D08 		.ascii	"\201\266\035\010\343I;\265D\212z@\212\332^\330\340\241"
+ 1469      E3493BB5 
+ 1469      448A7A40 
+ 1469      8ADA5ED8 
+ 1469      E0A1
+ 1470 01ab 2E6A0738 		.ascii	".j\0078`\3308\320\355A\272\003\016\346ez\270\236\225"
+ 1470      60D838D0 
+ 1470      ED41BA03 
+ 1470      0EE6657A 
+ 1470      B89E95
+ 1471 01be 935B7272 		.ascii	"\223[rrSN~\227\223\203rrHN:\302\303L\307\235\013\327"
+ 1471      534E7E97 
+ 1471      93837272 
+ 1471      484E3AC2 
+ 1471      C34CC79D 
+ 1472 01d4 5CA4DC9D 		.ascii	"\\\244\334\235\324R\024\340\267\303Y\315l\207Q\200\354"
+ 1472      D45214E0 
+ 1472      B7C359CD 
+ 1472      6C875180 
+ 1472      EC
+ 1473 01e5 4DBFF5B4 		.ascii	"M\277\365\264u\206\303\306\216]\324#B\027\026\267L\312"
+ 1473      7586C3C6 
+ 1473      8E5DD423 
+ 1473      421716B7 
+ 1473      4CCA
+ 1474 01f7 1D046506 		.ascii	"\035\004e\006JW8\255\362\244\033\234\316\\+\330vW\317"
+ 1474      4A5738AD 
+ 1474      F2A41B9C 
+ 1474      CE5C2BD8 
+ 1474      7657CF
+ 1475 020a 584CF050 		.ascii	"XL\360P\232 X-\227\3764`!\3529i\226\363\222}\017\270"
+ 1475      9A20582D 
+ 1475      97FE3460 
+ 1475      21EA3969 
+ 1475      96F3927D 
+ 1476 0220 205DD193 		.ascii	" ]\321\223\246\372N\275\324*\301\025\335\334\332v\021"
+ 1476      A6FA4EBD 
+ 1476      D42AC115 
+ 1476      DDDCDA76 
+ 1476      11
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 39
+
+
+ 1477 0231 B1D1F141 		.ascii	"\261\321\361A\266P\270!\261\303\324\353\222\331\015"
+ 1477      B650B821 
+ 1477      B1C3D4EB 
+ 1477      92D90D
+ 1478 0240 C92C9C96 		.ascii	"\311,\234\226u\016\275I\377\302e\301R\375>p\013\237"
+ 1478      750EBD49 
+ 1478      FFC265C1 
+ 1478      52FD3E70 
+ 1478      0B9F
+ 1479 0252 0F7AF043 		.ascii	"\017z\360C\004?\034\021\017}\325\333\222S\265\344\324"
+ 1479      043F1C11 
+ 1479      0F7DD5DB 
+ 1479      9253B5E4 
+ 1479      D4
+ 1480 0263 0FFE901B 		.ascii	"\017\376\220\033\365\247\251\3164\222\231\3360\230\016"
+ 1480      F5A7A9CE 
+ 1480      349299DE 
+ 1480      30980E
+ 1481 0272 E0E75B82 		.ascii	"\340\347[\202\317@\265N\222?\222\014\007\301#\2038J"
+ 1481      CF40B54E 
+ 1481      923F920C 
+ 1481      07C12383 
+ 1481      384A
+ 1482 0284 7D2C74BA 		.ascii	"},t\272\272j\276\217m\036F[N\325\275>\266\301\352\023"
+ 1482      BA6ABE8F 
+ 1482      6D1E465B 
+ 1482      4ED5BD3E 
+ 1482      B6C1EA13 
+ 1483 0298 895D2FE9 		.ascii	"\211]/\351\243\325\2472\326\353e\254\017\201z\203\325"
+ 1483      A3D5A732 
+ 1483      D6EB65AC 
+ 1483      0F817A83 
+ 1483      D5
+ 1484 02a9 5098BBDA 		.ascii	"P\230\273\332\021\300\323\235\212\232\235\344XlC\276"
+ 1484      11C0D39D 
+ 1484      8A9A9DE4 
+ 1484      586C43BE 
+ 1485 02b9 15357503 		.ascii	"\0255u\003\230oA\332\0347\333!\005\221\374\005\376\317"
+ 1485      986F41DA 
+ 1485      1C37DB21 
+ 1485      0591FC05 
+ 1485      FECF
+ 1486 02cb 0ACC5FFD 		.ascii	"\012\314_\375\213 \330Es\235x\267\242~i%N\223\304\373"
+ 1486      8B20D845 
+ 1486      739D78B7 
+ 1486      A27E6925 
+ 1486      4E93C4FB 
+ 1487 02df 15582089 		.ascii	"\025X \211\367\320\\'\336\253\250_Y\011\2222|\031\177"
+ 1487      F7D05C27 
+ 1487      DEABA85F 
+ 1487      59099232 
+ 1487      7C197F
+ 1488 02f2 9F025F18 		.ascii	"\237\002_\030\305\015\224\231\252fsqus\367\360\364\362"
+ 1488      C50D9499 
+ 1488      AA667371 
+ 1488      7573F7F0 
+ 1488      F4F2
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 40
+
+
+ 1489 0304 F6F13DA8 		.ascii	"\366\361=\250\370\3717i\332,\240y\213\027Z\266*UZ\037"
+ 1489      F8F93769 
+ 1489      DA2CA079 
+ 1489      8B175AB6 
+ 1489      2A555A1F 
+ 1490 0318 50DAB46D 		.ascii	"P\332\264m\327\276C`\307N\235\273\004u\355\326=8\244"
+ 1490      D7BE4360 
+ 1490      C74E9DBB 
+ 1490      0475EDD6 
+ 1490      3D38A4
+ 1491 032b 47CF5EA1 		.ascii	"G\317^\241a\341\275\373D\364\355\327?r\300\300AQ\203"
+ 1491      61E1BDFB 
+ 1491      44F4EDD7 
+ 1491      3F72C0C0 
+ 1491      415183
+ 1492 033e A3870CDD 		.ascii	"\243\207\014\335\251\034R~Vv)\273\225\375\312\036\254"
+ 1492      A91C527E 
+ 1492      567629BB 
+ 1492      95FDCA1E 
+ 1492      AC
+ 1493 034f A3B8C74C 		.ascii	"\243\270\307Lw\233b\376\363\267\314\333X\346\335\025"
+ 1493      779B62FE 
+ 1493      F3B7CCDB 
+ 1493      58E6DD15 
+ 1494 035f D869837A 		.ascii	"\330i\203z\374\347fL\344\332N\245\221\305\335\215-\356"
+ 1494      FCE7664C 
+ 1494      E4DA4EA5 
+ 1494      91C5DD8D 
+ 1494      2DEE
+ 1495 0371 3517FD8C 		.ascii	"5\027\375\214\211\\\\\250-\323 S\313\323\024\260\351"
+ 1495      895C5CA8 
+ 1495      2DD32053 
+ 1495      CBD314B0 
+ 1495      E9
+ 1496 0382 3380C060 		.ascii	"3\200\300`4\307\203=O\217\025\277\271\323\226\247\251"
+ 1496      34C7833D 
+ 1496      4F8F15BF 
+ 1496      B9D396A7 
+ 1496      A9
+ 1497 0393 4A2E2E6F 		.ascii	"J..o\006(\002\"A4m\250\322m\247\335~\364H\261\335\356"
+ 1497      06280222 
+ 1497      41346DA8 
+ 1497      D26DA7DD 
+ 1497      7EF448B1 
+ 1498 03a9 A1E4691A 		.ascii	"\241\344i\032\374\010\026\034\004\304\234p#\274\377"
+ 1498      FC08161C 
+ 1498      04C49C70 
+ 1498      23BCFF
+ 1499 03b8 1178D53A 		.ascii	"\021x\325:\236\015\2668\343\331b.3\336;J\267t\304\233"
+ 1499      9E0DB638 
+ 1499      E3D9622E 
+ 1499      33DE3B4A 
+ 1499      B774C49B 
+ 1500 03cc 9F9462F7 		.ascii	"\237\224b\367\307\035]`\2533\236K\314m7\261\363\273"
+ 1500      C71D5D60 
+ 1500      AB339E4B 
+ 1500      CC6D37B1 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 41
+
+
+ 1500      F3BB
+ 1501 03de 3476B6AF 		.ascii	"4v\266\257\264\327\234\011\206<\315\025\266\023&\375"
+ 1501      B4D79C09 
+ 1501      863CCD15 
+ 1501      B61326FD 
+ 1502 03ee 83F898B9 		.ascii	"\203\370\230\271\036\2066\336\2066\227\230n*\215A\270"
+ 1502      1E8636DE 
+ 1502      86369798 
+ 1502      6E2A8D41 
+ 1502      B8
+ 1503 03ff 494DDA9C 		.ascii	"IM\332\234\2277\330\335\36347\370\2317\331\011\260\203"
+ 1503      9737D8DD 
+ 1503      F33437F8 
+ 1503      9937D909 
+ 1503      B083
+ 1504 0411 158B79EC 		.ascii	"\025\213y\354N\230\0372&Z`\303\2749(\316\354\300<\315"
+ 1504      4E981F32 
+ 1504      265A60C3 
+ 1504      BC3928CE 
+ 1504      ECC03CCD 
+ 1505 0425 1D768393 		.ascii	"\035v\203\223\015b\376\311\2503\030\0255\254\371rM\232"
+ 1505      0D62FEC9 
+ 1505      A8331815 
+ 1505      35ACF972 
+ 1505      4D9A
+ 1506 0437 0F73F580 		.ascii	"\017s\365\200\275\214\032\001\341\214\370\033#\332A"
+ 1506      BD8C1A01 
+ 1506      E18CF81B 
+ 1506      23DA41
+ 1507 0446 621E5D57 		.ascii	"b\036]Wd\267k\201\204\270\337\011\361,#\3167\021\227"
+ 1507      64B76B81 
+ 1507      84B8DF09 
+ 1507      F12C23CE 
+ 1507      371197
+ 1508 0459 1A88079D 		.ascii	"\032\210\007\235\020\313\030q!H1k\346^}\377\200\235"
+ 1508      10CB1871 
+ 1508      2148316B 
+ 1508      E65E7DFF 
+ 1508      809D
+ 1509 046b FC04A50D 		.ascii	"\374\004\245\015\244\334\303\250_\233\250\365\253\347"
+ 1509      A4DCC3A8 
+ 1509      5F9BA8F5 
+ 1509      ABE7
+ 1510 0479 FBA67FE1 		.ascii	"\373\246\177\341N\270G\032\340\0263n\216\201{4\233\234"
+ 1510      4EB8471A 
+ 1510      E016336E 
+ 1510      8E817B34 
+ 1510      9B9C
+ 1511 048b 1648A8E5 		.ascii	"\026H\250\345\015P\3273\352\032\023u\177\222}\244J\230"
+ 1511      0D50D733 
+ 1511      EA1A1375 
+ 1511      7F927DA4 
+ 1511      4A98
+ 1512 049d C71A603A 		.ascii	"\307\032`:\030\363\033C\251\232\247W\346\011;yB\245"
+ 1512      18F31B43 
+ 1512      A99AA757 
+ 1512      E6093B79 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 42
+
+
+ 1512      42A5
+ 1513 04af 93568B19 		.ascii	"\223V\213\031\263\300T?_W\337\023N8!~\305\210\033L\304"
+ 1513      B3C0543F 
+ 1513      5F57DF13 
+ 1513      4E38217E 
+ 1513      C5881B4C 
+ 1514 04c4 E5BA9C5E 		.ascii	"\345\272\234^p\252\301\356\263\030u\243\211\232e\240"
+ 1514      70AAC1EE 
+ 1514      B31875A3 
+ 1514      899A65A0 
+ 1515 04d4 9E6980FA 		.ascii	"\236i\200\372\300\315U\201\263\000\247\001N\002\034"
+ 1515      C0CD5581 
+ 1515      B300A701 
+ 1515      4E021C
+ 1516 04e3 07A80038 		.ascii	"\007\250\0008\012P\006p\030\340\020\300\001\200}\000"
+ 1516      0A500670 
+ 1516      18E010C0 
+ 1516      01807D00 
+ 1517 04f3 7B007601 		.ascii	"{\000v\001\224\200\302!\247\"[W\005\347\000\347y\017"
+ 1517      9480C221 
+ 1517      A7225B57 
+ 1517      05E700E7 
+ 1517      790F
+ 1518 0505 8AF59AA5 		.ascii	"\212\365\232\245Ii\276\351 \367\000}\017\270@\240\230"
+ 1518      4969BEE9 
+ 1518      20F7007D 
+ 1518      0FB840A0 
+ 1518      98
+ 1519 0516 8D1ED210 		.ascii	"\215\036\322\020OV\013\2479\213\202hz\206\025\011\216"
+ 1519      4F560BA7 
+ 1519      398B8268 
+ 1519      7A861509 
+ 1519      8E
+ 1520 0527 76E6B890 		.ascii	"v\346\270\2209\272\303E+\307K\004\212\331\346!}+9\012"
+ 1520      39BAC345 
+ 1520      2BC74B04 
+ 1520      8AD9E621 
+ 1520      7D2B390A 
+ 1521 053b 34C544D3 		.ascii	"4\305D\3239\026[d\334\235\315\034\275\341\027+\307+"
+ 1521      39165B64 
+ 1521      DC9DCD1C 
+ 1521      BDE1172B 
+ 1521      C72B
+ 1522 054d 048A39F0 		.ascii	"\004\2129\360\214\214\002M1\321\004Gjo\212\357\025i"
+ 1522      8C8C024D 
+ 1522      31D10447 
+ 1522      6A6F8AEF 
+ 1522      1569
+ 1523 055f F02BC065 		.ascii	"\360+\300e\200*\\:G\354\0244\012\\\225F\371O\264%\371"
+ 1523      802A5C3A 
+ 1523      47EC1434 
+ 1523      0A5C9546 
+ 1523      F94FB425 
+ 1524 0574 D397D977 		.ascii	"\323\227\331w\316\016T\376T~\342c\3404\"\321\203#(\321"
+ 1524      CE0E54FE 
+ 1524      547EE263 
+ 1524      E03422D1 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 43
+
+
+ 1524      832328D1 
+ 1525 0588 0D80EB00 		.ascii	"\015\200\353\000\327\234$\272\311\022!\246\317\177\350"
+ 1525      D79C24BA 
+ 1525      C91221A6 
+ 1525      CF7FE8
+ 1526 0597 E81F2A6C 		.ascii	"\350\037*l;\355\217\353\323\354\366?:\244\355\376\341"
+ 1526      3BED8FEB 
+ 1526      D3ECF63F 
+ 1526      3AA4EDFE 
+ 1526      E1
+ 1527 05a8 7BD80848 		.ascii	"{\330\010H\177\030T\024\300G\303\301\327\206\203\247"
+ 1527      7F185414 
+ 1527      C047C3C1 
+ 1527      D78683A7 
+ 1528 05b8 0B0DAE34 		.ascii	"\013\015\2564\270\321\340N(T\354<=qP\275h\360\246\301"
+ 1528      B8D1E04E 
+ 1528      2854EC3C 
+ 1528      3D7150BD 
+ 1528      68F0A6C1 
+ 1529 05cc 87065F5A 		.ascii	"\207\006_Z\365\243U\177\034<\232\320\320\224\206f\004"
+ 1529      F5A3557F 
+ 1529      1C3C9AD0 
+ 1529      D0948666 
+ 1529      04
+ 1530 05dd 0B505090 		.ascii	"\013PP\220\346\204\327\202\036_\240\241%\016~\255H\347"
+ 1530      E684D782 
+ 1530      1E5FA0A1 
+ 1530      250E7EAD 
+ 1530      48E7
+ 1531 05ef D634B421 		.ascii	"\3264\264!\344\2664\264\243\241=\311\322\201d\011T\340"
+ 1531      E4B634B4 
+ 1531      A3A13DC9 
+ 1531      D2816409 
+ 1531      54E0
+ 1532 0601 27E8488F 		.ascii	"'\350H\217\235\350\2613\315\272\320,HA\005\273\022\253"
+ 1532      9DE8B133 
+ 1532      CDBAD02C 
+ 1532      484105BB 
+ 1532      12AB
+ 1533 0613 6E04EB4E 		.ascii	"n\004\353N\260`B\016\241\241\007\015=i\350EC(\015a4"
+ 1533      B060420E 
+ 1533      A1A1070D 
+ 1533      3D69E845 
+ 1533      43280D61 
+ 1534 0628 84D3D09B 		.ascii	"\204\323\320\233\206>\224\031\0214\364\245\241\237\202"
+ 1534      863E9419 
+ 1534      1134F4A5 
+ 1534      A19F82
+ 1535 0637 C6EB4F43 		.ascii	"\306\353OC$\015\003\0244\344@\032\006\321\020E\303`"
+ 1535      240D0314 
+ 1535      34E4401A 
+ 1535      06D11045 
+ 1535      C360
+ 1536 0649 1AA21534 		.ascii	"\032\242\0254\357\020\032\206*h\345a$\306p\032^$.14"
+ 1536      EF101A86 
+ 1536      2A68E561 
+ 1536      24C6701A 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 44
+
+
+ 1536      5E242E31 
+ 1537 065e 1B41FABE 		.ascii	"\033A\372\276D\303\3134\274B\303H\032F\221\231F\323"
+ 1537      44C3CB34 
+ 1537      BC42C348 
+ 1537      1A469199 
+ 1537      46D3
+ 1538 0670 30868657 		.ascii	"0\206\206WixMA\377\274\256\240\207\336P\320Go*\350\245"
+ 1538      69784D41 
+ 1538      FFBCAEA0 
+ 1538      87DE50D0 
+ 1538      476F2AE8 
+ 1539 0685 B768789B 		.ascii	"\267hx\233\206\277\002J\372\036\211;\2266\037G\263\361"
+ 1539      86BF024A 
+ 1539      FA1E893B 
+ 1539      96361F47 
+ 1539      B3F1
+ 1540 0697 344CA061 		.ascii	"4L\240a\"\015\223ha2\261\217%~\177\247Y\034-L\241\205"
+ 1540      220D9368 
+ 1540      6132B18F 
+ 1540      257E7FA7 
+ 1540      591C2D4C 
+ 1541 06ad 789A4DA5 		.ascii	"x\232M\245\3314Z}\237\344\233N\260\004\202%\022\354"
+ 1541      D9345A7D 
+ 1541      9FE49B4E 
+ 1541      B0048225 
+ 1541      12EC
+ 1542 06bf 43827D44 		.ascii	"C\202}D\260\031\004\373\230\004\372\204\036?\245\307"
+ 1542      B01904FB 
+ 1542      9804FA84 
+ 1542      1E3FA5C7 
+ 1543 06cf CF08E573 		.ascii	"\317\010\345s2\311L\302\303\222\217j\316\006\022.\231"
+ 1543      32C94CC2 
+ 1543      C3928F6A 
+ 1543      CE06122E 
+ 1543      99
+ 1544 06e0 C7B93CCE 		.ascii	"\307\271<\316\343q\001\217i@\226I\007\222$\203\307L"
+ 1544      E371018F 
+ 1544      69409649 
+ 1544      07922483 
+ 1544      C74C
+ 1545 06f2 20472D04 		.ascii	" G-\004\200bX\004\304l1\307\334\022\306\314\342y6c\346"
+ 1545      80625804 
+ 1545      C46C31C7 
+ 1545      DC12C6CC 
+ 1545      E2793663 
+ 1546 0707 30643943 		.ascii	"0d9Cr\031\262\202\361W1d5\217k\210\233\327Z\036\277"
+ 1546      7219B282 
+ 1546      F1573164 
+ 1546      358F6B88 
+ 1546      9BD75A1E 
+ 1547 071c E1D57CA6 		.ascii	"\341\325|\246Z\307\253\3371d=C\276g\016\005\014W\224"
+ 1547      5AC7ABDF 
+ 1547      31643D43 
+ 1547      BE670E05 
+ 1547      0C5794
+ 1548 072f 344DF93D 		.ascii	"4M\371=wo+\260c\327\221\256\251<O\302\371M\260\377\362"
+ 1548      776F2BB0 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 45
+
+
+ 1548      63D791AE 
+ 1548      A93C4FC2 
+ 1548      F94DB0FF 
+ 1549 0744 643FBD51 		.ascii	"d?\275Q\360\364\251\033\377\244{\342\317\254\225~\224"
+ 1549      F0F4A91B 
+ 1549      FFA47BE2 
+ 1549      CFAC957E 
+ 1549      94
+ 1550 0755 41210A51 		.ascii	"A!\012Qh7\316\257I\002\370\002I\224:\010th\275_\262"
+ 1550      6837CEAF 
+ 1550      4902F802 
+ 1550      49943A08 
+ 1550      7468BD5F 
+ 1551 076a 290EED3D 		.ascii	")\016\355=\267\222\312{\356H]\007\323\034\332\253\014"
+ 1551      B792CA7B 
+ 1551      EE485D07 
+ 1551      D31CDAAB 
+ 1551      0C
+ 1552 077b 5B0D6E05 		.ascii	"[\015n\005'.\021\020\351l\225\217n.C\335\211\3370\022"
+ 1552      272E1110 
+ 1552      E96C958F 
+ 1552      6E2E43DD 
+ 1552      89DF3012 
+ 1553 078f C5A18DC2 		.ascii	"\305\241\215\302\271\212&vh\301\274\331\302C\306\366"
+ 1553      B98A2676 
+ 1553      68C1BCD9 
+ 1553      C243C6F6 
+ 1554 079f 8B3CF927 		.ascii	"\213<\371'W\374\024\211\237\037\017\251J5$mL\276\215"
+ 1554      57FC1489 
+ 1554      9F1F0FA9 
+ 1554      4A35246D 
+ 1554      4CBE8D
+ 1555 07b2 24EF2115 		.ascii	"$\357!\025\0062r\013d\026\357\341\322\254\245\363\243"
+ 1555      0632720B 
+ 1555      6416EFE1 
+ 1555      D2ACA5F3 
+ 1555      A3
+ 1556 07c3 1DDA58BD 		.ascii	"\035\332X\275=\260\201\302\357\003\327\275\363"
+ 1556      3DB081C2 
+ 1556      EF03D7BD 
+ 1556      F3
+ 1557 07d0 347FC2BE 		.ascii	"4\177\302\276\005\212\256\315I$\030\313<\267 \317\033"
+ 1557      058AAECD 
+ 1557      492418CB 
+ 1557      3CB720CF 
+ 1557      1B
+ 1558 07e1 30FBFAEE 		.ascii	"0\373\372\356q\010!*O>4P\265`\207\026\250\221\032\177"
+ 1558      7108212A 
+ 1558      4F3E3450 
+ 1558      B5608716 
+ 1558      A8911A7F 
+ 1559 07f5 55F16994 		.ascii	"U\361i\224C\233\206E)DM=\366\216P\310eA\345\026\315"
+ 1559      439B8645 
+ 1559      29444D3D 
+ 1559      F68E50C8 
+ 1559      6541E516 
+ 1560 080a 30DD4F9E 		.ascii	"0\335O\236DCJ\331ld&\327}\371\205Y`,\037;\344IT\270"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 46
+
+
+ 1560      44434AD9 
+ 1560      6C6426D7 
+ 1560      7DF98559 
+ 1560      602C1F3B 
+ 1561 0822 D30DCB4E 		.ascii	"\323\015\313NA\274U\272\346\366\340\362cl\215%r\345"
+ 1561      41BC55BA 
+ 1561      E6F6E0F2 
+ 1561      636C8D25 
+ 1561      72E5
+ 1562 0834 218D94D9 		.ascii	"!\215\224\331\346\341\320T]\027\215\353-\253\203\007"
+ 1562      E6E1D054 
+ 1562      5D178DEB 
+ 1562      2DAB8307 
+ 1563 0844 6C1307F6 		.ascii	"l\023\007\366\010P\003J\270x\366\201;\260\234;%\235"
+ 1563      0850034A 
+ 1563      B878F681 
+ 1563      3BB09C3B 
+ 1563      259D
+ 1564 0856 4C767E3E 		.ascii	"Lv~>NdM\221\037\334E\252\331\374\330\014\356!\025\251"
+ 1564      4E644D91 
+ 1564      1FDC45AA 
+ 1564      D9FCD80C 
+ 1564      EE2115A9 
+ 1565 086a 5B037302 		.ascii	"[\003s\002QQM!\276(]\236\026\300\202\034\367${/K\336"
+ 1565      51514D21 
+ 1565      BE285D9E 
+ 1565      16C0821C 
+ 1565      F7247B2F 
+ 1566 0880 0BE44CD4 		.ascii	"\013\344L\324\015K\012\033\3740\003\030\347\024\012"
+ 1566      0D4B0A1B 
+ 1566      FC300318 
+ 1566      E7140A
+ 1567 088f 9BAEDA73 		.ascii	"\233\256\332sm\254\211\373\221}Ee\246&\027\320\272\302"
+ 1567      6DAC89FB 
+ 1567      917D4565 
+ 1567      A62617D0 
+ 1567      BAC2
+ 1568 08a1 E2942EBA 		.ascii	"\342\224.\272/\232c\375\025\313\027\215\345\323\317"
+ 1568      2F9A63FD 
+ 1568      15CB178D 
+ 1568      E5D3CF
+ 1569 08b0 5BAED597 		.ascii	"[\256\325\227\337\302\272@\332x\350\360\373\034\007"
+ 1569      DFC2BA40 
+ 1569      DA78E8F0 
+ 1569      FB1C07
+ 1570 08bf E8EC2328 		.ascii	"\350\354#(\206Mj\207.~\217],\335i#\032\177\254}\302"
+ 1570      864D6A87 
+ 1570      2E7E8F5D 
+ 1570      2CDD6923 
+ 1570      1A7FAC7D 
+ 1571 08d4 C81E17FE 		.ascii	"\310\036\027\376q\274\265!\331C\2661\306\322\011\344"
+ 1571      71BCB521 
+ 1571      D943B631 
+ 1571      C6D209E4 
+ 1572 08e4 81C8C1A2 		.ascii	"\201\310\301\242\265T\315\200\032\307x\217\020\217d"
+ 1572      B554CD80 
+ 1572      1AC7788F 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 47
+
+
+ 1572      108F64
+ 1573 08f3 F82F4306 		.ascii	"\370/C\006`n\236VE)\240\017 \311\353F@\207\210\200."
+ 1573      606E9E56 
+ 1573      4529A00F 
+ 1573      20C9EB46 
+ 1573      40878880 
+ 1574 0908 F514013D 		.ascii	"\365\024\001=ke\024\035=\017\204\311\276.\265\310\357"
+ 1574      6B65141D 
+ 1574      3D0F84C9 
+ 1574      BE2EB5C8 
+ 1574      EF
+ 1575 0919 62913FC4 		.ascii	"b\221?\304I~\027!\177\017\021\216!\250\236{Ie\"\012"
+ 1575      497E1721 
+ 1575      7F0F118E 
+ 1575      21A89E7B 
+ 1575      4965220A 
+ 1576 092d E651766A 		.ascii	"\346Qvjr\035\274\216\354\334\013N\255\004x\014\036U"
+ 1576      721DBC8E 
+ 1576      ECDC0B4E 
+ 1576      AD04780C 
+ 1576      1E55
+ 1577 093f A7F22926 		.ascii	"\247\362)&\275\252\254:.)\265\3508\236\330[\362e<\243"
+ 1577      BDAAAC3A 
+ 1577      2E29B5E8 
+ 1577      389ED85B 
+ 1577      F2653CA3 
+ 1578 0953 64950AF5 		.ascii	"d\225\012\365\206\222x\217\205j\336\015U\333\207\350"
+ 1578      8692788F 
+ 1578      856ADE0D 
+ 1578      55DB87E8 
+ 1579 0963 6F18AAF5 		.ascii	"o\030\252\365`\302BS\265\201x\014\210x\016\344\245M"
+ 1579      60C24253 
+ 1579      B581780C 
+ 1579      88780EE4 
+ 1579      A54D
+ 1580 0975 56F55C2D 		.ascii	"V\365\\-\352\365pR\317U\250\027.\324\353\201\342yR\266"
+ 1580      EAF57052 
+ 1580      CF55A817 
+ 1580      2ED4EB81 
+ 1580      E27952B6 
+ 1581 0989 8DF72A39 		.ascii	"\215\367*9s]\024\2227PC\317\3343\211(\230W\331\231\317"
+ 1581      735D1492 
+ 1581      375043CF 
+ 1581      DC338928 
+ 1581      9857D999 
+ 1582 099e 50341F27 		.ascii	"P4\037'\3756[\365\233@\374-\372M\020%C\327/\332\220"
+ 1582      FD365BF5 
+ 1582      9B40FC2D 
+ 1582      FA4D1025 
+ 1582      43D72FDA 
+ 1583 09b3 319C75F4 		.ascii	"1\234u\364m\250\343q$\2116t\354\311\304;\204\216\254"
+ 1583      6DA8E371 
+ 1583      24893674 
+ 1583      ECC9C43B 
+ 1583      848EAC
+ 1584 09c6 0B6DE166 		.ascii	"\013m\341f\321\245\247\223.nB\227\020\241KO\024\305"
+ 1584      D1A5A793 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 48
+
+
+ 1584      2E6E4297 
+ 1584      10A14B4F 
+ 1584      14C5
+ 1585 09d8 9B7499E0 		.ascii	"\233t\231\340SpN\327%\032\352\301;\365\3344\230\245"
+ 1585      53704ED7 
+ 1585      251AEAC1 
+ 1585      3BF5DC34 
+ 1585      98A5
+ 1586 09ea FA949C9B 		.ascii	"\372\224\234\233\201exT\326\352_\002\201\274\346\267"
+ 1586      81657854 
+ 1586      D6EA5F02 
+ 1586      81BCE6B7 
+ 1587 09fa 7975452F 		.ascii	"yuE/\263T\240\3105\220<w\367\207\016\355\357\212\"\362"
+ 1587      B354A0C8 
+ 1587      35903C77 
+ 1587      F7870EED 
+ 1587      EF8A22F2 
+ 1588 0a0e C22F4F6B 		.ascii	"\302/Ok\001\333\000Y\321N/\200B?-@\231+\243\253\014"
+ 1588      01DB0059 
+ 1588      D14E2F80 
+ 1588      423F2D40 
+ 1588      992BA3AB 
+ 1589 0a23 089BAB87 		.ascii	"\010\233\253\207P\231\2540F\210k#q\303ei=\356E\032-"
+ 1589      5099AC30 
+ 1589      46886B23 
+ 1589      71C36569 
+ 1589      3DEE451A 
+ 1590 0a38 9AF70429 		.ascii	"\232\367\004)\342\364:\321\022T\256\023\212\256\333"
+ 1590      E2F43AD1 
+ 1590      1254AE13 
+ 1590      8AAEDB
+ 1591 0a47 972AEECB 		.ascii	"\227*\356\313/u\370\376l\3324\316\364\353\024\243\310"
+ 1591      2F75F8FE 
+ 1591      6CDA34CE 
+ 1591      F4EB14A3 
+ 1591      C8
+ 1592 0a58 8AF272DD 		.ascii	"\212\362r\335G'\375J\020\254\214\340\";\205\255\355"
+ 1592      4727FD4A 
+ 1592      10AC8CE0 
+ 1592      223B85AD 
+ 1592      ED
+ 1593 0a69 9F52FFCD 		.ascii	"\237R\377\315F\325bm\222v\204a\355^\242V\224zI\021/"
+ 1593      46D5626D 
+ 1593      92768461 
+ 1593      ED5EA256 
+ 1593      947A4911 
+ 1594 0a7e 967A0BC7 		.ascii	"\226z\013\307\036Q\035\332DD\260:v\242\020\342\002N"
+ 1594      1E511DDA 
+ 1594      4444B03A 
+ 1594      76A210E2 
+ 1594      024E
+ 1595 0a90 2789AD7D 		.ascii	"'\211\255}y\353^F}\217\344\255'1\253;\310\212\2754\035"
+ 1595      79EB5E46 
+ 1595      7D8FE4AD 
+ 1595      2731AB3B 
+ 1595      C88ABD34 
+ 1596 0aa5 21500DC2 		.ascii	"!P\015\302C\275\220M\263\247\027\362\310\325\243l\010"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 49
+
+
+ 1596      43BD904D 
+ 1596      B3A717F2 
+ 1596      C8D5A36C 
+ 1596      08
+ 1597 0ab6 18E1D026 		.ascii	"\030\341\320&7;y\221\356\020 dT\325\205D\224\272\211"
+ 1597      373B7991 
+ 1597      EE102064 
+ 1597      54D58544 
+ 1597      94BA89
+ 1598 0ac9 A3F896BF 		.ascii	"\243\370\226\277\341\226\273\245>D\351\216U\320\237"
+ 1598      E196BBA5 
+ 1598      3E44E98E 
+ 1598      55D09F
+ 1599 0ad8 2B7CD3AB 		.ascii	"+|\323\253\373\266\256R\215\365\373\245_\201\210\026"
+ 1599      FBB6AE52 
+ 1599      8DF5FBA5 
+ 1599      5F818816 
+ 1600 0ae8 2C98B528 		.ascii	",\230\265(7\226\341I\"\344\216r\341?O\"x\010\210\207"
+ 1600      3796E149 
+ 1600      22E48E72 
+ 1600      E13F4F22 
+ 1600      78088887 
+ 1601 0afc 5E939A55 		.ascii	"^\223\232U\237\333\233a\362x\210{\010w\222\002\036\242"
+ 1601      9FDB9B61 
+ 1601      F278887B 
+ 1601      08779202 
+ 1601      1EA2
+ 1602 0b0e 00210C79 		.ascii	"\000!\014ynH>\24294O4\033qP\201*\363\254\307)\265\010"
+ 1602      6E483EA2 
+ 1602      39344F34 
+ 1602      1B715081 
+ 1602      2AF3ACC7 
+ 1603 0b25 F42254DE 		.ascii	"\364\"T\336\226\3145\231\261\274\204\275\310\316\223"
+ 1603      96CC3599 
+ 1603      B1BC84BD 
+ 1603      C8CE93
+ 1604 0b34 75EBFAF2 		.ascii	"u\353\372\362\216\001\353S\017D7\360\304K\354\011\332"
+ 1604      8E01EB53 
+ 1604      0F4437F0 
+ 1604      C44BEC09 
+ 1604      DA
+ 1605 0b45 7280E193 		.ascii	"r\200\341\223P\246Z^fd\371Pj\245EY[Qf\236\231\003\204"
+ 1605      50A65A5E 
+ 1605      6664F950 
+ 1605      6AA54559 
+ 1605      5B51669E 
+ 1606 0b5c 42A1C2AE 		.ascii	"B\241\302\256\241\030#~\005\027>C\3636%\363\326\301"
+ 1606      A118237E 
+ 1606      05173E43 
+ 1606      F33625F3 
+ 1606      D6C1
+ 1607 0b6e 008C0184 		.ascii	"\000\214\001\204`vNBH\\\035\274\204q\352\227z\001\353"
+ 1607      60764E42 
+ 1607      485C1DBC 
+ 1607      8471EA97 
+ 1607      7A01EB
+ 1608 0b81 D888A66C 		.ascii	"\330\210\246l\307\346%\271\367\003\014\023\024\226y"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 50
+
+
+ 1608      C7E625B9 
+ 1608      F7030C13 
+ 1608      149679
+ 1609 0b90 E956DC98 		.ascii	"\351V\334\230L\021\032\217\242X\275\037o\206\340Tk\340"
+ 1609      4C111A8F 
+ 1609      A258BD1F 
+ 1609      6F86E054 
+ 1609      6BE0
+ 1610 0ba2 851ADE17 		.ascii	"\205\032\336\027\2017U\224\2422MH\372\177\010\321\275"
+ 1610      81375594 
+ 1610      A2324D48 
+ 1610      FA7F08D1 
+ 1610      BD
+ 1611 0bb3 8F5BB6A8 		.ascii	"\217[\266\250z0\310\254\"e\336$z,:\2669\013\364\302"
+ 1611      7A30C8AC 
+ 1611      2265DE24 
+ 1611      7A2C3AB6 
+ 1611      390BF4C2 
+ 1612 0bc7 A535DB4C 		.ascii	"\2455\333L\201\266\010\201\014.B\337\020\235S\313\244"
+ 1612      81B60881 
+ 1612      0C2E42DF 
+ 1612      109D53CB 
+ 1612      A4
+ 1613 0bd8 D5B55E06 		.ascii	"\325\265^\006\356Vd\305\251[\200\022|(s\267\205\221"
+ 1613      EE5664C5 
+ 1613      A95B8012 
+ 1613      7C2873B7 
+ 1613      8591
+ 1614 0bea BB90AC42 		.ascii	"\273\220\254B\212\252\347\354\177\243A\011\213\010\267"
+ 1614      8AAAE7EC 
+ 1614      7FA34109 
+ 1614      8B08B7
+ 1615 0bf9 97798BA4 		.ascii	"\227y\213\244$\017~dI\305PK*.\266\246\342Gf\026\314"
+ 1615      240F7E64 
+ 1615      49C5504B 
+ 1615      2A2EB6A6 
+ 1615      E2476616 
+ 1616 0c0e B06641A8 		.ascii	"\260fA\250\221\200\"\013f\260\230\255\276Xq\260\324"
+ 1616      9180220B 
+ 1616      66B098AD 
+ 1616      BE5871B0 
+ 1616      D4
+ 1617 0c1f 3C968FFB 		.ascii	"<\226\217\373Z\302\314O\034\343e2\314\260Zx;\264a\220"
+ 1617      5AC2CC4F 
+ 1617      1CE36532 
+ 1617      CCB05A78 
+ 1617      3BB46190 
+ 1618 0c33 A1EA2186 		.ascii	"\241\352!\206\000\037B\343\020\273\215\002\276\317\030"
+ 1618      001F42E3 
+ 1618      10BB8D02 
+ 1618      BECF18
+ 1619 0c42 3E421852 		.ascii	">B\030R\342}fqF\260\330\230|\001q0\326\303\254~\233"
+ 1619      E27D6671 
+ 1619      46B0D898 
+ 1619      7C017130 
+ 1619      D6C3AC7E 
+ 1620 0c57 2EE4A5CE 		.ascii	".\344\245\316-a\255,i\376\204$\375&\244I`V\347\220\025"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 51
+
+
+ 1620      2D61AD2C 
+ 1620      69FE8424 
+ 1620      FD26A449 
+ 1620      6056E790 
+ 1621 0c6c 5BFC1384 		.ascii	"[\374\023\204H\277\245ic\012s6\357W\270f\266>\232\264"
+ 1621      48BFA569 
+ 1621      630A7336 
+ 1621      EF57B866 
+ 1621      B63E9AB4 
+ 1622 0c80 C866F619 		.ascii	"\310f\366\031e\276\344C_\364a+\033a\216<?k\277;#\266"
+ 1622      65BEE443 
+ 1622      5FF4612B 
+ 1622      1B618E3C 
+ 1622      3F6BBF3B 
+ 1623 0c96 5990FBB8 		.ascii	"Y\220\373\270\\\252\256\262\270\303\214x\037h\304{\230"
+ 1623      5CAAAEB2 
+ 1623      B8C38C78 
+ 1623      1F68C47B 
+ 1623      98
+ 1624 0ca7 A89D6569 		.ascii	"\250\235eif\022S\302\371!\016\244\251\"\177?\307gHW"
+ 1624      661253C2 
+ 1624      F9210EA4 
+ 1624      A9227F3F 
+ 1624      C7674857 
+ 1625 0cbb 45A88761 		.ascii	"E\250\207a,\216LN@\315\306\224\325\256\307H\037\210"
+ 1625      2C8E4C4E 
+ 1625      40CDC694 
+ 1625      D5AEC748 
+ 1625      1F88
+ 1626 0ccd C13132F5 		.ascii	"\30112\365.Fz\002B\022\353`\030\204\214\254\276\203"
+ 1626      2E467A02 
+ 1626      4212EB60 
+ 1626      18848CAC 
+ 1626      BE83
+ 1627 0cdf B9F0FE98 		.ascii	"\271\360\376\230\222\332\"\222\245\355\323\214\207\003"
+ 1627      92DA2292 
+ 1627      A5EDD38C 
+ 1627      8703
+ 1628 0ced 2CC947C2 		.ascii	",\311G\302\0147\204\031d\010\023.2\277L?~\222\216\246"
+ 1628      0C378419 
+ 1628      6408132E 
+ 1628      32BF4C3F 
+ 1628      7E928EA6 
+ 1629 0d01 909FD15A 		.ascii	"\220\237\321Z\203D\364\335R\004\364\011\032\272\211"
+ 1629      8344F4DD 
+ 1629      5204F409 
+ 1629      1ABA89
+ 1630 0d10 013DCCD0 		.ascii	"\001=\314\320\314\224\023\010m\312\350M\214\206\263"
+ 1630      CC941308 
+ 1630      6DCAE84D 
+ 1630      8C86B3
+ 1631 0d1f 29F51E2C 		.ascii	")\365\036,w8\306H\000\035N\037\265\254\276\233G\015"
+ 1631      7738C648 
+ 1631      001D4E1F 
+ 1631      B5ACBE9B 
+ 1631      470D
+ 1632 0d31 372ADF86 		.ascii	"7*\337\206j\340 \314\346\000\\\230\321\362\247\316\014"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 52
+
+
+ 1632      6AE020CC 
+ 1632      E6005C98 
+ 1632      D1F2A7CE 
+ 1632      0C
+ 1633 0d42 1EC8E0E1 		.ascii	"\036\310\340\341\020\022P}\347\261;\203>lYuw=\231\260"
+ 1633      1012507D 
+ 1633      E7B13B83 
+ 1633      3E6C5975 
+ 1633      773D99B0 
+ 1634 0d56 0DA74ABB 		.ascii	"\015\247J\273\372\003\333\332\232\257\017e^f\2658\304"
+ 1634      FA03DBDA 
+ 1634      9AAF0F65 
+ 1634      5E66B538 
+ 1634      C4
+ 1635 0d67 FD0481EB 		.ascii	"\375\004\201\353\31343\237\321\241\341\326\270\370\304"
+ 1635      CB34339F 
+ 1635      D1A1E1D6 
+ 1635      B8F8C4
+ 1636 0d76 CCE74FAD 		.ascii	"\314\347O\255\371\034\336 \237?eV\031\345f>\177j\346"
+ 1636      F91CDE20 
+ 1636      9F3F6556 
+ 1636      19E5663E 
+ 1636      7F6AE6
+ 1637 0d89 73FBD425 		.ascii	"s\373\324%G\315\350^X\316\011\215\025fT;\226\262\203"
+ 1637      47CDE85E 
+ 1637      58CE098D 
+ 1637      1566543B 
+ 1637      96B283
+ 1638 0d9c 939439E5 		.ascii	"\223\2249\345^\206\213\257\242\213\233\031\006\334\301"
+ 1638      5E868BAF 
+ 1638      A28B9B19 
+ 1638      06DCC1
+ 1639 0dab D0E21492 		.ascii	"\320\342\024\222\363c\\\020\320VB\330C\004\344\335\002"
+ 1639      F3635C10 
+ 1639      D05642D8 
+ 1639      4304E4DD 
+ 1639      02
+ 1640 0dbc 6BEAF2AD 		.ascii	"k\352\362\255^\244\225\327\014/F\031^\354-JP9{\3616"
+ 1640      5EA495D7 
+ 1640      0C2F4619 
+ 1640      5EEC2D4A 
+ 1640      50397BF1 
+ 1641 0dd1 E4DB3191 		.ascii	"\344\3331\221\242\364\033\316\0157\277\264\317\243\313"
+ 1641      A2F41BCE 
+ 1641      0D37BFB4 
+ 1641      CFA3CB
+ 1642 0de0 065745BF 		.ascii	"\006WE\277\342T\224\245\360\005\037\327t\241\261BU\344"
+ 1642      E25494A5 
+ 1642      F0051FD7 
+ 1642      74A1B142 
+ 1642      55E4
+ 1643 0df2 65E88687 		.ascii	"e\350\206\207)\317\240\352\207\257'\3541\251\300\241"
+ 1643      29CFA0EA 
+ 1643      87AF27EC 
+ 1643      31A9C0A1 
+ 1644 0e02 2AB04AB5 		.ascii	"*\260J\265,\036\024\213\247\237h\264\234\327p\271\\"
+ 1644      2C1E148B 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 53
+
+
+ 1644      A79F68B4 
+ 1644      9CD770B9 
+ 1644      5C
+ 1645 0e13 2C2FBD66 		.ascii	",/\275f\243\345\265\270\\\002\346\256\333\236\025\320"
+ 1645      A3E5B5B8 
+ 1645      5C02E6AE 
+ 1645      DB9E15D0 
+ 1646 0e23 A03CAA53 		.ascii	"\240<\252S^d\312uH\231o\221\367P#\224',\362\256G\272"
+ 1646      5E64CA75 
+ 1646      48996F91 
+ 1646      F7502394 
+ 1646      272CF2AE 
+ 1647 0e39 EFAC029D 		.ascii	"\357\254\002\235\326\331V1\333\002+[\273}\303\331F\314"
+ 1647      D6D95631 
+ 1647      DB022B5B 
+ 1647      BB7DC3D9 
+ 1647      46CC
+ 1648 0e4b 70C5C2B6 		.ascii	"p\305\302\266\020\3516X\331\376\252\263\025f\330\324"
+ 1648      10E93658 
+ 1648      D9FEAAB3 
+ 1648      1566D8D4 
+ 1649 0e5b D00C37F4 		.ascii	"\320\0147\364\345\247\274\274\271\341\362\037\272\021"
+ 1649      E5A7BCBC 
+ 1649      B9E1F21F 
+ 1649      BA11
+ 1650 0e69 85957E34 		.ascii	"\205\225~4\255$\226k\364ea\212-\015LQ\325\210\314w-"
+ 1650      AD24966B 
+ 1650      F465618A 
+ 1650      2D0D4C51 
+ 1650      D588CC77 
+ 1651 0e7e 326F43BA 		.ascii	"2oC\272\255\326]ku\266W\231mICK=\320\227\205\245v\352"
+ 1651      ADD65D6B 
+ 1651      75B65799 
+ 1651      6D49434B 
+ 1651      3DD09785 
+ 1652 0e95 BB52D4F7 		.ascii	"\273R\324\367\306\224j\367\364>V\235\360\016\224\275"
+ 1652      C6946AF7 
+ 1652      F43E569D 
+ 1652      F00E94BD 
+ 1653 0ea5 519828ED 		.ascii	"Q\230(\355\262E>\017b\310k\230\227\355\252\357\353\011"
+ 1653      B2453E0F 
+ 1653      62C86B98 
+ 1653      97EDAAEF 
+ 1653      EB09
+ 1654 0eb7 FD718793 		.ascii	"\375q\207\223\037cLw|zk\216;\307\364-\370\342\322\346"
+ 1654      1F634C77 
+ 1654      7C7A6B8E 
+ 1654      3BC7F42D 
+ 1654      F8E2D2E6 
+ 1655 0ecb 72954CC8 		.ascii	"r\225L\310\015t\271\331@c\013+\216\304r\275C\305dn\256"
+ 1655      0D74B9D9 
+ 1655      40630B2B 
+ 1655      8EC472BD 
+ 1655      43C5646E 
+ 1656 0ee0 9F72EECF 		.ascii	"\237r\356\317?\344\"\360\305\317\3501i\306\310KO\251"
+ 1656      3FE422F0 
+ 1656      C5CFE831 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 54
+
+
+ 1656      69C6C84B 
+ 1656      4FA9
+ 1657 0ef2 FA7B9E3C 		.ascii	"\372{\236<\352\334`\217\012\273U\301ki\265F\313{U\275"
+ 1657      EADC608F 
+ 1657      0ABB55C1 
+ 1657      6B69B546 
+ 1657      CB7B55BD 
+ 1658 0f06 FB7E9C72 		.ascii	"\373~\234r\025%mA\233\341S\315<\311\321\213\351\231"
+ 1658      15256D41 
+ 1658      9BE153CD 
+ 1658      3CC9D18B 
+ 1658      E999
+ 1659 0f18 A4F854A6 		.ascii	"\244\370T\246\246\263\344*R\\\235@v:\240\302~\025KZ"
+ 1659      A6B3E42A 
+ 1659      525C9D40 
+ 1659      763AA0C2 
+ 1659      7E154B5A 
+ 1660 0f2c 0BF18EEE 		.ascii	"\013\361\216\356\307\371\333\311I\327\355\250\353V\241"
+ 1660      C7F9DBC9 
+ 1660      49D7EDA8 
+ 1660      EB56A1
+ 1661 0f3b EB8EE7E8 		.ascii	"\353\216\347\350z\314\242\353\347\272\256\371\001N\335"
+ 1661      7ACCA2EB 
+ 1661      E7BAAEF9 
+ 1661      014EDD
+ 1662 0f4a 782B504C 		.ascii	"x+PL\205\243\361U\2260e\225\372\234\004\020U\252\363"
+ 1662      85A3F155 
+ 1662      96306595 
+ 1662      FA9C0410 
+ 1662      55AAF3
+ 1663 0f5d DABA22B3 		.ascii	"\332\272\"\263\327\253\304*%\216\351\323\244O\307\022"
+ 1663      D7ABC42A 
+ 1663      258EE9D3 
+ 1663      A44FC712 
+ 1664 0f6d 48461BB6 		.ascii	"HF\033\266\236\015\311\342,o\003\207UA\327\305\220W"
+ 1664      9E0DC9E2 
+ 1664      2C6F0387 
+ 1664      5541D7C5 
+ 1664      9057
+ 1665 0f7f D41BDAA0 		.ascii	"\324\033\332\240\2378\264\313\235z\223\341\362\005\244"
+ 1665      9F38B4CB 
+ 1665      9D7A93E1 
+ 1665      F205A4
+ 1666 0f8e 1FEEDB29 		.ascii	"\037\356\333)\365\311\014f\366\340^\245\246\263\353"
+ 1666      F5C90C66 
+ 1666      F6E05EA5 
+ 1666      A6B3EB
+ 1667 0f9d FC13BE   		.ascii	"\374\023\276"
+ 1668 0fa0 AB6B413B 		.ascii	"\253kA;\3765\313<:\317\350rP;\"Z\313\372z\361\036\330"
+ 1668      FE35CB3C 
+ 1668      3ACFE872 
+ 1668      503B225A 
+ 1668      CBFA7AF1 
+ 1669 0fb6 55EE0BC8 		.ascii	"U\356\013\310\362E\3343\250\372\311\014\374\351\242"
+ 1669      F245DC33 
+ 1669      A8FAC90C 
+ 1669      FCE9A2
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 55
+
+
+ 1670 0fc5 D6411094 		.ascii	"\326A\020\224\253AeO\350(\030\336\205\213l\267\252\305"
+ 1670      AB41654F 
+ 1670      E82818DE 
+ 1670      858B6CB7 
+ 1670      AAC5
+ 1671 0fd7 5FEFE622 		.ascii	"_\357\346\"l\343\026\276\\\264\303|:\227\207\212\003"
+ 1671      6CE316BE 
+ 1671      5CB4C37C 
+ 1671      3A97878A 
+ 1671      03
+ 1672 0fe8 A0D6C5A1 		.ascii	"\240\326\305\241\331\221\244\217<\001\316\002\001x\267"
+ 1672      D991A48F 
+ 1672      3C01CE02 
+ 1672      0178B7
+ 1673 0ff7 EEE79372 		.ascii	"\356\347\223r\260E\0010\217"
+ 1673      B0450130 
+ 1673      8F
+ 1674 1000 C6182EA5 		.ascii	"\306\030.\245\204\323\207\3708N\331\214\3271\204\275"
+ 1674      84D387F8 
+ 1674      384ED98C 
+ 1674      D73184BD 
+ 1675 1010 20DFC63C 		.ascii	" \337\306<\211!Y\231\017\273\366\270b\364\371}\034\332"
+ 1675      89215999 
+ 1675      0FBBF6B8 
+ 1675      62F4F97D 
+ 1675      1CDA
+ 1676 1022 8B5DE9B0 		.ascii	"\213]\351\260\263C\267\233=\370E,\306\241\0051hf\267"
+ 1676      B343B79B 
+ 1676      3DF8452C 
+ 1676      C6A10531 
+ 1676      6866B7
+ 1677 1035 9B41E226 		.ascii	"\233A\342&'\270x\357\227\373Yt\215O\005d>\023w\207^"
+ 1677      27B878EF 
+ 1677      97FB5974 
+ 1677      8D4F0564 
+ 1677      3E137787 
+ 1678 104a 66873393 		.ascii	"f\2073\223\230W!\355L\243\365\013q\012\243\273\030F"
+ 1678      985721ED 
+ 1678      4CA3F50B 
+ 1678      710AA3BB 
+ 1678      1846
+ 1679 105c AB44183D 		.ascii	"\253D\030=\022\207\324\015r\311k\372\271\213\370=\234"
+ 1679      1287D40D 
+ 1679      72C96BFA 
+ 1679      B98BF83D 
+ 1679      9C
+ 1680 106d CCFEA45C 		.ascii	"\314\376\244\\o\025\261\301\235\007\262U\364u\012\254"
+ 1680      6F15B1C1 
+ 1680      9D07B255 
+ 1680      F4750AAC 
+ 1681 107d B6D6C08A 		.ascii	"\266\326\300\212\204= P\221WO'^\013+L^s\237\303\313"
+ 1681      843D2050 
+ 1681      91574F27 
+ 1681      5E0B2B4C 
+ 1681      5E739FC3 
+ 1682 1092 2923059F 		.ascii	")#\005\237\271\202O\257\006\241EKo\212\273\203\012\031"
+ 1682      B9824FAF 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 56
+
+
+ 1682      06A1454B 
+ 1682      6F8ABB83 
+ 1682      0A19
+ 1683 10a4 5AE7488F 		.ascii	"Z\347H\2177I\036wy5\366&\011\322\243\272>\216\030\365"
+ 1683      37491E77 
+ 1683      7935F626 
+ 1683      09D2A3BA 
+ 1683      3E8E18F5 
+ 1684 10b8 5C9C4146 		.ascii	"\\\234AF\014=\222\273\326\274\016\313\252\220\321}\026"
+ 1684      0C3D92BB 
+ 1684      D6BC0ECB 
+ 1684      AA90D17D 
+ 1684      16
+ 1685 10c9 9E93A366 		.ascii	"\236\223\243f\332\2370\323\276x_\021\257\237\224y\377"
+ 1685      DA9F30D3 
+ 1685      BE785F11 
+ 1685      AF9F9479 
+ 1685      FF
+ 1686 10da CF7CBF3F 		.ascii	"\317|\277?\313\357\245\373l|bp~\213\232(\336\"\263\233"
+ 1686      CBEFA5FB 
+ 1686      6C7C6270 
+ 1686      7E8B9A28 
+ 1686      DE22B39B 
+ 1687 10ee 728D48A6 		.ascii	"r\215H\246\206i\201\256\015\372p\017?\262\316a\205e"
+ 1687      866981AE 
+ 1687      0DFA700F 
+ 1687      3FB2CE61 
+ 1687      8565
+ 1688 1100 174DDB15 		.ascii	"\027M\333\025Vx\013ga\303\372\206\351\254\360\245\327"
+ 1688      56780B67 
+ 1688      61C3FA86 
+ 1688      E9ACF0A5 
+ 1688      D7
+ 1689 1111 7E307375 		.ascii	"~0suS\205|/\3737\332\2343\265yp\3708\257\2377\265\011"
+ 1689      53857C2F 
+ 1689      FB37DA9C 
+ 1689      33B57970 
+ 1689      F838AF9F 
+ 1690 1128 F8336D1E 		.ascii	"\3703m\036\034.b\025\252,\352\364`9z?\307Ao\031i\021"
+ 1690      1C2E6215 
+ 1690      AA2CEAF4 
+ 1690      60397A3F 
+ 1690      C7416F19 
+ 1691 113e 214A7485 		.ascii	"!Jt\205l\273\002\341\232\016\305\351u\035\025\24778"
+ 1691      6CBB02E1 
+ 1691      9A0EC5E9 
+ 1691      751D15A7 
+ 1691      3738
+ 1692 1150 9CBC81AF 		.ascii	"\234\274\201\257Q\257\024&\247Q\226\211\227\237}\036"
+ 1692      51AF1426 
+ 1692      A7519689 
+ 1692      979F7D1E 
+ 1693 1160 F03B60F4 		.ascii	"\360;`\364\244\254\304\242\261\006\305\303\312\334."
+ 1693      A4ACC4A2 
+ 1693      B106C5C3 
+ 1693      CADC2E
+ 1694 116f 17AB0022 		.ascii	"\027\253\000\" +d\001\227U8\216\320\366\304\353\322"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 57
+
+
+ 1694      202B6401 
+ 1694      9755388E 
+ 1694      D0F6C4EB 
+ 1694      D2
+ 1695 1180 8F150B38 		.ascii	"\217\025\0138\244\256\201\"\267Q\344&\212\231\324k\364"
+ 1695      A4AE8122 
+ 1695      B751E426 
+ 1695      8A99D46B 
+ 1695      F4
+ 1696 1191 93A242A3 		.ascii	"\223\242B\243x\211h\324hW\236\015\201_\311h\241jC\232"
+ 1696      788968D4 
+ 1696      68579E0D 
+ 1696      815FC968 
+ 1696      A16A439A 
+ 1697 11a5 B04F2423 		.ascii	"\260O$#\343\242\320ds\355Y\333_'6\341X\256\336\"\357"
+ 1697      E3A2D064 
+ 1697      73ED59DB 
+ 1697      5F2736E1 
+ 1697      58AEDE22 
+ 1698 11ba 8756654C 		.ascii	"\207VeL\301\200\010\243\344\1773\234\254\333\307)\205"
+ 1698      C18008A3 
+ 1698      E47F339C 
+ 1698      ACDBC729 
+ 1698      85
+ 1699 11cb 1F5650A7 		.ascii	"\037VP\247F')\267\232\225\232\321~\012\217\370\213d"
+ 1699      462729B7 
+ 1699      9A959AD1 
+ 1699      7E0A8FF8 
+ 1699      8B64
+ 1700 11dd ABE4FBCE 		.ascii	"\253\344\373\316\203\342\2763\302\211\303\327\225*\235"
+ 1700      83E2BE33 
+ 1700      C289C3D7 
+ 1700      952A9D
+ 1701 11ec D39C00CF 		.ascii	"\323\234\000\317\220\213;\354\034'\362\276\017\367e"
+ 1701      908B3BEC 
+ 1701      1C27F2BE 
+ 1701      0FF765
+ 1702 11fb B434C837 		.ascii	"\2644\3107\375\205z\013\341hj%\007\013\027U\312Lt\252"
+ 1702      FD857A0B 
+ 1702      E1686A25 
+ 1702      070B1755 
+ 1702      CA4C74AA 
+ 1703 120f 28753018 		.ascii	"(u0\030n\252}R\263&\302\357j\304\276,}\027\367\300\344"
+ 1703      6EAA7D52 
+ 1703      B326C2EF 
+ 1703      6AC4BE2C 
+ 1703      7D17F7C0 
+ 1704 1224 1C4AC77E 		.ascii	"\034J\307~\333\256\314\3656\002\370\037\315\214+\245"
+ 1704      DBAECCF5 
+ 1704      3602F81F 
+ 1704      CD8C2BA5 
+ 1705 1234 96CF1CD8 		.ascii	"\226\317\034\330D\330A\226\032>n)y\250\012\2664\223"
+ 1705      44D84196 
+ 1705      1A3E6E29 
+ 1705      79A80AB6 
+ 1705      3493
+ 1706 1246 2759244F 		.ascii	"'Y$O\177'\266\333+\275\015\276\255\236\3137\360\031"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 58
+
+
+ 1706      7F27B6DB 
+ 1706      2BBD0DBE 
+ 1706      AD9ECB37 
+ 1706      F019
+ 1707 1258 BEB38170 		.ascii	"\276\263\201p\015\276\263\005\337H\303\020f\234\277"
+ 1707      0DBEB305 
+ 1707      DF48C310 
+ 1707      669CBF
+ 1708 1267 2D0EE04A 		.ascii	"-\016\340J/\243\015 \372\326\302.H^\365LLq\204\036\253"
+ 1708      2FA30D20 
+ 1708      FAD6C22E 
+ 1708      485EF54C 
+ 1708      4C71841E 
+ 1709 127c F481CB3A 		.ascii	"\364\201\313:9b\375J4f\334_5\343\3767#\356\327Z\342"
+ 1709      3962FD4A 
+ 1709      3466DC5F 
+ 1709      35E3FE37 
+ 1709      23EED75A 
+ 1710 1291 1E111AB2 		.ascii	"\036\021\032\262E^\310\303\222\004\307*E\022T\311\220"
+ 1710      455EC8C3 
+ 1710      9204C72A 
+ 1710      451254C9 
+ 1710      90
+ 1711 12a2 BF2C27BF 		.ascii	"\277,'\277Z\223`\255\330\253\262\222\223\340m2b\277"
+ 1711      5A9360AD 
+ 1711      D8ABB292 
+ 1711      93E06D32 
+ 1711      62BF
+ 1712 12b4 929C29A4 		.ascii	"\222\234)\244t\377\337\330K\003\234\302\347\004\206"
+ 1712      74FFDFD8 
+ 1712      4B039CC2 
+ 1712      E70486
+ 1713 12c3 CF0A113E 		.ascii	"\317\012\021>\247\214\3609\333h\327t\317\014\372\323"
+ 1713      A78CF039 
+ 1713      DB68D774 
+ 1713      CF0CFAD3 
+ 1714 12d3 B5365AAE 		.ascii	"\2656Z\256\225\365f\361:\337?\2557\265\211\024+\367"
+ 1714      95F566F1 
+ 1714      3ADF3FAD 
+ 1714      37B58914 
+ 1714      2BF7
+ 1715 12e5 F5EE288A 		.ascii	"\365\356(\212\267<\335\214=1\260\301\333\015]\214\016"
+ 1715      B73CDD8C 
+ 1715      3D31B0C1 
+ 1715      DB0D5D8C 
+ 1715      0E
+ 1716 12f6 E18A437D 		.ascii	"\341\212C}G\177\243\366\364\025G{\245|G-J\216vhi\264"
+ 1716      477FA3F6 
+ 1716      F415477B 
+ 1716      A57C472D 
+ 1716      4A8E7668 
+ 1717 130c 20B0D006 		.ascii	" \260\320\006\025@\020\306\273X\311\237nr\223\367\342"
+ 1717      154010C6 
+ 1717      BB58C99F 
+ 1717      6E7293F7 
+ 1717      E2
+ 1718 131d CB693ADD 		.ascii	"\313i:\3359\351K\372%U:\363\270\227L\342\004\320]w:"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 59
+
+
+ 1718      39E94BFA 
+ 1718      25553AF3 
+ 1718      B8974CE2 
+ 1718      04D05D77 
+ 1719 1332 F04EB426 		.ascii	"\360N\264&\276E\324V:}Ay\335H\203\276\215\026\227\207"
+ 1719      BE45D456 
+ 1719      3A7D4179 
+ 1719      DD4883BE 
+ 1719      8D169787 
+ 1720 1346 CFB49575 		.ascii	"\317\264\225ud\240\216(F\237`\252\004k\240w\311\302"
+ 1720      64A08E28 
+ 1720      469F60AA 
+ 1720      046BA077 
+ 1720      C9C2
+ 1721 1358 DBA2195E 		.ascii	"\333\242\031^\013\221\311\313\033\257\360\217\2371\370"
+ 1721      0B91C9CB 
+ 1721      1BAFF08F 
+ 1721      9F31F8
+ 1722 1367 13E23780 		.ascii	"\023\3427\200\370u\247\366\272\277X3|\325\221\367\303"
+ 1722      F875A7F6 
+ 1722      BABF5833 
+ 1722      7CD591F7 
+ 1722      C3
+ 1723 1378 B6097773 		.ascii	"\266\011ws.]\275y\305\031\026\371\211\363\363\000l;"
+ 1723      2E5DBD79 
+ 1723      C51916F9 
+ 1723      89F3F300 
+ 1723      6C3B
+ 1724 138a FB31DF21 		.ascii	"\3731\337!\330\221v,y\364\200$\305i\360\277>uh\321\275"
+ 1724      D891762C 
+ 1724      79F48024 
+ 1724      C569F0BF 
+ 1724      3E7568D1 
+ 1725 139f 4983E848 		.ascii	"I\203\350H\032\006(\010\355\336Tt4\203\212\267/2\337"
+ 1725      1A062808 
+ 1725      EDDE5474 
+ 1725      34838AB7 
+ 1725      2F32DF
+ 1726 13b2 78EF576A 		.ascii	"x\357Wj\342P\244\333\227\014\335\242\272\3413D\376E"
+ 1726      E250A4DB 
+ 1726      970CDDA2 
+ 1726      BAE13344 
+ 1726      FE45
+ 1727 13c4 35F03A2D 		.ascii	"5\360:-\275,\272\031\303\356\347\310\356/\313\036\363"
+ 1727      BD2CBA19 
+ 1727      C3EEE7C8 
+ 1727      EE2FCB1E 
+ 1727      F3
+ 1728 13d5 65643390 		.ascii	"ed3\220\266\317\200A%+j\365\257|\203\253\226\3572\357"
+ 1728      B6CF8041 
+ 1728      252B6AF5 
+ 1728      AF7C83AB 
+ 1728      96EF32EF 
+ 1729 13e9 C39E888D 		.ascii	"\303\236\210\215\227\316\247\376=\023,\015[\177n\330"
+ 1729      97CEA7FE 
+ 1729      3D132C0D 
+ 1729      5B7F6ED8 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 60
+
+
+ 1730 13f9 F81283EE 		.ascii	"\370\022\203\356J\333\3202\234U\005\004\221\3332\340"
+ 1730      4ADBD032 
+ 1730      9C550504 
+ 1730      91DB32E0 
+ 1731 1409 922A6E34 		.ascii	"\222*n4\020\320\216\221\332\032e\260\235yVG\377\221"
+ 1731      10D08E91 
+ 1731      DA1A65B0 
+ 1731      9D795647 
+ 1731      FF91
+ 1732 141b 7AD985FB 		.ascii	"z\331\205\373Tn\2047\"\277!0Kv\335C\326\226\327\231"
+ 1732      546E8437 
+ 1732      22BF2130 
+ 1732      4B76DD43 
+ 1732      D696D799 
+ 1733 142f DFE1EA2B 		.ascii	"\337\341\352+\275\3457\262\366\215~P\233\2559}P\353"
+ 1733      BDE537B2 
+ 1733      F68D7E50 
+ 1733      9BAD397D 
+ 1733      50EB
+ 1734 1441 E0FC19AD 		.ascii	"\340\374\031\255\275\323g\264dM|F\343\036\027e]D\211"
+ 1734      BDD367B4 
+ 1734      644D7C46 
+ 1734      E31E1765 
+ 1734      5D4489
+ 1735 1454 225BDCD3 		.ascii	"\"[\334\323\014\220\237\330:\350\237\3302A~cKo!\256"
+ 1735      0C909FD8 
+ 1735      3AE89FD8 
+ 1735      32417E63 
+ 1735      4B6F21AE 
+ 1736 1468 22E803C3 		.ascii	"\"\350\003\303\342\206\337\330\026\213\354Yx\322\333"
+ 1736      E286DFD8 
+ 1736      168BEC59 
+ 1736      78D2DB
+ 1737 1477 445AC259 		.ascii	"DZ\302Y%\233\323\012\206\260\246C\245\355\251_\377\206"
+ 1737      259BD30A 
+ 1737      86B0A643 
+ 1737      A5EDA95F 
+ 1737      FF86
+ 1738 1489 64184CFE 		.ascii	"d\030L\376\351\037\255\220\004C\236\256\270*>E\3443"
+ 1738      E91FAD90 
+ 1738      04439EAE 
+ 1738      B82A3E45 
+ 1738      E433
+ 1739 149b 83C1D5CB 		.ascii	"\203\301\325\313\333\321o\264J\014\206\344\026\306\326"
+ 1739      DBD16FB4 
+ 1739      4A0C86E4 
+ 1739      16C6D6
+ 1740 14aa C13ADA9F 		.ascii	"\301:\332\237\211F\021\321b\030\222\\\350\"\034;,?\365"
+ 1740      894611D1 
+ 1740      6218925C 
+ 1740      E8221C3B 
+ 1740      2C3FF5
+ 1741 14bd EC75853E 		.ascii	"\354u\205>\373\202\371\001w\264\221\243\257\360\214"
+ 1741      FB82F901 
+ 1741      77B491A3 
+ 1741      AFF08C
+ 1742 14cc 84C907A3 		.ascii	"\204\311\007\243X|#\244_r\322\270\330\317:i\230\277"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 61
+
+
+ 1742      587C23A4 
+ 1742      5F72D2B8 
+ 1742      D8CF3A69 
+ 1742      98BF
+ 1743 14de 63A3E69F 		.ascii	"c\243\346\237\353l\376N\316\346\357\350d\376y\232\323"
+ 1743      EB6CFE4E 
+ 1743      CEE6EFE8 
+ 1743      64FE799A 
+ 1743      D3
+ 1744 14ef 57CC4EBA 		.ascii	"W\314N\272\211\207H\013g[,\234ER[-\234%\004[~R\277\337"
+ 1744      8987480B 
+ 1744      675B2C9C 
+ 1744      45525B2D 
+ 1744      9C25045B 
+ 1745 1507 C422964D 		.ascii	"\304\"\226M\372H\034R.[\224\235\030\232\311\360\177"
+ 1745      FA481C52 
+ 1745      2E5B949D 
+ 1745      189AC9F0 
+ 1745      7F
+ 1746 1518 05536128 		.ascii	"\005Sa(Y*\033F7e\263\216vh\353\200AY0\272\252\360\006"
+ 1746      592A1B46 
+ 1746      3765B38E 
+ 1746      7668EB80 
+ 1746      415930BA 
+ 1747 152f 67449A36 		.ascii	"gD\2326\372P\315\222\013\342\316rx\306\234S\373\315"
+ 1747      FA50CD92 
+ 1747      0BE2CE72 
+ 1747      78C69C53 
+ 1747      FBCD
+ 1748 1541 1E79D349 		.ascii	"\036y\323I\3433o\347F\215\361\225\2631\2728\033\243"
+ 1748      E3336FE7 
+ 1748      468DF195 
+ 1748      B331BA38 
+ 1748      1BA3
+ 1749 1553 B3933152 		.ascii	"\263\2231R\033\304\342\012\374\213\264\306\342\012\363"
+ 1749      1BC4E20A 
+ 1749      FC8BB4C6 
+ 1749      E20AF3
+ 1750 1562 0DAAAB25 		.ascii	"\015\252\253%!#9!u\023v\321M\330U\232\260\250\205\371"
+ 1750      21233921 
+ 1750      751376D1 
+ 1750      4DD8559A 
+ 1750      B0A885F9 
+ 1751 1576 217815FE 		.ascii	"!x\025\376\215\261\232p\225\010\277\027\215\022\202"
+ 1751      8DB19A70 
+ 1751      9508BF17 
+ 1751      8D1282
+ 1752 1585 E6F98EDD 		.ascii	"\346\371\216\335?\214\343/\012\237\327sd\014S(\342\242"
+ 1752      3F8CE32F 
+ 1752      0A9FD773 
+ 1752      640C5328 
+ 1752      E2A2
+ 1753 1597 AA97FF2F 		.ascii	"\252\227\377/[\354{\266\355\260\337\012\251\330DQ\221"
+ 1753      5BEC7BB6 
+ 1753      EDB0DF0A 
+ 1753      A9D84451 
+ 1753      91
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 62
+
+
+ 1754 15a8 2B608F0C 		.ascii	"+`\217\014\323\255\207a\030\305\357\2261(\246\335\306"
+ 1754      D3AD8761 
+ 1754      18C5EF96 
+ 1754      3128A6DD 
+ 1754      C6
+ 1755 15b9 FFE78062 		.ascii	"\377\347\200b\2136\035c\204\336\367`\304\336P#\364\""
+ 1755      8B361D63 
+ 1755      84DEF760 
+ 1755      C4DE5023 
+ 1755      F422
+ 1756 15cb 45737F72 		.ascii	"Es\177r\201y\235\213\320\034\302\261fN\016\310\367\272"
+ 1756      81799D8B 
+ 1756      D01CC2B1 
+ 1756      664E0EC8 
+ 1756      F7BA
+ 1757 15dd 1CC3B391 		.ascii	"\034\303\263\221\016\355;x\221$_\001\303s7\011Q\207"
+ 1757      0EED3B78 
+ 1757      91245F01 
+ 1757      C3733709 
+ 1757      5187
+ 1758 15ef 3AB4F502 		.ascii	":\264\365\002\230\003\303S7\335\026\2314\306\241\025"
+ 1758      9803C353 
+ 1758      37DD1699 
+ 1758      34C6A115 
+ 1759 15ff 08E82A18 		.ascii	"\010\350*\030^\260\351\262\356\362W\330\022\344\361"
+ 1759      5EB0E9B2 
+ 1759      EEF257D8 
+ 1759      12E4F1
+ 1760 160e 11CE1EDF 		.ascii	"\021\316\036\337nz\274[\243\036\317p\366xwg\217ws\362"
+ 1760      6E7ABC5B 
+ 1760      A31ECF70 
+ 1760      F6787767 
+ 1760      8F7773F2 
+ 1761 1622 F842E7F0 		.ascii	"\370B\347\360\357\3360\374K,\276[\216\177\257Z}\267"
+ 1761      EFDE30FC 
+ 1761      4B2CBE5B 
+ 1761      8E7FAF5A 
+ 1761      7DB7
+ 1762 1634 5CBFE560 		.ascii	"\\\277\345`\301\350B\024a\271\3707RZ\251\214\001\354"
+ 1762      C1E84214 
+ 1762      61B9F837 
+ 1762      525AA98C 
+ 1762      01EC
+ 1763 1646 E0978417 		.ascii	"\340\227\204\027\314C\202\030\274j\370a$s\332\252\233"
+ 1763      CC438218 
+ 1763      BC6AF861 
+ 1763      2473DAAA 
+ 1763      9B
+ 1764 1657 5C4F9891 		.ascii	"\\O\230\221\322\252#\211\315\210\324\315\357\223\303"
+ 1764      D2AA2389 
+ 1764      CD88D4CD 
+ 1764      EF93C3
+ 1765 1666 5E215FBF 		.ascii	"^!_\277J\273\217x*\254\206\016}\205]\375\362-\371\037"
+ 1765      4ABB8F78 
+ 1765      2AAC860E 
+ 1765      7D855DFD 
+ 1765      F22DF91F 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 63
+
+
+ 1766 167a 52AA6157 		.ascii	"R\252aWU\023:\354v\301\300Nx\364*\377\244M\035\332g"
+ 1766      55133AEC 
+ 1766      76C1C04E 
+ 1766      78F42AFF 
+ 1766      A44D1DDA 
+ 1767 168f CCEF3387 		.ascii	"\314\3573\207\006.\370\344\336\004\207\330\0268\370"
+ 1767      062EF8E4 
+ 1767      DE0487D8 
+ 1767      1638F8
+ 1768 169e B6C621B1 		.ascii	"\266\306!\261=\335\376\0033\231E\241\250\014\0361\350"
+ 1768      3DDDFE03 
+ 1768      339945A1 
+ 1768      A80C1E31 
+ 1768      E8
+ 1769 16af 9D98C9B1 		.ascii	"\235\230\311\261\343b\377\222\370\301\204\330\251}\302"
+ 1769      E362FF92 
+ 1769      F8C184D8 
+ 1769      A97DC2
+ 1770 16be 3F0C7F67 		.ascii	"?\014\177g<=OM\350\023\036\02165!l\362\330\270\260\270"
+ 1770      3C3D4F4D 
+ 1770      E8131E11 
+ 1770      3635216C 
+ 1770      F2D8B8B0 
+ 1771 16d3 D8716109 		.ascii	"\330qa\011\211\323'\216\235\222\0206~\362\264\351\261"
+ 1771      89D3278E 
+ 1771      9D921036 
+ 1771      7EF2B4E9 
+ 1771      B1
+ 1772 16e4 F1899342 		.ascii	"\361\211\223B\307+\032\316\003\314\347\320\210\210q"
+ 1772      C72B1ACE 
+ 1772      03CCE7D0 
+ 1772      888871
+ 1773 16f3 7DC78FEF 		.ascii	"}\307\217\3577N\321&MIT\307N\363\373 >!\366o\361\023"
+ 1773      374ED126 
+ 1773      4D4954C7 
+ 1773      4EF3FB20 
+ 1773      3E21F66F 
+ 1774 1709 27BC3B7E 		.ascii	"'\274;~\352\224)S\343]\023\247L\033\367\301$\210s\233"
+ 1774      EA942953 
+ 1774      E35D13A7 
+ 1774      4C1BF7C1 
+ 1774      2488739B 
+ 1775 171d 30F55D5A 		.ascii	"0\365]Z\361\214\2338)\361\335\261q8u\213Mx7nj\374\337"
+ 1775      F18C9B38 
+ 1775      29F1DDB1 
+ 1775      7138758B 
+ 1775      4D78376E 
+ 1776 1734 20DEE5A3 		.ascii	" \336\345\243\330\011\211\223=\246M\2378>6!vj<\304\272"
+ 1776      D8098993 
+ 1776      3DA64D9F 
+ 1776      383E3621 
+ 1776      766A3CC4 
+ 1777 1749 4E8A8D8B 		.ascii	"N\212\215\213\2338\035\306C\002L\323\342?\230\3422}"
+ 1777      9B381DC6 
+ 1777      43024CD3 
+ 1777      E23F98E2 
+ 1777      327D
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 64
+
+
+ 1778 175b EC84D819 		.ascii	"\354\204\330\031n\335\343?\210\213\013V\376\037\202"
+ 1778      6EDDE33F 
+ 1778      888B0B56 
+ 1778      FE1F82
+ 1779 176a A30647   		.ascii	"\243\006G"
+ 1780              		.text
+ 1781              		.section	.gnu.lto_chprintf.369.18ae6f3c,"e",%progbits
+ 1782 0000 789C6590 		.ascii	"x\234e\220\317k\023Q\020\307\347\273\263\3156U\364\""
+ 1782      CF6B1351 
+ 1782      10C7E7BB 
+ 1782      B3CD3655 
+ 1782      F422
+ 1783 0012 E41A0415 		.ascii	"\344\032\004\025=tCc\017\212\240\020\377\000\301\213"
+ 1783      3D744363 
+ 1783      0F8AA010 
+ 1783      FF00C18B 
+ 1784 0022 6044B2DB 		.ascii	"`D\262\333\204,$M\315\256\005O}\011\261\207^\232\326"
+ 1784      842C244D 
+ 1784      CDAE054F 
+ 1784      7D09B187 
+ 1784      5E9AD6
+ 1785 0035 AB8612F6 		.ascii	"\253\206\022\366\346\301K\245\361W\023<y\360P\304\037"
+ 1785      E6C14BA5 
+ 1785      F157133C 
+ 1785      79F050C4 
+ 1785      1F
+ 1786 0046 0852C193 		.ascii	"\010R\301\223X\324\340\301\012\026\352\274M\240V\017"
+ 1786      58D4E0C1 
+ 1786      0A16EABC 
+ 1786      4DA0560F 
+ 1787 0056 FBDE9BD9 		.ascii	"\373\336\233\331\317|g\346\373\023D\323Dt\\>0ayi\301"
+ 1787      CF7C67E6 
+ 1787      FB1344D3 
+ 1787      44745C3E 
+ 1787      30617969 
+ 1788 006b 20A5D405 		.ascii	" \245\324\005\313@mia{s\325D\027Q\0024g`\016w\370.c"
+ 1788      CB406D69 
+ 1788      617B73D5 
+ 1788      44175102 
+ 1788      3467600E 
+ 1789 0083 994381CD 		.ascii	"\231C\201\315\341\013H\236\024\344W\343\373\233\316"
+ 1789      E10B489E 
+ 1789      14E457E3 
+ 1789      FB9BCE
+ 1790 0092 A59E19B2 		.ascii	"\245\236\031\262A-\371\375\020X\025y\"\301\370<\235"
+ 1790      412DF9FD 
+ 1790      10581579 
+ 1790      22C1F83C 
+ 1790      9D
+ 1791 00a3 E829B5F1 		.ascii	"\350)\265\361\262\243T\234Bf\254\341/F\022\231\246\245"
+ 1791      B2A3549C 
+ 1791      4266ACE1 
+ 1791      2F461299 
+ 1791      A6A5
+ 1792 00b5 B92B03EE 		.ascii	"\271+\003\356\353\2203\361h?gf\356Y\003\305\254>\217"
+ 1792      EB9033F1 
+ 1792      683F6766 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 65
+
+
+ 1792      EE5903C5 
+ 1792      AC3E8F
+ 1793 00c8 49DFFEE7 		.ascii	"I\337\376\347\255\033/\224n\213'\330\3278\263\026i\226"
+ 1793      AD1B2F94 
+ 1793      6E8B27D8 
+ 1793      D738B316 
+ 1793      6996
+ 1794 00da 22B229E4 		.ascii	"\"\262)\344\307\255\371C\315\332h\310#x\366\017z\337"
+ 1794      C7ADF943 
+ 1794      CDDA68C8 
+ 1794      2378F60F 
+ 1794      7ADF
+ 1795 00ec 8A11D681 		.ascii	"\212\021\326\201\247\320\303k;\210\214A\342\301\253"
+ 1795      A7D0C36B 
+ 1795      3B888C41 
+ 1795      E2C1AB
+ 1796 00fb 915E7D67 		.ascii	"\221^}gwQ\251\355k\273;\277\307\342\262q\007&\360\030"
+ 1796      7751A9ED 
+ 1796      6BBB3BBF 
+ 1796      C7E2B271 
+ 1796      0726F018 
+ 1797 010f 522305B4 		.ascii	"R#\005\264\310\3324eB\365\210\232l\014\202\232\004_"
+ 1797      C8DA3465 
+ 1797      42F5889A 
+ 1797      6C0C829A 
+ 1797      045F
+ 1798 0121 A03E75DF 		.ascii	"\240>u\337!\2727\022\321\365:A}\334NR\003F\310\261\026"
+ 1798      21BA3712 
+ 1798      D1F53A41 
+ 1798      7DDC4E52 
+ 1798      0346C8B1 
+ 1799 0136 4B7D435B 		.ascii	"K}C[,cY\272a\0278\025\362h\304\276\325\354\374\312\325"
+ 1799      2C6359BA 
+ 1799      61173815 
+ 1799      F268C4BE 
+ 1799      D5ECFCCA 
+ 1800 014b 36C7223C 		.ascii	"6\307\"<\336\022s\251\315\334\026k\326\021\362\230`"
+ 1800      DE1273A9 
+ 1800      CDDC166B 
+ 1800      D611F298 
+ 1800      60
+ 1801 015c F5A40C21 		.ascii	"\365\244\014!DT\361^\232\365\321\030\312\037h1\377'"
+ 1801      4454F15E 
+ 1801      9AF5D118 
+ 1801      CA1F6831 
+ 1801      FF27
+ 1802 016e 1FF2C108 		.ascii	"\037\362\301\010\375\220\240ox\276\011\311\2369*\236"
+ 1802      FD90A06F 
+ 1802      78BE09C9 
+ 1802      9E392A9E 
+ 1803 017e D00FD457 		.ascii	"\320\017\324W&\265\020\351\225\260\267\022\321\271\213"
+ 1803      26B510E9 
+ 1803      95B0B712 
+ 1803      D1B98B
+ 1804 018d 67B399A2 		.ascii	"g\263\231\242\347x\227\203\233S^e\"5\233\312\272:\256"
+ 1804      E7789783 
+ 1804      9B535E65 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 66
+
+
+ 1804      22359BCA 
+ 1804      BA3AAE
+ 1805 01a0 F813A9B4 		.ascii	"\370\023\251\264]\361\355b\256d\227<\307\366\203j>W"
+ 1805      5DF1ED62 
+ 1805      AE64973C 
+ 1805      C7F6836A 
+ 1805      3E57
+ 1806 01b2 F66DB738 		.ascii	"\366m\2678S\365\246\203\302\270K,\357#{\361x:\355\234"
+ 1806      53F5A683 
+ 1806      C2B84B2C 
+ 1806      EF237BF1 
+ 1806      783AED9C 
+ 1807 01c6 76DD4987 		.ascii	"v\335I\207\270P\016\016\027*\325r.\010\362S\327\235"
+ 1807      B8500E0E 
+ 1807      172AD572 
+ 1807      2E08F253 
+ 1807      D79D
+ 1808 01d8 5B41DE37 		.ascii	"[A\3367r3\177\000\011B\303\010"
+ 1808      72337F00 
+ 1808      0942C308 
+ 1809              		.text
+ 1810              		.section	.gnu.lto_chsnprintf.370.18ae6f3c,"e",%progbits
+ 1811 0000 789C6591 		.ascii	"x\234e\221\277k\023a\030\307\237\357=\227K\177\250\223"
+ 1811      BF6B1361 
+ 1811      18C79FEF 
+ 1811      3D974B7F 
+ 1811      A893
+ 1812 0012 53A62058 		.ascii	"S\246 X\321\241\027\032;T\004\205\370\007\010.\016u"
+ 1812      D1A1171A 
+ 1812      3B540485 
+ 1812      F807082E 
+ 1812      0E75
+ 1813 0024 48624AAE 		.ascii	"HbJ\256\244\246&\261\203K\337\204\250\320\245i]%\224"
+ 1813      A4A626B1 
+ 1813      834BDF84 
+ 1813      A8D0A569 
+ 1813      5D2594
+ 1814 0037 70ABED52 		.ascii	"p\253\355R1\376\250^\235\244\2238TPq\020DP+\261\010"
+ 1814      31FEA85E 
+ 1814      9DA49338 
+ 1814      54507110 
+ 1814      44502BB1 
+ 1815 004c 7508DAE7 		.ascii	"u\010\332\347}/P\243\303\335{\317\367>\317\257\357;"
+ 1815      7D2F50A3 
+ 1815      C3DD7BCF 
+ 1815      F73ECFAF 
+ 1815      EF3B
+ 1816 005e 62114D13 		.ascii	"b\021M\023\321\210<`\302\362\322\202EJ\251\363Q\013"
+ 1816      D1883C60 
+ 1816      C2F2D282 
+ 1816      454AA9F3 
+ 1816      510B
+ 1817 0070 D5A585BD 		.ascii	"\325\245\205\275\257\35366a\004\320\274\205y\334\345"
+ 1817      AFEB3636 
+ 1817      6104D0BC 
+ 1817      8579DCE5 
+ 1818 0080 7B8C65F6 		.ascii	"{\214e\366\005\266{_@\374\244 \277\352\333\333\355\213"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 67
+
+
+ 1818      05B67B5F 
+ 1818      40FCA420 
+ 1818      BFEADBDB 
+ 1818      ED8B
+ 1819 0092 81EDB345 		.ascii	"\201\355\263EM\371\375\000X\207\324%\301\370\034\235"
+ 1819      4DF9FD00 
+ 1819      5887D425 
+ 1819      C1F81C9D 
+ 1820 00a2 08947AB5 		.ascii	"\010\224z\265\332Vj\220|f<\304_\214\010\251\015Gs\227"
+ 1820      DA566A90 
+ 1820      7C663CC4 
+ 1820      5F8C08A9 
+ 1820      0D477397 
+ 1821 00b6 436EABC7 		.ascii	"Cn\253\307\331x\324\317\331\251-\303]\011\271o=.\202"
+ 1821      D978D4CF 
+ 1821      D9A92DC3 
+ 1821      5D09B96F 
+ 1821      3D2E82
+ 1822 00c9 27FD5C24 		.ascii	"'\375\\$\365\306\011;\247\365\373\270\314\327Y\335\271"
+ 1822      F5C6093B 
+ 1822      A7F5FBB8 
+ 1822      CCD759DD 
+ 1822      B9
+ 1823 00da FE52E9F1 		.ascii	"\376R\351\361\260\201\276\001S?L\315\274!\033B\336\337"
+ 1823      B081BE01 
+ 1823      533F4CCD 
+ 1823      BC211B42 
+ 1823      DEDF
+ 1824 00ec B97DA451 		.ascii	"\271}\244Q\035\360\331\301\363\177\320O\216C\010\200"
+ 1824      1DF0D9C1 
+ 1824      F37FD04F 
+ 1824      8E430880 
+ 1825 00fc 67D04B6A 		.ascii	"g\320Kj\333\210\254PX{\035\011j\335?\213J}\236\376\335"
+ 1825      DB88AC50 
+ 1825      587B1D09 
+ 1825      6ADD3F8B 
+ 1825      4A7D9EFE 
+ 1826 0111 5D1B1E12 		.ascii	"]\033\036\022g\332\260\201\307\210\000O\021%\235E\213"
+ 1826      67DAB081 
+ 1826      C788004F 
+ 1826      11259D45 
+ 1826      8B
+ 1827 0122 AC1D5636 		.ascii	"\254\035V6T@\324`+\014\252\022|\201\372\370\356-\314"
+ 1827      5440D460 
+ 1827      2B0CAA12 
+ 1827      7C81FAF8 
+ 1827      EE2DCC
+ 1828 0135 F93E668E 		.ascii	"\371>f\216\335\030up+NuX>G\233,\371u}\0372\333\200\356"
+ 1828      DD187570 
+ 1828      2B4E7558 
+ 1828      3E479B2C 
+ 1828      F9757D1F 
+ 1829 014d BA099CF2 		.ascii	"\272\011\234\362y\320\260?5{ge\242\305Q\203\0175\345"
+ 1829      79D0B03F 
+ 1829      357B6765 
+ 1829      A2C55183 
+ 1829      0F35E5
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 68
+
+
+ 1830 0160 26A8C5DC 		.ascii	"&\250\305\334b\273%\026\005\360yX\310Z\\\346\020\310"
+ 1830      62BB2516 
+ 1830      05F07958 
+ 1830      C85A5CE6 
+ 1830      10C8
+ 1831 0172 24ED49BF 		.ascii	"$\355I\277\016\352\275\016\207\232\314\377u\360\371"
+ 1831      0EEABD0E 
+ 1831      879ACCFF 
+ 1831      75F0F9
+ 1832 0181 B041BB31 		.ascii	"\260A\2731\372\216\027\037 \352\3041\361\206vQ[\031"
+ 1832      FA8E171F 
+ 1832      20EAC431 
+ 1832      F1867651 
+ 1832      5B19
+ 1833 0193 D785486F 		.ascii	"\327\205Ho\205\203\255\210\316^83\231\312{\031\357R"
+ 1833      8583AD88 
+ 1833      CE5E3833 
+ 1833      99CA7B19 
+ 1833      EF52
+ 1834 01a5 E5C655AF 		.ascii	"\345\306U\2578\226\230KLfu\\,\217%\222n\261\354\346"
+ 1834      3896984B 
+ 1834      4C66755C 
+ 1834      2C8F2592 
+ 1834      6EB1ECE6 
+ 1835 01b9 D305B7E0 		.ascii	"\323\005\267\340e\334r\245\224K\317\224\335l~\266\344"
+ 1835      65DC72A5 
+ 1835      944BCF94 
+ 1835      DD6C7EB6 
+ 1835      E4
+ 1836 01ca 5DAB4C8D 		.ascii	"]\253L\215f\211E;z\020\217&\223\231\323\331\354x\206"
+ 1836      6689453B 
+ 1836      7A108F26 
+ 1836      9399D3D9 
+ 1836      EC7886
+ 1837 01dd ECB27733 		.ascii	"\354\262w3\307S3\025\247\224\253\314\245\013Vzv\037"
+ 1837      C7533315 
+ 1837      A794ABCC 
+ 1837      A50B567A 
+ 1837      761F
+ 1838 01ef B98DCDE8 		.ascii	"\271\215\315\350"
+ 1839              		.text
+ 1840              		.section	.gnu.lto_chvsnprintf.371.18ae6f3c,"e",%progbits
+ 1841 0000 789C5D92 		.ascii	"x\234]\222MHTQ\024\307\317\377\336\367\236_\223\323"
+ 1841      4D485451 
+ 1841      14C7CFFF 
+ 1841      DEF79E5F 
+ 1841      93D3
+ 1842 0012 C2558148 		.ascii	"\302U\201H\020\022\204#Y\013#H\230V\255\2026-\012\031"
+ 1842      10128423 
+ 1842      590B2348 
+ 1842      9856AD82 
+ 1842      362D0A19 
+ 1843 0026 47C52175 		.ascii	"G\305!u\314\031\023\212\360\3715\226Q9\026E`\"\303\024"
+ 1843      CC19138A 
+ 1843      F0F93596 
+ 1843      51391645 
+ 1843      6022C314 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 69
+
+
+ 1844 003a 6D220823 		.ascii	"m\"\010#3\315\311\217\262\242\222\2426\222H\213\320"
+ 1844      33CDC98F 
+ 1844      B2A292A2 
+ 1844      3692488B 
+ 1844      D0
+ 1845 004b 28B33649 		.ascii	"(\2636I\224v\356}\323\3248\360\346\276s\357\357\234"
+ 1845      9476EE7D 
+ 1845      D3D438F0 
+ 1845      E6BE73EF 
+ 1845      EF9C
+ 1846 005d FB3FFF77 		.ascii	"\373?\377w\014\203\350\024\021\325\360\203\014Bo\264"
+ 1846      0C83E814 
+ 1846      11D5F083 
+ 1846      0C426FB4 
+ 1847 006d 5B906DDB 		.ascii	"[\220m\333e\031B\264G\317\012<\005G\005FG4W\257\022"
+ 1847      651942B4 
+ 1847      47CF0A3C 
+ 1847      05470546 
+ 1847      473457AF 
+ 1848 0082 97A2D9FA 		.ascii	"\227\242\331\372\334\020\235\321\034\275\027I\236\231"
+ 1848      DC109DD1 
+ 1848      1CBD1749 
+ 1848      9E99
+ 1849 0090 B89CCAB6 		.ascii	"\270\234\312\266\320\032\355\376\361s\320p\012\224e"
+ 1849      D01AEDFE 
+ 1849      F173D070 
+ 1849      0A9465
+ 1850 009f 805A8434 		.ascii	"\200Z\2044L\013-\270(\373$ze\\\022\214\344\033P\260"
+ 1850      4C0B2DB8 
+ 1850      28FB247A 
+ 1850      655C128C 
+ 1850      E41B50B0 
+ 1851 00b3 8DB195C9 		.ascii	"\215\261\225\311\325wC\007\022F\\\012\352\347\343\273"
+ 1851      D5774307 
+ 1851      12465C0A 
+ 1851      EAE7E3BB 
+ 1852 00c3 C0205819 		.ascii	"\300 X\0311&\367Ra\302\266gn\017\331v\026\305\245\304"
+ 1852      3126F752 
+ 1852      61C2B667 
+ 1852      6E0FD976 
+ 1852      16C5A5C4 
+ 1853 00d7 3DFCC7F0 		.ascii	"=\374\307\360\206\367\276\251\270C\016\367<\311\031"
+ 1853      86F7BEA9 
+ 1853      B8430EF7 
+ 1853      3CC919
+ 1854 00e6 B89FCE19 		.ascii	"\270\237\316\031\336\307\232;\342p_\222\234\211\007"
+ 1854      DEC79A3B 
+ 1854      E2705F92 
+ 1854      9C8907
+ 1855 00f5 E99CE97D 		.ascii	"\351\234\351}\2439\037\025\262\264\231\356\366.{#+\263"
+ 1855      A3391F15 
+ 1855      B2B499EE 
+ 1855      F62E7B23 
+ 1855      2BB3
+ 1856 0107 309ACE59 		.ascii	"0\232\316Y\336y\323QX\251\376\2672\274|\346\353\261"
+ 1856      DE79D351 
+ 1856      58A9FEB7 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 70
+
+
+ 1856      32BC7CE6 
+ 1856      EBB1
+ 1857 0119 695BB581 		.ascii	"i[\265\2011\2445\342\355\265\024yT\223|\375\362\351"
+ 1857      31A435E2 
+ 1857      EDB51479 
+ 1857      54937CFD 
+ 1857      F2E9
+ 1858 012b 5791DC9E 		.ascii	"W\221\334\236\326L\245\363\321:\264S\243\315)t\355\326"
+ 1858      D64CA5F3 
+ 1858      D13AB453 
+ 1858      A3CD2974 
+ 1858      EDD6
+ 1859 013d 7907CDC0 		.ascii	"y\007\315\300\304:t\305LY\232\227\262t\000*\377\244"
+ 1859      C43A74C5 
+ 1859      4C599A97 
+ 1859      B274002A 
+ 1859      FFA4
+ 1860 014f CEEFE1FC 		.ascii	"\316\357\341\374\325s\373uz&\236\350\364\307\300\224"
+ 1860      D573FB75 
+ 1860      7A269EE8 
+ 1860      F4C7C094 
+ 1861 015f 93FED9B4 		.ascii	"\223\376\331\264\010\323\300$0\016$\240\314W\003A$\325"
+ 1861      08D3C024 
+ 1861      300E24A0 
+ 1861      CC570341 
+ 1861      24D5
+ 1862 0171 B6DEBBFD 		.ascii	"\266\336\273\375\332L\330\277\326.\330\366\327\340\371"
+ 1862      DA4CD8BF 
+ 1862      D62ED8F6 
+ 1862      D7E0F9
+ 1863 0180 89B151B8 		.ascii	"\211\261Q\270\301\315g\011\345<\027\033\207\011\014"
+ 1863      C1CD6709 
+ 1863      E53C171B 
+ 1863      87090C
+ 1864 018f C3526F99 		.ascii	"\303Ro\231\300\020\262\201\021\270HU\243\013RM\205m"
+ 1864      C010B281 
+ 1864      11B84855 
+ 1864      A30B524D 
+ 1864      856D
+ 1865 01a1 C04E10F5 		.ascii	"\300N\020\365H\341\004\255\034|\202\375\341\367,\364"
+ 1865      48E104AD 
+ 1865      1C7C82FD 
+ 1865      E1F72CF4 
+ 1866 01b1 BABA592F 		.ascii	"\272\272Y/=\371z\351u\226\313\371\264\210\216\305\211"
+ 1866      3DF97AE9 
+ 1866      7596CBF9 
+ 1866      B4888EC5 
+ 1866      89
+ 1867 01c2 4D3169AA 		.ascii	"M1i\252\266\014\255XU\221\255\\E\244\252\\\235\023\264"
+ 1867      B60CAD58 
+ 1867      5591AD5C 
+ 1867      45A4AA5C 
+ 1867      9D13B4
+ 1868 01d5 84F6BEC8 		.ascii	"\204\366\276\310\013\021\223V\212^\343\237\233\201\266"
+ 1868      0B119356 
+ 1868      8A5EE39F 
+ 1868      9B81B6
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 71
+
+
+ 1869 01e4 0216C607 		.ascii	"\002\026\306\007:\325\370_@[\031\351#\251\313\334\235"
+ 1869      3AD5F85F 
+ 1869      405B19E9 
+ 1869      23A9CBDC 
+ 1869      9D
+ 1870 01f5 CBE291A5 		.ascii	"\313\342\221\245et\025P\007D\\f\367K\276\262CM1{\227"
+ 1870      65741550 
+ 1870      07445C66 
+ 1870      F74BBEB2 
+ 1870      434D317B 
+ 1871 020a A3FC78CA 		.ascii	"\243\374x\312t&'\340\031\342\322\245\323\206\225\332"
+ 1871      742627E0 
+ 1871      19E2D2A5 
+ 1871      D38695DA 
+ 1872 021a B601375B 		.ascii	"\266\0017[\250\321\205\355\016\353h\033\235S\025#\003"
+ 1872      A8D185ED 
+ 1872      0EEB681B 
+ 1872      9D531523 
+ 1872      03
+ 1873 022b A531E9D2 		.ascii	"\2451\351\322E7\364\363\204;EW^^\311I\2621\231\215\207"
+ 1873      4537F4F3 
+ 1873      843B4557 
+ 1873      5E5EC949 
+ 1873      B231998D 
+ 1874 0240 5C3257D5 		.ascii	"\\2W\325\232\037\355\317e\363b\311\013\336p\211%\264"
+ 1874      9A1FEDCF 
+ 1874      65F362C9 
+ 1874      0BDE7089 
+ 1874      25B4
+ 1875 0252 8D2CBA62 		.ascii	"\215,\272b\022\305\216\030\203\223\256\351/\305\026"
+ 1875      12C58E18 
+ 1875      8393AEE9 
+ 1875      2FC516
+ 1876 0261 CD2A8B18 		.ascii	"\315*\213\0307U\374\023\222{\225/\277]\007\213\024\037"
+ 1876      3755FC13 
+ 1876      927B952F 
+ 1876      BF5D078B 
+ 1876      141F
+ 1877 0273 BF81BB36 		.ascii	"\277\201\2736\323\015{\353\030v'2\305YBw\244\257\370"
+ 1877      D30D7BEB 
+ 1877      18762732 
+ 1877      C5594277 
+ 1877      A4AFF8
+ 1878 0286 BEF07784 		.ascii	"\276\360w\2048\276\241$\336t\305\245\233\031\274\006"
+ 1878      38BEA124 
+ 1878      DE74C5A5 
+ 1878      9B19BC06 
+ 1879 0296 A97D379C 		.ascii	"\251}7\234/`\245\177\307\367Z\342\370\034XV\351\026"
+ 1879      2F60A57F 
+ 1879      C7F75AE2 
+ 1879      F81C5856 
+ 1879      E916
+ 1880 02a8 9E33FACE 		.ascii	"\2363\372\316\226\354R\035\220\232\001\374\233\001\242"
+ 1880      96EC521D 
+ 1880      909A01FC 
+ 1880      9B01A2
+ 1881 02b7 3DFB761F 		.ascii	"=\373v\037\366\326\004*\002\007\303M\225\201\340\216"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 72
+
+
+ 1881      F6D6042A 
+ 1881      0207C34D 
+ 1881      9581E08E 
+ 1882 02c7 E2E3C587 		.ascii	"\342\343\305\207\375*\016\206v\024\227x\202!O\215\257"
+ 1882      FD2A0E86 
+ 1882      76149778 
+ 1882      82214F8D 
+ 1882      AF
+ 1883 02d8 D6531BA8 		.ascii	"\326S\033\250\360\204\302\215U\276\272\220\307_\323"
+ 1883      F084C28D 
+ 1883      55BEBA90 
+ 1883      C75FD3
+ 1884 02e7 D018A80F 		.ascii	"\320\030\250\017W\027\371I\362^\336\277\270\250\244"
+ 1884      5717F949 
+ 1884      F25EDEBF 
+ 1884      B8A8A4
+ 1885 02f6 A462A7DF 		.ascii	"\244b\247\337\277\253\202\214P\340D\225\254\256\013"
+ 1885      BFAB828C 
+ 1885      50E04495 
+ 1885      ACAE0B
+ 1886 0305 0B5F83D5 		.ascii	"\013_\203\325X\025>\356\253\315Q[\345\315\301\362\372"
+ 1886      58153EEE 
+ 1886      ABCD515B 
+ 1886      E5CDC1F2 
+ 1886      FA
+ 1887 0316 A65AC939 		.ascii	"\246Z\3119\242.\364\007\037\224|i"
+ 1887      A22EF407 
+ 1887      1F947C69 
+ 1888              		.text
+ 1889              		.section	.gnu.lto_.symbol_nodes.18ae6f3c,"e",%progbits
+ 1890 0000 789C758E 		.ascii	"x\234u\216\275j\002a\020E\347\316|\356\006\033[S\371"
+ 1890      BD6A0261 
+ 1890      1045E7CE 
+ 1890      7CEE061B 
+ 1890      5B53F9
+ 1891 0013 0A9679BB 		.ascii	"\012\226y\273\331\205X\330Hl-,\026\211Vid\013m\204\200"
+ 1891      D98558D8 
+ 1891      486C2D2C 
+ 1891      16895669 
+ 1891      640B6D84 
+ 1892 0028 062CB414 		.ascii	"\006,\264\024\354\222*\020\021Mb\242\022L>\335\237h"
+ 1892      EC922A10 
+ 1892      114D62A2 
+ 1892      124C3EDD 
+ 1892      9F68
+ 1893 003a B1B73ACC 		.ascii	"\261\267:\314\271\027\246\012\"\342%+\255\366\235\033"
+ 1893      B917A60A 
+ 1893      22E2252B 
+ 1893      ADF69D1B 
+ 1894 004a DC4D8894 		.ascii	"\334M\210\224\250\347\371~\231\216\312\312\025+\336"
+ 1894      A8E7F97E 
+ 1894      998ECACA 
+ 1894      152BDE
+ 1895 0059 9AC3EB44 		.ascii	"\232\303\353D\366=\037\211[\263\262gc\022\3318\223\037"
+ 1895      F63D1F89 
+ 1895      5BB3B267 
+ 1895      6312D938 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 73
+
+
+ 1895      931F
+ 1896 006b AC7221CF 		.ascii	"\254r!\317\227\357\254&k\211\015k\3567N\351T \262\335"
+ 1896      97EFAC26 
+ 1896      6B890D6B 
+ 1896      EE374EE9 
+ 1896      5420B2DD 
+ 1897 007f A3C527AB 		.ascii	"\243\305'\253\223\345\276X\335\014'\240\303\242r\205"
+ 1897      93E5BE58 
+ 1897      DD0C27A0 
+ 1897      C3A27285 
+ 1898 008f E0812DEE 		.ascii	"\340\201-\356F\365\"^\006l\260}\376\031\023\302\202"
+ 1898      46F5225E 
+ 1898      066CB07D 
+ 1898      FE1913C2 
+ 1898      82
+ 1899 00a0 C1FD740F 		.ascii	"\301\375t\017\204\337\366\326\251\315_\355-\020\203"
+ 1899      84DFF6D6 
+ 1899      A9CD5FED 
+ 1899      2D1083
+ 1900 00af 7A65F624 		.ascii	"ze\366$\330\264S\014\273\"\354D\237\337B\030\021>Z\314"
+ 1900      D8B4530C 
+ 1900      BB22EC44 
+ 1900      9FDF4218 
+ 1900      113E5ACC 
+ 1901 00c3 45D87244 		.ascii	"E\330rD\334\030]\221\270\020\344\305\374\317\214\244"
+ 1901      DC185D91 
+ 1901      B810E4C5 
+ 1901      FCCF8CA4 
+ 1902 00d3 3393CEE8 		.ascii	"3\223\316\350\017\012\255}\343"
+ 1902      0F0AAD7D 
+ 1902      E3
+ 1903              		.text
+ 1904              		.section	.gnu.lto_.refs.18ae6f3c,"e",%progbits
+ 1905 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 1905      00020000 
+ 1905      0A0002
+ 1906              		.text
+ 1907              		.section	.gnu.lto_.decls.18ae6f3c,"e",%progbits
+ 1908 0000 789CA558 		.ascii	"x\234\245X}PT\327\025\177\347\276\375f\005\252\244i"
+ 1908      7D5054D7 
+ 1908      157FE7BE 
+ 1908      FD6605AA 
+ 1908      A469
+ 1909 0012 26ADA119 		.ascii	"&\255\241\031gB\377\210(\266I&\311t\234\244\223N'\037"
+ 1909      6742FF88 
+ 1909      28B64926 
+ 1909      C9749CA4 
+ 1909      934E271F 
+ 1910 0026 CD244D5A 		.ascii	"\315$MZmf6\260\273\312\246\300&\354B\322\376\365\004"
+ 1910      6D6636B0 
+ 1910      BBCAA6C0 
+ 1910      26EC42D2 
+ 1910      FEF504
+ 1911 0039 13414450 		.ascii	"\023ADP\203\"\250\220 \206\250(\341#*`\\@eU@A\360\333"
+ 1911      8322A890 
+ 1911      2086A828 
+ 1911      E1232A60 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 74
+
+
+ 1911      5C406555 
+ 1912 0051 2082B046 		.ascii	" \202\260F\211\250h@Q{\356\275o\337\333\205M\233N\027"
+ 1912      89A86840 
+ 1912      517BEEBD 
+ 1912      6FDFDB85 
+ 1912      4D9B4E17 
+ 1913 0065 CFEE7DF7 		.ascii	"\317\356}\367\376\356\371\375\316y\347\336w\237\003"
+ 1913      FEEEF9FD 
+ 1913      CE79E7DE 
+ 1913      779F03
+ 1914 0074 D305C149 		.ascii	"\323\005\301I\004\241\024\355\001~t\202 t\242\031\321"
+ 1914      04A114ED 
+ 1914      017E7482 
+ 1914      2074A219 
+ 1914      D1
+ 1915 0085 68BB1ECD 		.ascii	"h\273\036\315\203\266\000\3550Z\033Z\007\232\017\355"
+ 1915      83B600ED 
+ 1915      305A1B5A 
+ 1915      079A0FED 
+ 1916 0095 A4C03F06 		.ascii	"\244\300?\006\264\233h\023h\000x\215\026\216\366\010"
+ 1916      B49B6813 
+ 1916      6800788D 
+ 1916      168EF608 
+ 1917 00a5 DA6368BF 		.ascii	"\332ch\277\001a\312g\010\370<\244\027\242d\036\235\314"
+ 1917      0161CA67 
+ 1917      08F83CA4 
+ 1917      17A2641E 
+ 1917      9DCC
+ 1918 00b7 B310ED09 		.ascii	"\263\020\355\011\264]2\026d\377\223?\3438\360\353\000"
+ 1918      B45D3216 
+ 1918      64FF933F 
+ 1918      E338F0EB 
+ 1918      00
+ 1919 00c8 1F0B2769 		.ascii	"\037\013'iLD\233\015\334o\034p\177\3652\307\333x\375"
+ 1919      4C449B0D 
+ 1919      DC6F1C70 
+ 1919      7FF532C7 
+ 1919      DB78FD
+ 1920 00db 1C709E23 		.ascii	"\034p\236#h\207\320\336\302\353\277\242=\213\3667\264"
+ 1920      6887D0DE 
+ 1920      C2EBBFA2 
+ 1920      3D8BF637 
+ 1920      B4
+ 1921 00ec 05686F60 		.ascii	"\005ho`\377b\352\033\333\026\264w\321\342\321\022\320"
+ 1921      FF62EA1B 
+ 1921      DB16B477 
+ 1921      D1E2D112 
+ 1921      D0
+ 1922 00fd 6E60BF15 		.ascii	"n`\277\025\177mh\230>\341 \332\033\330\026\345\\\274"
+ 1922      7F6D6898 
+ 1922      3EE120DA 
+ 1922      1BD816E5 
+ 1922      5CBC
+ 1923 010f 07A1758B 		.ascii	"\007\241u\213\010\236\366\037t\377C\346\236\211\226"
+ 1923      089EF61F 
+ 1923      74FF43E6 
+ 1923      9E8996
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 75
+
+
+ 1924 011e 847617FB 		.ascii	"\204v\027\373\222\361\367\027r\0365r\236in)\317#!\362"
+ 1924      92F1F717 
+ 1924      721E3572 
+ 1924      9E696E29 
+ 1924      CF2321F2 
+ 1925 0132 FB2BE408 		.ascii	"\373+\344\010\237\304\341\277\227\241xR\320\3640\225"
+ 1925      9FC4E1BF 
+ 1925      97A17852 
+ 1925      D0F43095 
+ 1926 0142 275CE631 		.ascii	"'\\\3461@h\236\237!O\344\177\341\241\261\015\311yw\002"
+ 1926      40689E9F 
+ 1926      214FE47F 
+ 1926      E1A1B10D 
+ 1926      C9797702 
+ 1927 0156 AF9D9880 		.ascii	"\257\235\230\200\330\350}\241\256\373\004\236;\203\\"
+ 1927      D8E87DA1 
+ 1927      AEFB049E 
+ 1927      3B835C
+ 1928 0165 33132172 		.ascii	"3\023!r\267Z\204\351\240\301\357(\210\306<\026\213\272"
+ 1928      B75A84E9 
+ 1928      A0C1EF28 
+ 1928      88C63C16 
+ 1928      8BBA
+ 1929 0177 7BDD3DC7 		.ascii	"{\335=\307\364\246G\001\360\237G\222|R\363\022Q\200"
+ 1929      F4A64701 
+ 1929      F09F4792 
+ 1929      7C52F312 
+ 1929      5180
+ 1930 0189 79304780 		.ascii	"y0G\200\257\001v\201\000\273\001\366\000\301f\206$M"
+ 1930      AF017681 
+ 1930      00BB01F6 
+ 1930      00C16686 
+ 1930      244D
+ 1931 019b 3C86BFC5 		.ascii	"<\206\277\305\"\371*\343\362\204\321\214\370\021\251"
+ 1931      22F92AE3 
+ 1931      F284D18C 
+ 1931      F811A9
+ 1932 01aa B459837D 		.ascii	"\264Y\203}P\007P\213\244P\017\214e\001\320\345\020\301"
+ 1932      5007508B 
+ 1932      A4500F8C 
+ 1932      6501D0E5 
+ 1932      10C1
+ 1933 01bc 5A82A817 		.ascii	"Z\202\250\027b%\366\271\230 \300^\236\207W\302\304x"
+ 1933      6225F6B9 
+ 1933      9820C05E 
+ 1933      9E8757C2 
+ 1933      C478
+ 1934 01ce 144056DF 		.ascii	"\024@V\337\374\301\25331W\236\245FAv\004\373\000g~\003"
+ 1934      FCC1AB33 
+ 1934      31579EA5 
+ 1934      46417604 
+ 1934      FB00677E 
+ 1935 01e3 D008D000 		.ascii	"\320\010\320\000b\242 &Q\360\371\035#-d\006\367\345"
+ 1935      62A22026 
+ 1935      51F0F91D 
+ 1935      232D6406 
+ 1935      F7E5
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 76
+
+
+ 1936 01f5 617EA019 		.ascii	"a~\240\031\240\005\020\211m\004l\333\320p\335\300\000"
+ 1936      A0051089 
+ 1936      6D046CDB 
+ 1936      D070DDC0 
+ 1936      00
+ 1937 0206 9ED080FD 		.ascii	"\236\320\200\375\236\215\335&U\371~U\371\001\240\000"
+ 1937      9E8DDD26 
+ 1937      55F97E55 
+ 1937      F901A000 
+ 1938 0216 4DE3EDF5 		.ascii	"M\343\355\36550k\006\"\306\012\227W\226\375|\003\312"
+ 1938      35306B06 
+ 1938      22C60A97 
+ 1938      5796FD7C 
+ 1938      03CA
+ 1939 0228 32E32034 		.ascii	"2\343 4\001\264\252\350X\264\271\202D\375H\036\215\240"
+ 1939      01B4AAE8 
+ 1939      58B4B982 
+ 1939      44FD481E 
+ 1939      8DA0
+ 1940 023a F4B7522A 		.ascii	"\364\267R*8H\331D\024\200\214\273\213\333v1IAH\360B"
+ 1940      3848D944 
+ 1940      14808CBB 
+ 1940      8BDB7631 
+ 1940      494148F0 
+ 1941 024f 20167167 		.ascii	" \026qg6\016\0341\253\312\016\251\\\207\2312Rz\377\330"
+ 1941      360E1C31 
+ 1941      ABCA0EA9 
+ 1941      5C879932 
+ 1941      527AFFD8 
+ 1942 0263 97613453 		.ascii	"\227a4S>O\350\233\204\230\336\215%\253\002\234\034Q"
+ 1942      3E4FE89B 
+ 1942      8498DE8D 
+ 1942      25AB029C 
+ 1942      1C51
+ 1943 0275 9DB4D1A5 		.ascii	"\235\264\321\245\325\303\024yK>\031\201\251\212\332"
+ 1943      D5C31479 
+ 1943      4B3E1981 
+ 1943      A98ADA
+ 1944 0284 01FE4E05 		.ascii	"\001\376N\005\275\343/\224H\366m\020\317\343-\354C\033"
+ 1944      BDE32F94 
+ 1944      48F66D10 
+ 1944      CFE32DEC 
+ 1944      431B
+ 1945 0296 04DAFF4B 		.ascii	"\004\332\377Kx\000\354G\020\207\231\273\266\203\271"
+ 1945      7800EC47 
+ 1945      108799BB 
+ 1945      B683B9
+ 1946 02a5 5E304D2A 		.ascii	"^0M*\236\023\200\010t\326\003\320M\205\215\356\337\274"
+ 1946      9E138008 
+ 1946      74D603D0 
+ 1946      4D858DEE 
+ 1946      DFBC
+ 1947 02b7 394C1576 		.ascii	"9L\025vR\025v\212\012\273\305<\325\344U\216j\202o\357"
+ 1947      5215768A 
+ 1947      0ABBC53C 
+ 1947      D5E4558E 
+ 1947      6A826FEF 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 77
+
+
+ 1948 02cb 698033EA 		.ascii	"i\2003\352\335k\272q\253I\023|{\203\001\345\313\327"
+ 1948      DD6BBA71 
+ 1948      AB49137C 
+ 1948      7B8301E5 
+ 1948      CBD7
+ 1949 02dd ED98A6D2 		.ascii	"\355\230\246\322\234Ui\316\201\034U\024+\377R\0203\350"
+ 1949      9C5569CE 
+ 1949      811C5514 
+ 1949      2BFF5210 
+ 1949      33E8
+ 1950 02ef 02307F72 		.ascii	"\0020\177r\377cq\306,\372A\257KyB\276\0058O\347\\`7"
+ 1950      FF6371C6 
+ 1950      2CFA41AF 
+ 1950      4B7942BE 
+ 1950      05384FE7 
+ 1951 0306 6800E012 		.ascii	"h\000\340\022\300E\200>\200~\312Ck\243z\365z+/\015\017"
+ 1951      C045803E 
+ 1951      807ECA43 
+ 1951      6BA37AF5 
+ 1951      7A2B2F0D 
+ 1952 031b 402750A8 		.ascii	"@'P\250\237\351\030\375\252\003\012\313G\210FG!]S!s"
+ 1952      9FE918FD 
+ 1952      AA030ACB 
+ 1952      47884647 
+ 1952      215D5321 
+ 1953 0330 8311BD41 		.ascii	"\203\021\275A\210\243\012b\244\260%/<\177\211\210\021"
+ 1953      88A30A62 
+ 1953      A4B0252F 
+ 1953      3C7F8988 
+ 1953      11
+ 1954 0341 D01ABC30 		.ascii	"\320\032\2740\271\006)d}\377\373^tq\012\340\370\024"
+ 1954      B9062964 
+ 1954      7DFFFB5E 
+ 1954      74710AE0 
+ 1954      F814
+ 1955 0353 042A11BD 		.ascii	"\004*\021\2754T\322\335~\267|\332\214\311a\302 \374"
+ 1955      3454D2DD 
+ 1955      7EB77CDA 
+ 1955      8CC961C2 
+ 1955      20FC
+ 1956 0365 58A038E7 		.ascii	"X\2408\347\204\247`\253VM\350\220\352\333\307\253r["
+ 1956      84A760AB 
+ 1956      564DE890 
+ 1956      EADBC7AB 
+ 1956      725B
+ 1957 0377 7FC379F3 		.ascii	"\177\303y\363%`[\270\306\006(\342)\3742\011\013E!J\""
+ 1957      25605BB8 
+ 1957      C60628E2 
+ 1957      29FC3209 
+ 1957      0B45214A 
+ 1958 038c 12D1D944 		.ascii	"\022\321\331Db\022M\242\315\344\205\2311\243\342|\003"
+ 1958      62124DA2 
+ 1958      CDE48599 
+ 1958      31A3E27C 
+ 1958      03
+ 1959 039d 89893019 		.ascii	"\211\2110\031*Z \322\2445\020\342\323\333L1w`;)\325"
+ 1959      2A5A20D2 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 78
+
+
+ 1959      A43510E2 
+ 1959      D3DB4C31 
+ 1959      77603B29 
+ 1960 03b2 45CF9734 		.ascii	"E\317\2274\266\025\017\371\364\022\311\177-j\336|\374"
+ 1960      B6150FF9 
+ 1960      F412C97F 
+ 1960      2D6ADE7C 
+ 1960      FC
+ 1961 03c3 F6E9BD60 		.ascii	"\366\351\275`\303Y\257k\014\221\330\362\351M\243bi\256"
+ 1961      C359AF6B 
+ 1961      0C91D8F2 
+ 1961      E94DA362 
+ 1961      69AE
+ 1962 03d5 CED64EB2 		.ascii	"\316\326N\262\236\300%d\262\305Ea<\363\015\206\231\021"
+ 1962      9EC02564 
+ 1962      B2C54561 
+ 1962      3CF30D86 
+ 1962      9911
+ 1963 03e7 CD62B3F8 		.ascii	"\315b\263\370\022n\177\206\252\035\017\231|\372\010"
+ 1963      126E7F86 
+ 1963      AA1D0F99 
+ 1963      7CFA08
+ 1964 03f6 7411638B 		.ascii	"t\021c\213\216\264EGxAk\263\231\242b\004\024a\213\213"
+ 1964      8EB44547 
+ 1964      78416BB3 
+ 1964      99A26204 
+ 1964      14618B8B 
+ 1965 040a 9B4F4CE8 		.ascii	"\233OL\350Yc\360B\234\010\3468\251\357\312\303&\255"
+ 1965      5963F042 
+ 1965      9C08E638 
+ 1965      A9EFCAC3 
+ 1965      26AD
+ 1966 041c C938333A 		.ascii	"\31183:\006\037F\302K\004\375\212\017\374\037\320#\247"
+ 1966      061F46C2 
+ 1966      4B04FD8A 
+ 1966      0FFC1FD0 
+ 1966      23A7
+ 1967 042e 4DBD0488 		.ascii	"M\275\004\2101\2218\"\276\354\323\343c\213D\013\202"
+ 1967      31913822 
+ 1967      BEECD3E3 
+ 1967      638B440B 
+ 1967      82
+ 1968 043f A43198CD 		.ascii	"\2441\230\315 \341\217\321\362\262\355\3658\223\340"
+ 1968      20E18FD1 
+ 1968      F2B2EDF5 
+ 1968      3893E0
+ 1969 044e D3131C8A 		.ascii	"\323\023\034\212\322\200D@\235i\322\341c\2472\014\023"
+ 1969      D2804440 
+ 1969      9D69D2E1 
+ 1969      63A7320C 
+ 1969      13
+ 1970 045f CEFEE817 		.ascii	"\316\376\350\027\310_\364qD-\220\206\365\323\002'2\232"
+ 1970      C85FF471 
+ 1970      442D9086 
+ 1970      F5D30227 
+ 1970      329A
+ 1971 0471 4278AFF2 		.ascii	"Bx\257\362#\267)\200\310~\210\274\323\003\237#\223\320"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 79
+
+
+ 1971      23B72980 
+ 1971      C87E88BC 
+ 1971      D3039F23 
+ 1971      93D0
+ 1972 0483 EF00E70A 		.ascii	"\357\000\347\012\004d\210\337\017\237#\003\224\271r"
+ 1972      046488DF 
+ 1972      0F9F2303 
+ 1972      94B972
+ 1973 0492 93723030 		.ascii	"\223r00\011\234\303\346\005\011W]\012\212[\277$\201"
+ 1973      099CC3E6 
+ 1973      0509575D 
+ 1973      0A8A5BBF 
+ 1973      2481
+ 1974 04a4 5F60DD1C 		.ascii	"_`\335\034\333vv,l\020\363&\015T\036\011\203\207\362"
+ 1974      DB76762C 
+ 1974      6C10F326 
+ 1974      0D541E09 
+ 1974      8387F2
+ 1975 04b7 E70B207E 		.ascii	"\347\013 ~\317\352t\250f\375\252p\366\230\326\201\023"
+ 1975      CFEA74A8 
+ 1975      66FDAA70 
+ 1975      F698D681 
+ 1975      13
+ 1976 04c8 AFC78637 		.ascii	"\257\307\2067\336\346\327\013\340*\333\345:K\21342`"
+ 1976      DEE6D70B 
+ 1976      E02ADBE5 
+ 1976      3A4B8B34 
+ 1976      3260
+ 1977 04da 9876F435 		.ascii	"\230v\3645\265\325G\260\216z\200\357\201\255s\302\326"
+ 1977      B5D547B0 
+ 1977      8E7A80EF 
+ 1977      81AD73C2 
+ 1977      D6
+ 1978 04eb 79248E76 		.ascii	"y$\216v6\226\226\204=\214LW%)\212\"\256\003\214P\231"
+ 1978      36969684 
+ 1978      3D8C4C57 
+ 1978      25298A22 
+ 1978      AE038C50 
+ 1979 0500 3750E135 		.ascii	"7P\3415l<\236_(\215\325\026u<\217\213\021\237r\222\006"
+ 1979      6C3C9E5F 
+ 1979      288DD516 
+ 1979      753C8F8B 
+ 1979      119F7292 
+ 1980 0515 47E08ABC 		.ascii	"G\340\212\274\253\010\330\022\340;\200\313\360J\217"
+ 1980      AB08D812 
+ 1980      E03B80CB 
+ 1980      F04A8F
+ 1981 0524 516C15A9 		.ascii	"Ql\025\251\304\352\315[\227\350\031a\0070\215wr\326"
+ 1981      C4EACD5B 
+ 1981      97E81961 
+ 1981      07308D77 
+ 1981      72D6
+ 1982 0536 EC32B18E 		.ascii	"\3542\261\2166\200[T\323\331\217\277Z\011A\233\231\000"
+ 1982      36805B54 
+ 1982      D3D98FBF 
+ 1982      5A09419B 
+ 1982      9900
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 80
+
+
+ 1983 0548 3FA83BD5 		.ascii	"?\250;\325\345\023\225\247'\355u\370H\010\000d\037\355"
+ 1983      E51395A7 
+ 1983      27ED75F8 
+ 1983      48080064 
+ 1983      1FED
+ 1984 055a CF0A5879 		.ascii	"\317\012Xyc\352\312\033\347+\257\250`\363\227ZF9\016"
+ 1984      63EACA1B 
+ 1984      E72BAFA8 
+ 1984      60F3975A 
+ 1984      46390E
+ 1985 056d 709B523E 		.ascii	"p\233R>\250\271\220\256\304\271P\011\363.\352\277\303"
+ 1985      A8B990AE 
+ 1985      C4B95009 
+ 1985      F32EEABF 
+ 1985      C3
+ 1986 057e E7FC5090 		.ascii	"\347\374P\220=\240y\274\260P\032\271W\366A\005]:8\012"
+ 1986      3DA079BC 
+ 1986      B0501AB9 
+ 1986      57F64105 
+ 1986      5D3A380A 
+ 1987 0592 A34AA8A3 		.ascii	"\243J\250\243J\250\007\364b'\013u\315\362\276\357\214"
+ 1987      4AA807F4 
+ 1987      62270B75 
+ 1987      CDF2BEEF 
+ 1987      8C
+ 1988 05a3 7264F4DA 		.ascii	"rd\364\332\363Mf\235\331O{\237\322\326\016\266\3563"
+ 1988      F34D669D 
+ 1988      D94F7B9F 
+ 1988      D2D60EB6 
+ 1988      EE33
+ 1989 05b5 85E095B0 		.ascii	"\205\340\225\260P\036p\336\302\241\216;\341\224\267"
+ 1989      501E70DE 
+ 1989      C2A18E3B 
+ 1989      E194B7
+ 1990 05c4 EADB9C65 		.ascii	"\352\333\234eRd\006\356\337ly\334S\230\357)\314\017"
+ 1990      526406EE 
+ 1990      DF6C79DC 
+ 1990      5398EF29 
+ 1990      CC0F
+ 1991 05d6 74E2999F 		.ascii	"t\342\231\237\220\344L\202=\343{\373\366\361J\300\355"
+ 1991      90E44C82 
+ 1991      3DE37BFB 
+ 1991      F6F14AC0 
+ 1991      ED
+ 1992 05e7 6F29EDC9 		.ascii	"o)\355\311\035\314\276n\364\227\302\307\264\347\366"
+ 1992      1DCCBE6E 
+ 1992      F497C2C7 
+ 1992      B4E7F6
+ 1993 05f6 89E3D9E6 		.ascii	"\211\343\331\346\020\362\226\241\274O\010\223w\177\274"
+ 1993      10F296A1 
+ 1993      BC4F0893 
+ 1993      777FBC
+ 1994 0605 D1C6D4DD 		.ascii	"\321\306\324\335\313e\352h\011,#\220A\374\352\360Y!"
+ 1994      CB65EA68 
+ 1994      092C2390 
+ 1994      41FCEAF0 
+ 1994      5921
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 81
+
+
+ 1995 0617 ABABD08A 		.ascii	"\253\253\320\212\203!\363r`(c\320\340\227\262\234\022"
+ 1995      8321F372 
+ 1995      602863D0 
+ 1995      E097B29C 
+ 1995      12
+ 1996 0628 7BAF5654 		.ascii	"{\257VT\200_J\016\355\271\271\265\301\023\036BJ.\272"
+ 1996      805F4A0E 
+ 1996      EDB9B9B5 
+ 1996      C1131E42 
+ 1996      4A2EBA
+ 1997 063b 5FC1A50C 		.ascii	"_\301\245\014\264\336\225\364L\313\366\\%S\271\004\262"
+ 1997      B4DE95F4 
+ 1997      4CCBF65C 
+ 1997      2553B904 
+ 1997      B2
+ 1998 064c 152DD98A 		.ascii	"\025-\331\212\226\355:\361\272(\210\031\032:\261\252"
+ 1998      96ED3AF1 
+ 1998      BA288819 
+ 1998      1A3AB1AA 
+ 1999 065c 78F030CD 		.ascii	"x\3600\315\026\344\243#q\031\353\373\274|S\027\325\010"
+ 1999      16E4A323 
+ 1999      7119EBFB 
+ 1999      BC7C5317 
+ 1999      D508
+ 2000 066e AB71CE2A 		.ascii	"\253q\316*\"\346\261\336\306\211[\355\323\202K\357S"
+ 2000      22E6B1DE 
+ 2000      C6895BED 
+ 2000      D3824BEF 
+ 2000      53
+ 2001 067f 02054429 		.ascii	"\002\005D)\275\314\346\335a\323\224\312\303\001\177"
+ 2001      BDCCE6DD 
+ 2001      61D394CA 
+ 2001      C3017F
+ 2002 068e E5ADE51A 		.ascii	"\345\255\345\032\213\267U\224\363\022XK\330\215\371"
+ 2002      8BB75594 
+ 2002      F312584B 
+ 2002      D88DF9
+ 2003 069d B2F8CA39 		.ascii	"\262\370\3129\255\022W\242\022W!\322\256\343sn\255\255"
+ 2003      AD1257A2 
+ 2003      125721D2 
+ 2003      AEE3736E 
+ 2003      ADAD
+ 2004 06af 3D8A1590 		.ascii	"=\212\025\220%e-\363\274\236)I\347\010\216B\036'\205"
+ 2004      25652DF3 
+ 2004      BC9E2949 
+ 2004      E7088E42 
+ 2004      1E2785
+ 2005 06c2 3508CC63 		.ascii	"5\010\314c{\227\270~j4\223#)\246\271\\YUSi\224EP\304"
+ 2005      7B97B87E 
+ 2005      6A349323 
+ 2005      29A6B95C 
+ 2005      59555369 
+ 2006 06da BDAEAFB3 		.ascii	"\275\256\257\263\304\020\0326\341\204\215\334\311\370"
+ 2006      C4101A36 
+ 2006      E1848DDC 
+ 2006      C9F8
+ 2007 06e8 A6DA0EAD 		.ascii	"\246\332\016\255\252\301\203\0326\021(\2225l@`\021\327"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 82
+
+
+ 2007      AAC1831A 
+ 2007      36112892 
+ 2007      356C4060 
+ 2007      11D7
+ 2008 06fa B09D6928 		.ascii	"\260\235i(\336\267\347\013\245\270h\230\303C\315W\214"
+ 2008      DEB7E70B 
+ 2008      A5B86898 
+ 2008      C343CD57 
+ 2008      8C
+ 2009 070b FE8ECFA8 		.ascii	"\376\216\317\250\210\235E\031\371\274D\361\331\3739"
+ 2009      889D4519 
+ 2009      F9BC44F1 
+ 2009      D9FB39
+ 2010 071a F99165BF 		.ascii	"\371\221e\277YM\355\362\346me\332\340\334\343\3637\000"
+ 2010      594DEDF2 
+ 2010      E66D65DA 
+ 2010      E0DCE3F3 
+ 2010      3700
+ 2011 072c 70AEADBA 		.ascii	"p\256\255\272;\340\240T\256&\177\013\017\242n\325\232"
+ 2011      3BE0A054 
+ 2011      AE267F0B 
+ 2011      0FA26ED5 
+ 2011      9A
+ 2012 073d 6AC228B7 		.ascii	"j\302(\267\020(\243\224\367\253J.\220\020\221W`@_\360"
+ 2012      1028A394 
+ 2012      F7AB4A2E 
+ 2012      90109157 
+ 2012      60405FF0 
+ 2013 0751 4959BBEA 		.ascii	"IY\273\352:\304\307\013\331\301eg\246n\203\324Lp\030"
+ 2013      3AC4C70B 
+ 2013      D9C16567 
+ 2013      A66E83D4 
+ 2013      4C7018
+ 2014 0764 4A95A22A 		.ascii	"J\225\242*%\312\373A\030=*\364\034\037\320\232$\371"
+ 2014      25CAFB41 
+ 2014      183D2AF4 
+ 2014      1C1FD09A 
+ 2014      24F9
+ 2015 0776 548E9D7E 		.ascii	"T\216\235~\021\333\320g,l%\014if[\354\005J\260\"\247"
+ 2015      11DBD067 
+ 2015      2C6C250C 
+ 2015      69665BEC 
+ 2015      054AB022 
+ 2016 078b 75543B9D 		.ascii	"uT;\235\237-\336\245/\004\225\004\237\3518a\007a\223"
+ 2016      9F2DDEA5 
+ 2016      2F049504 
+ 2016      9FE93861 
+ 2016      076193
+ 2017 079e 04710FCD 		.ascii	"\004q\017\315\251\256~ym\231\206\277n\030\011T\223\014"
+ 2017      A9AE7E79 
+ 2017      6D9986BF 
+ 2017      6E180954 
+ 2017      930C
+ 2018 07b0 BAD4AA09 		.ascii	"\272\324\252\011;=.5\313\207\307\235tD\200*\002_\021"
+ 2018      3B3D2E35 
+ 2018      CB87C79D 
+ 2018      7444802A 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 83
+
+
+ 2018      025F11
+ 2019 07c3 711FBF17 		.ascii	"q\037\277\0277J\252x\311\235\344\367\""
+ 2019      374AAA78 
+ 2019      C99DE4F7 
+ 2019      22
+ 2020 07d0 AF60552D 		.ascii	"\257`U-\337\375\026C-\225\243c\317Z=k\321\354~$\266"
+ 2020      DFFD1643 
+ 2020      2D95A363 
+ 2020      CF5A3D6B 
+ 2020      D1EC7E24 
+ 2021 07e5 B099D74E 		.ascii	"\260\231\327N\3644\353\224P\224\323\356n\2028<\364\354"
+ 2021      F434EB94 
+ 2021      5094D3EE 
+ 2021      6E82383C 
+ 2021      F4EC
+ 2022 07f7 22F0355B 		.ascii	"\"\3605[\254\207\272z@I\342\036\242d\261\036\225\324"
+ 2022      AC87BA7A 
+ 2022      4049E21E 
+ 2022      A264B11E 
+ 2022      95D4
+ 2023 0809 C9457874 		.ascii	"\311Ext|\255\250\336\233z\365\3364\320\010\017\205\256"
+ 2023      7CADA8DE 
+ 2023      9B7AF5DE 
+ 2023      34D0080F 
+ 2023      85AE
+ 2024 081b 9AF3572F 		.ascii	"\232\363W/\257%\376\032\331K\271F\372\363O\352d\355"
+ 2024      AF25FE1A 
+ 2024      D94BB946 
+ 2024      FAF34FEA 
+ 2024      64ED
+ 2025 082d DFD08E86 		.ascii	"\337\320\216\206\236\262.\215B\356Q\237P\036$\337\307"
+ 2025      9EB22E8D 
+ 2025      42EE519F 
+ 2025      501E24DF 
+ 2025      C7
+ 2026 083e C96B2EAD 		.ascii	"\311k.\255\250\015(\014\217J\336D\311;B\223\367\257"
+ 2026      A80D280C 
+ 2026      8F4ADE44 
+ 2026      C93B4293 
+ 2026      F7AF
+ 2027 0850 DCD91F31 		.ascii	"\334\331\0371\371\245a\362\341\274w\345\376\255\201"
+ 2027      F9A561F2 
+ 2027      E1BC77E5 
+ 2027      FEAD81
+ 2028 085f 2F45AAEB 		.ascii	"/E\252\353\003\234\373\342\247\267\233\370\336v\200"
+ 2028      039CFBE2 
+ 2028      A7B79BF8 
+ 2028      DE7680
+ 2029 086e 400B555C 		.ascii	"@\013U\\\353\313\251\026\345\020\016\322\2165}-GC\206"
+ 2029      EBCBA916 
+ 2029      E5100ED2 
+ 2029      8E357D2D 
+ 2029      474386
+ 2030 0881 80674F68 		.ascii	"\200gOh\345nJ\274M+\303U\036\257\312s\210\206\320\255"
+ 2030      E56E4ABC 
+ 2030      4D2BC355 
+ 2030      1EAFCA73 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 84
+
+
+ 2030      8886D0AD 
+ 2031 0895 11C40116 		.ascii	"\021\304\001\026\306\345\261\245W\"d\3574\212\272\323"
+ 2031      C6E5B1A5 
+ 2031      572264EF 
+ 2031      348ABAD3 
+ 2032 08a5 DDE362A8 		.ascii	"\335\343b\250\233\323\216\316\333\270\363\355\3055]"
+ 2032      9BD38ECE 
+ 2032      DBB8F3ED 
+ 2032      C5355D
+ 2033 08b4 4475DEAE 		.ascii	"Du\336\256:\357`\000sYA\306}q\326,z\330\347ow\376\023"
+ 2033      3AEF6000 
+ 2033      735941C6 
+ 2033      7D71D62C 
+ 2033      7AD8E76F 
+ 2034 08cb 7C078123 		.ascii	"|\007\201#\004:I\210\303\267z<?\034\204P^\377\202\217"
+ 2034      043A4988 
+ 2034      C3B77A3C 
+ 2034      3F1C8450 
+ 2034      5EFF828F 
+ 2035 08df D2F8AED9 		.ascii	"\322\370\256\331I\227\024\034#p\234@7\201.\002G\011"
+ 2035      4997141C 
+ 2035      23709C40 
+ 2035      37812E02 
+ 2035      4709
+ 2036 08f1 7F67907D 		.ascii	"\177g\220}5\020\250\011\3625\365}\341\020\201\346)t"
+ 2036      3510A809 
+ 2036      F235F57D 
+ 2036      E11081E6 
+ 2036      2974
+ 2037 0903 41882602 		.ascii	"A\210&\002\215S\235\314e'\366\341\314\245\341\354\224"
+ 2037      8D539DCC 
+ 2037      6527F6E1 
+ 2037      CCA5E1EC 
+ 2037      94
+ 2038 0914 EFF969D2 		.ascii	"\357\371i\322\350r\257.l\017xm\354Q\375\236\340\311"
+ 2038      E872AF2E 
+ 2038      6C0F786D 
+ 2038      EC51FD9E 
+ 2038      E0C9
+ 2039 0926 6D9CD871 		.ascii	"m\234\330q\\\307\000\236\020\225O_\003\312\007\366\004"
+ 2039      5CC7009E 
+ 2039      10954F5F 
+ 2039      03CA07F6 
+ 2039      04
+ 2040 0937 FC8FC00E 		.ascii	"\374\217\300\016\025p\212\003\2627\256\314\011\000t"
+ 2040      15708A03 
+ 2040      B237AECC 
+ 2040      090074
+ 2041 0946 A8C799D3 		.ascii	"\250\307\231\323\034\320Q~v\030\002\026\227\0128C\344"
+ 2041      1CD0517E 
+ 2041      76180216 
+ 2041      970A3843 
+ 2041      E4
+ 2042 0957 9D4987B0 		.ascii	"\235I\207\260/\366d\0351\206\332\231\316\261\235\351"
+ 2042      2FF6641D 
+ 2042      3186DA99 
+ 2042      CEB19DE9 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 85
+
+
+ 2043 0967 2CDF99F4 		.ascii	",\337\231\364lgz\006\361\307\373\007\233#\0027\246o"
+ 2043      6C677A06 
+ 2043      F1C7FB07 
+ 2043      9B230237 
+ 2043      A66F
+ 2044 0979 099CA71B 		.ascii	"\011\234\247\033S/as(\365\326-\005\033\002\302\357U"
+ 2044      532F6173 
+ 2044      28F5D62D 
+ 2044      051B02C2 
+ 2044      EF55
+ 2045 098b C55F90CF 		.ascii	"\305_\220\317\007\255\207\313\002\026\276N\031\357\223"
+ 2045      07AD87CB 
+ 2045      0216BE4E 
+ 2045      19EF93
+ 2046 099a B7D79CFC 		.ascii	"\267\327\234\374:\235:~C\325~\221\003\012\033\275\275"
+ 2046      3A9D3A7E 
+ 2046      43D57E91 
+ 2046      030A1BBD 
+ 2046      BD
+ 2047 09ab 1A15F084 		.ascii	"\032\025\360\2042\336\317\307\307Z\306oF\250\343\013"
+ 2047      32DECFC7 
+ 2047      C75AC66F 
+ 2047      46A8E30B 
+ 2048 09bb 94F101BA 		.ascii	"\224\361\001\2720|lQ\334(-\362j\345c0]\024e\0237\353"
+ 2048      307C6C51 
+ 2048      DC282DF2 
+ 2048      6AE56330 
+ 2048      5D146513 
+ 2049 09d1 FDA7E041 		.ascii	"\375\247\340A\272\0047\354]\231g\362\2377\206hO\311"
+ 2049      BA0437EC 
+ 2049      5D9967F2 
+ 2049      9F378668 
+ 2049      4FC9
+ 2050 09e3 D9C65108 		.ascii	"\331\306Q\010u\362\275\214\301\373\210r\362-l\321\363"
+ 2050      75F2BD8C 
+ 2050      C1FB8872 
+ 2050      F22D6CD1 
+ 2050      F3
+ 2051 09f4 A3EF120D 		.ascii	"\243\357\022\015\016\301%\371\261\000\337\321\266\377"
+ 2051      0EC125F9 
+ 2051      B100DFD1 
+ 2051      B6FF
+ 2052 0a02 B4F1B911 		.ascii	"\264\361\271\021=^\357;\226\031\260\013mRSu\205GR\260"
+ 2052      3D5EEF3B 
+ 2052      9619B00B 
+ 2052      6D525375 
+ 2052      854752B0 
+ 2053 0a16 EEF616BD 		.ascii	"\356\366\026\275\012\270\253\246\342*\007\344\035X\177"
+ 2053      0AB8ABA6 
+ 2053      E22A07E4 
+ 2053      1D587F
+ 2054 0a25 32601328 		.ascii	"2`\023(T=\014s\300\265\275\237\365\006$s\231\012\370"
+ 2054      543D0C73 
+ 2054      C0B5BD9F 
+ 2054      F5062473 
+ 2054      990AF8
+ 2055 0a38 9E03864E 		.ascii	"\236\003\206N\215y\002\356F\205\012\270\306\336B\255"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 86
+
+
+ 2055      8D7902EE 
+ 2055      46850AB8 
+ 2055      C6DE42AD 
+ 2056 0a48 89F1A9CF 		.ascii	"\211\361\251\317\375\341\331w^Lt$8\336t\247\331\034"
+ 2056      FDE1D977 
+ 2056      5E4C7424 
+ 2056      38DE74A7 
+ 2056      D91C
+ 2057 0a5a CEB839E9 		.ascii	"\316\2709\351s\336\261\322k\247+n\316\274X\247+61>)"
+ 2057      73DEB1D2 
+ 2057      6BA72B6E 
+ 2057      CEBC58A7 
+ 2057      2B36313E 
+ 2058 0a6f 36C99110 		.ascii	"6\311\221\020\353r\247\332\343\223]\261\326\304\367"
+ 2058      EB72A7DA 
+ 2058      E3935DB1 
+ 2058      D6C4F7
+ 2059 0a7e 531D29EE 		.ascii	"S\035)\356E\263\255\206?\276\366V\364\213s\237\026\242"
+ 2059      45B3AD86 
+ 2059      3FBEF656 
+ 2059      F48B739F 
+ 2059      16A2
+ 2060 0a90 D4BED9F3 		.ascii	"\324\276\331\363\346%\374\326j\375]\202\240s9\376e\267"
+ 2060      E625FCD6 
+ 2060      6AFD5D82 
+ 2060      A07339FE 
+ 2060      65B7
+ 2061 0aa2 B8C5F464 		.ascii	"\270\305\364d\367\303/\304\273\354o\332?H\263\247\270"
+ 2061      F7C32FC4 
+ 2061      BBEC6FDA 
+ 2061      3F48B3A7 
+ 2061      B8
+ 2062 0ab3 1DF1496F 		.ascii	"\035\361Io2Oo\277\372\227\237F\356H\261&\245\331\354"
+ 2062      324F6FBF 
+ 2062      FA979F46 
+ 2062      EE48B126 
+ 2062      A5D9EC
+ 2063 0ac6 B46D9145 		.ascii	"\264m\221E\314N\024\242B\371\324\247\307[\222\034.\267"
+ 2063      CC4E14A2 
+ 2063      42F9D4A7 
+ 2063      C75B921C 
+ 2063      2EB7
+ 2064 0ad8 6877BA34 		.ascii	"hw\2724\224_\227\220\266h\221=U\237\206\352\236\261"
+ 2064      945F9790 
+ 2064      B668913D 
+ 2064      559F86EA 
+ 2064      9EB1
+ 2065 0aea B8CDAFDA 		.ascii	"\270\315\257\332\223\025v\235s\321\"\227\335\375\373"
+ 2065      9315769D 
+ 2065      73D12297 
+ 2065      DDFDFB
+ 2066 0af9 FF3903C9 		.ascii	"\3779\003\311\366dU\007u\351L\375'\367*\316}J0\306\247"
+ 2066      F6645507 
+ 2066      75E94CFD 
+ 2066      27F72ACE 
+ 2066      7D4A30C6 
+ 2067 0b0e 26A73F6D 		.ascii	"&\247?m\1772Y0Y\235\251n\373GO&?-<\232\344LYlq;i\000"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 87
+
+
+ 2067      7F325930 
+ 2067      599DA96E 
+ 2067      FB474F26 
+ 2067      3F2D3C9A 
+ 2068 0b2a 0E6C7DE8 		.ascii	"\016l}\350p'Zl\216t\207\313\231\372\374\377q\013\004"
+ 2068      70275A6C 
+ 2068      8E7487CB 
+ 2068      99FAFCFF 
+ 2068      710B04
+ 2069 0b3d A335319D 		.ascii	"\24351\235_\030\374\275a\330\345J\341m\2235\321\337"
+ 2069      5F18FCBD 
+ 2069      61D8E54A 
+ 2069      E16D9335 
+ 2069      D1DF
+ 2070 0b4f 8CB45812 		.ascii	"\214\264X\022\322\034InG\212\005\263dO\261i\222\354"
+ 2070      D21C496E 
+ 2070      478A05B3 
+ 2070      644FB169 
+ 2070      92EC
+ 2071 0b61 F18BF429 		.ascii	"\361\213\364)Nwb\252\363C\243\305\"\347nz\020\316\345"
+ 2071      4E7762AA 
+ 2071      F343A3C5 
+ 2071      22E76E7A 
+ 2071      10CEE5
+ 2072 0b74 8E4F759B 		.ascii	"\216Ou\233\223]\177Nx\317nu\377)\305\341\326Z^p:\223"
+ 2072      935D7F4E 
+ 2072      78CF6E75 
+ 2072      FF29C5E1 
+ 2072      D65A5E70 
+ 2073 0b8a C4F7D3DC 		.ascii	"\304\367\323\334\332d\027\306\244AM6\355\207\251\016"
+ 2073      DA6417C6 
+ 2073      A4414D36 
+ 2073      ED87A90E 
+ 2074 0b9a B73DC291 		.ascii	"\267=\302\221\202\370\024\253\335\302S+.\266\273\365"
+ 2074      82F814AB 
+ 2074      DDC2532B 
+ 2074      2EB6BBF5 
+ 2075 0baa D6444B92 		.ascii	"\326DK\222\333\031\377o\003\332\246v"
+ 2075      DB19FF6F 
+ 2075      03DAA676 
+ 2076              		.text
+ 2077              		.section	.gnu.lto_.symtab.18ae6f3c,"e",%progbits
+ 2078 0000 63687670 		.ascii	"chvprintf\000"
+ 2078      72696E74 
+ 2078      6600
+ 2079 000a 00       		.ascii	"\000"
+ 2080 000b 00       		.ascii	"\000"
+ 2081 000c 00       		.ascii	"\000"
+ 2082 000d 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
+ 2082      00000000 
+ 2083 0015 FC000000 		.ascii	"\374\000\000\000"
+ 2084 0019 63687072 		.ascii	"chprintf\000"
+ 2084      696E7466 
+ 2084      00
+ 2085 0022 00       		.ascii	"\000"
+ 2086 0023 00       		.ascii	"\000"
+ 2087 0024 00       		.ascii	"\000"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 88
+
+
+ 2088 0025 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
+ 2088      00000000 
+ 2089 002d 01010000 		.ascii	"\001\001\000\000"
+ 2090 0031 63687673 		.ascii	"chvsnprintf\000"
+ 2090      6E707269 
+ 2090      6E746600 
+ 2091 003d 00       		.ascii	"\000"
+ 2092 003e 00       		.ascii	"\000"
+ 2093 003f 00       		.ascii	"\000"
+ 2094 0040 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
+ 2094      00000000 
+ 2095 0048 08010000 		.ascii	"\010\001\000\000"
+ 2096 004c 6368736E 		.ascii	"chsnprintf\000"
+ 2096      7072696E 
+ 2096      746600
+ 2097 0057 00       		.ascii	"\000"
+ 2098 0058 00       		.ascii	"\000"
+ 2099 0059 00       		.ascii	"\000"
+ 2100 005a 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
+ 2100      00000000 
+ 2101 0062 0E010000 		.ascii	"\016\001\000\000"
+ 2102 0066 6D734F62 		.ascii	"msObjectInit\000"
+ 2102      6A656374 
+ 2102      496E6974 
+ 2102      00
+ 2103 0073 00       		.ascii	"\000"
+ 2104 0074 02       		.ascii	"\002"
+ 2105 0075 00       		.ascii	"\000"
+ 2106 0076 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
+ 2106      00000000 
+ 2107 007e 29010000 		.ascii	")\001\000\000"
+ 2108              		.text
+ 2109              		.section	.gnu.lto_.ext_symtab.18ae6f3c,"e",%progbits
+ 2110 0000 01       		.ascii	"\001"
+ 2111 0001 01       		.ascii	"\001"
+ 2112 0002 00       		.ascii	"\000"
+ 2113 0003 01       		.ascii	"\001"
+ 2114 0004 00       		.ascii	"\000"
+ 2115 0005 01       		.ascii	"\001"
+ 2116 0006 00       		.ascii	"\000"
+ 2117 0007 01       		.ascii	"\001"
+ 2118 0008 00       		.ascii	"\000"
+ 2119 0009 01       		.ascii	"\001"
+ 2120 000a 00       		.ascii	"\000"
+ 2121              		.text
+ 2122              		.section	.gnu.lto_.opts,"e",%progbits
+ 2123 0000 272D666E 		.ascii	"'-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-prote"
+ 2123      6F2D6F70 
+ 2123      656E6D70 
+ 2123      2720272D 
+ 2123      666E6F2D 
+ 2124 0033 6374696F 		.ascii	"ction=none' '-g' '-mcpu=cortex-m7' '-mthumb' '-mflo"
+ 2124      6E3D6E6F 
+ 2124      6E652720 
+ 2124      272D6727 
+ 2124      20272D6D 
+ 2125 0066 61742D61 		.ascii	"at-abi=soft' '-march=armv7e-m' '-O2' '-fomit-frame-"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 89
+
+
+ 2125      62693D73 
+ 2125      6F667427 
+ 2125      20272D6D 
+ 2125      61726368 
+ 2126 0099 706F696E 		.ascii	"pointer' '-falign-functions=16' '-ffunction-section"
+ 2126      74657227 
+ 2126      20272D66 
+ 2126      616C6967 
+ 2126      6E2D6675 
+ 2127 00cc 73272027 		.ascii	"s' '-fdata-sections' '-fno-common' '-flto' '-Xassem"
+ 2127      2D666461 
+ 2127      74612D73 
+ 2127      65637469 
+ 2127      6F6E7327 
+ 2128 00ff 626C6572 		.ascii	"bler' '-alms=./build/lst/chprintf.lst'\000"
+ 2128      2720272D 
+ 2128      616C6D73 
+ 2128      3D2E2F62 
+ 2128      75696C64 
+ 2129              		.text
+ 2130              		.comm	__gnu_lto_slim,1,1
+ 2131              		.ident	"GCC: (GNU Arm Embedded Toolchain 10-2020-q4-major) 10.2.1 20201103 (release)"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s 			page 90
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 chprintf.c
+C:\Users\Vania\AppData\Local\Temp\ccziKA6q.s:25     .gnu.debuglto_.debug_info:00000000 chprintf.c.33b4cc5b
+                            *COM*:00000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS

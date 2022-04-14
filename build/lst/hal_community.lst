@@ -1,0 +1,361 @@
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 1
+
+
+   1              		.cpu cortex-m7
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 2
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"hal_community.c"
+  12              		.section	.gnu.debuglto_.debug_info,"e",%progbits
+  13              	.Ldebug_info0:
+  14              		.hidden	hal_community.c.e2ba5050
+  15              		.weak	hal_community.c.e2ba5050
+  16              	hal_community.c.e2ba5050:
+  17 0000 75000000 		.4byte	0x75
+  18 0004 0400     		.2byte	0x4
+  19 0006 00000000 		.4byte	.Ldebug_abbrev0
+  20 000a 04       		.byte	0x4
+  21 000b 01       		.uleb128 0x1
+  22 000c BC000000 		.4byte	.LASF12
+  23 0010 0C       		.byte	0xc
+  24 0011 81010000 		.4byte	.LASF13
+  25 0015 44000000 		.4byte	.LASF14
+  26 0019 00000000 		.4byte	.Ldebug_line0
+  27 001d 02       		.uleb128 0x2
+  28 001e 04       		.byte	0x4
+  29 001f 05       		.byte	0x5
+  30 0020 696E7400 		.ascii	"int\000"
+  31 0024 03       		.uleb128 0x3
+  32 0025 04       		.byte	0x4
+  33 0026 07       		.byte	0x7
+  34 0027 0E000000 		.4byte	.LASF0
+  35 002b 03       		.uleb128 0x3
+  36 002c 08       		.byte	0x8
+  37 002d 05       		.byte	0x5
+  38 002e 00000000 		.4byte	.LASF1
+  39 0032 03       		.uleb128 0x3
+  40 0033 08       		.byte	0x8
+  41 0034 04       		.byte	0x4
+  42 0035 A6000000 		.4byte	.LASF2
+  43 0039 03       		.uleb128 0x3
+  44 003a 01       		.byte	0x1
+  45 003b 06       		.byte	0x6
+  46 003c 9A000000 		.4byte	.LASF3
+  47 0040 03       		.uleb128 0x3
+  48 0041 01       		.byte	0x1
+  49 0042 08       		.byte	0x8
+  50 0043 65000000 		.4byte	.LASF4
+  51 0047 03       		.uleb128 0x3
+  52 0048 02       		.byte	0x2
+  53 0049 05       		.byte	0x5
+  54 004a B2000000 		.4byte	.LASF5
+  55 004e 03       		.uleb128 0x3
+  56 004f 02       		.byte	0x2
+  57 0050 07       		.byte	0x7
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 2
+
+
+  58 0051 87000000 		.4byte	.LASF6
+  59 0055 03       		.uleb128 0x3
+  60 0056 04       		.byte	0x4
+  61 0057 05       		.byte	0x5
+  62 0058 78000000 		.4byte	.LASF7
+  63 005c 03       		.uleb128 0x3
+  64 005d 04       		.byte	0x4
+  65 005e 07       		.byte	0x7
+  66 005f 1B000000 		.4byte	.LASF8
+  67 0063 03       		.uleb128 0x3
+  68 0064 08       		.byte	0x8
+  69 0065 07       		.byte	0x7
+  70 0066 2D000000 		.4byte	.LASF9
+  71 006a 03       		.uleb128 0x3
+  72 006b 01       		.byte	0x1
+  73 006c 08       		.byte	0x8
+  74 006d 73000000 		.4byte	.LASF10
+  75 0071 03       		.uleb128 0x3
+  76 0072 01       		.byte	0x1
+  77 0073 02       		.byte	0x2
+  78 0074 81000000 		.4byte	.LASF11
+  79 0078 00       		.byte	0
+  80              		.section	.gnu.debuglto_.debug_abbrev,"e",%progbits
+  81              	.Ldebug_abbrev0:
+  82 0000 01       		.uleb128 0x1
+  83 0001 11       		.uleb128 0x11
+  84 0002 01       		.byte	0x1
+  85 0003 25       		.uleb128 0x25
+  86 0004 0E       		.uleb128 0xe
+  87 0005 13       		.uleb128 0x13
+  88 0006 0B       		.uleb128 0xb
+  89 0007 03       		.uleb128 0x3
+  90 0008 0E       		.uleb128 0xe
+  91 0009 1B       		.uleb128 0x1b
+  92 000a 0E       		.uleb128 0xe
+  93 000b 10       		.uleb128 0x10
+  94 000c 17       		.uleb128 0x17
+  95 000d 00       		.byte	0
+  96 000e 00       		.byte	0
+  97 000f 02       		.uleb128 0x2
+  98 0010 24       		.uleb128 0x24
+  99 0011 00       		.byte	0
+ 100 0012 0B       		.uleb128 0xb
+ 101 0013 0B       		.uleb128 0xb
+ 102 0014 3E       		.uleb128 0x3e
+ 103 0015 0B       		.uleb128 0xb
+ 104 0016 03       		.uleb128 0x3
+ 105 0017 08       		.uleb128 0x8
+ 106 0018 00       		.byte	0
+ 107 0019 00       		.byte	0
+ 108 001a 03       		.uleb128 0x3
+ 109 001b 24       		.uleb128 0x24
+ 110 001c 00       		.byte	0
+ 111 001d 0B       		.uleb128 0xb
+ 112 001e 0B       		.uleb128 0xb
+ 113 001f 3E       		.uleb128 0x3e
+ 114 0020 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 3
+
+
+ 115 0021 03       		.uleb128 0x3
+ 116 0022 0E       		.uleb128 0xe
+ 117 0023 00       		.byte	0
+ 118 0024 00       		.byte	0
+ 119 0025 00       		.byte	0
+ 120              		.section	.gnu.debuglto_.debug_line,"e",%progbits
+ 121              	.Ldebug_line0:
+ 122 0000 1A000000 		.4byte	.LELT0-.LSLT0
+ 123              	.LSLT0:
+ 124 0004 0400     		.2byte	0x4
+ 125 0006 14000000 		.4byte	.LELTP0-.LASLTP0
+ 126              	.LASLTP0:
+ 127 000a 01       		.byte	0x1
+ 128 000b 01       		.byte	0x1
+ 129 000c 01       		.byte	0x1
+ 130 000d F6       		.byte	0xf6
+ 131 000e F2       		.byte	0xf2
+ 132 000f 0D       		.byte	0xd
+ 133 0010 00       		.byte	0
+ 134 0011 01       		.byte	0x1
+ 135 0012 01       		.byte	0x1
+ 136 0013 01       		.byte	0x1
+ 137 0014 01       		.byte	0x1
+ 138 0015 00       		.byte	0
+ 139 0016 00       		.byte	0
+ 140 0017 00       		.byte	0
+ 141 0018 01       		.byte	0x1
+ 142 0019 00       		.byte	0
+ 143 001a 00       		.byte	0
+ 144 001b 01       		.byte	0x1
+ 145 001c 00       		.byte	0
+ 146 001d 00       		.byte	0
+ 147              	.LELTP0:
+ 148              	.LELT0:
+ 149              		.section	.gnu.debuglto_.debug_str,"eMS",%progbits,1
+ 150              	.LASF1:
+ 151 0000 6C6F6E67 		.ascii	"long long int\000"
+ 151      206C6F6E 
+ 151      6720696E 
+ 151      7400
+ 152              	.LASF0:
+ 153 000e 756E7369 		.ascii	"unsigned int\000"
+ 153      676E6564 
+ 153      20696E74 
+ 153      00
+ 154              	.LASF8:
+ 155 001b 6C6F6E67 		.ascii	"long unsigned int\000"
+ 155      20756E73 
+ 155      69676E65 
+ 155      6420696E 
+ 155      7400
+ 156              	.LASF9:
+ 157 002d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 157      206C6F6E 
+ 157      6720756E 
+ 157      7369676E 
+ 157      65642069 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 4
+
+
+ 158              	.LASF14:
+ 159 0044 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\workspace\\LCD\000"
+ 159      68696269 
+ 159      53747564 
+ 159      696F3230 
+ 159      76305C77 
+ 160              	.LASF4:
+ 161 0065 756E7369 		.ascii	"unsigned char\000"
+ 161      676E6564 
+ 161      20636861 
+ 161      7200
+ 162              	.LASF10:
+ 163 0073 63686172 		.ascii	"char\000"
+ 163      00
+ 164              	.LASF7:
+ 165 0078 6C6F6E67 		.ascii	"long int\000"
+ 165      20696E74 
+ 165      00
+ 166              	.LASF11:
+ 167 0081 5F426F6F 		.ascii	"_Bool\000"
+ 167      6C00
+ 168              	.LASF6:
+ 169 0087 73686F72 		.ascii	"short unsigned int\000"
+ 169      7420756E 
+ 169      7369676E 
+ 169      65642069 
+ 169      6E7400
+ 170              	.LASF3:
+ 171 009a 7369676E 		.ascii	"signed char\000"
+ 171      65642063 
+ 171      68617200 
+ 172              	.LASF2:
+ 173 00a6 6C6F6E67 		.ascii	"long double\000"
+ 173      20646F75 
+ 173      626C6500 
+ 174              	.LASF5:
+ 175 00b2 73686F72 		.ascii	"short int\000"
+ 175      7420696E 
+ 175      7400
+ 176              	.LASF12:
+ 177 00bc 474E5520 		.ascii	"GNU C17 10.2.1 20201103 (release) -mcpu=cortex-m7 -"
+ 177      43313720 
+ 177      31302E32 
+ 177      2E312032 
+ 177      30323031 
+ 178 00ef 6D746875 		.ascii	"mthumb -mfloat-abi=soft -march=armv7e-m -ggdb -O2 -"
+ 178      6D62202D 
+ 178      6D666C6F 
+ 178      61742D61 
+ 178      62693D73 
+ 179 0122 666F6D69 		.ascii	"fomit-frame-pointer -falign-functions=16 -ffunction"
+ 179      742D6672 
+ 179      616D652D 
+ 179      706F696E 
+ 179      74657220 
+ 180 0155 2D736563 		.ascii	"-sections -fdata-sections -fno-common -flto\000"
+ 180      74696F6E 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 5
+
+
+ 180      73202D66 
+ 180      64617461 
+ 180      2D736563 
+ 181              	.LASF13:
+ 182 0181 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\chibios203/community/os/hal/sr"
+ 182      68696269 
+ 182      53747564 
+ 182      696F3230 
+ 182      76305C63 
+ 183 01b2 632F6861 		.ascii	"c/hal_community.c\000"
+ 183      6C5F636F 
+ 183      6D6D756E 
+ 183      6974792E 
+ 183      6300
+ 184              		.text
+ 185              		.section	.gnu.lto_.profile.18ae58f7,"e",%progbits
+ 186 0000 789C6362 		.ascii	"x\234cb\000\001\000\000\022\000\003"
+ 186      00010000 
+ 186      120003
+ 187              		.text
+ 188              		.section	.gnu.lto_.icf.18ae58f7,"e",%progbits
+ 189 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 189      40060000 
+ 189      2A0003
+ 190              		.text
+ 191              		.section	.gnu.lto_.ipa_sra.18ae58f7,"e",%progbits
+ 192 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 192      40060000 
+ 192      2A0003
+ 193              		.text
+ 194              		.section	.gnu.lto_.inline.18ae58f7,"e",%progbits
+ 195 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 195      40060000 
+ 195      2A0003
+ 196              		.text
+ 197              		.section	.gnu.lto_.jmpfuncs.18ae58f7,"e",%progbits
+ 198 0000 789C6362 		.ascii	"x\234cb@\006\000\000*\000\003"
+ 198      40060000 
+ 198      2A0003
+ 199              		.text
+ 200              		.section	.gnu.lto_.pureconst.18ae58f7,"e",%progbits
+ 201 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 201      00020000 
+ 201      0A0002
+ 202              		.text
+ 203              		.section	.gnu.lto_.lto.18ae58f7,"e",%progbits
+ 204 0000 09000200 		.ascii	"\011\000\002\000\001\000\000\000"
+ 204      01000000 
+ 205              		.text
+ 206              		.section	.gnu.lto_.symbol_nodes.18ae58f7,"e",%progbits
+ 207 0000 789C6362 		.ascii	"x\234cb\000\001\000\000\022\000\003"
+ 207      00010000 
+ 207      120003
+ 208              		.text
+ 209              		.section	.gnu.lto_.refs.18ae58f7,"e",%progbits
+ 210 0000 789C6364 		.ascii	"x\234cd\000\002\000\000\012\000\002"
+ 210      00020000 
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 6
+
+
+ 210      0A0002
+ 211              		.text
+ 212              		.section	.gnu.lto_.decls.18ae58f7,"e",%progbits
+ 213 0000 789C6360 		.ascii	"x\234c````\004b\025 \376\017\004 \366E\006\002\000\000"
+ 213      60606004 
+ 213      621520FE 
+ 213      0F0420F6 
+ 213      45060200 
+ 214 0015 BF3204F4 		.ascii	"\2772\004\364"
+ 215              		.text
+ 216              		.section	.gnu.lto_.symtab.18ae58f7,"e",%progbits
+ 217              		.text
+ 218              		.section	.gnu.lto_.ext_symtab.18ae58f7,"e",%progbits
+ 219 0000 01       		.ascii	"\001"
+ 220              		.text
+ 221              		.section	.gnu.lto_.opts,"e",%progbits
+ 222 0000 272D666E 		.ascii	"'-fno-openmp' '-fno-openacc' '-fno-pie' '-fcf-prote"
+ 222      6F2D6F70 
+ 222      656E6D70 
+ 222      2720272D 
+ 222      666E6F2D 
+ 223 0033 6374696F 		.ascii	"ction=none' '-g' '-mcpu=cortex-m7' '-mthumb' '-mflo"
+ 223      6E3D6E6F 
+ 223      6E652720 
+ 223      272D6727 
+ 223      20272D6D 
+ 224 0066 61742D61 		.ascii	"at-abi=soft' '-march=armv7e-m' '-O2' '-fomit-frame-"
+ 224      62693D73 
+ 224      6F667427 
+ 224      20272D6D 
+ 224      61726368 
+ 225 0099 706F696E 		.ascii	"pointer' '-falign-functions=16' '-ffunction-section"
+ 225      74657227 
+ 225      20272D66 
+ 225      616C6967 
+ 225      6E2D6675 
+ 226 00cc 73272027 		.ascii	"s' '-fdata-sections' '-fno-common' '-flto' '-Xassem"
+ 226      2D666461 
+ 226      74612D73 
+ 226      65637469 
+ 226      6F6E7327 
+ 227 00ff 626C6572 		.ascii	"bler' '-alms=./build/lst/hal_community.lst'\000"
+ 227      2720272D 
+ 227      616C6D73 
+ 227      3D2E2F62 
+ 227      75696C64 
+ 228              		.text
+ 229              		.comm	__gnu_lto_slim,1,1
+ 230              		.ident	"GCC: (GNU Arm Embedded Toolchain 10-2020-q4-major) 10.2.1 20201103 (release)"
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 hal_community.c
+C:\Users\Vania\AppData\Local\Temp\ccQkmLqV.s:16     .gnu.debuglto_.debug_info:00000000 hal_community.c.e2ba5050
+                            *COM*:00000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS
