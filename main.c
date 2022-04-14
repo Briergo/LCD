@@ -13,13 +13,7 @@ uint8_t tim_flag=0;
 int16_t holl_speed=0;
 
 int16_t speed = 5;
-uint8_t tft_flag=0;
 uint8_t flag_ok=0;
-
-#define BUFFER_SIZE 100
-
-mailbox_t tft_mb;
-msg_t tft_mb_buffer[BUFFER_SIZE];
 
 struct regulator Reg1;
 
@@ -57,16 +51,12 @@ static THD_WORKING_AREA(menuThread, 512);// 512 - stack size
 
 static THD_FUNCTION(tft, arg)
 {
-    arg=arg;
-    char String[15];
-    msg_t my_msg;
-    msg_t msg =chMBFetchI (&tft_mb, &my_msg);
-    if (msg == MSG_OK)
-    {
-       sprintf(String,"%d",(int16_t)my_msg);
-       TFT_Fill_Screen(160,200,200,220,WHITE);
-       TFT_Draw_String(160,200,RED,WHITE,String,2);
-    }
+      int16_t value=0;
+      value=*(int16_t*)arg;
+      char String[15];
+      sprintf(String,"%d",value);
+      TFT_Fill_Screen(160,200,200,220,WHITE);
+      TFT_Draw_String(160,200,RED,WHITE,String,2);
 }
 /*static THD_FUNCTION(tft_speed, arg)
 {
@@ -103,8 +93,6 @@ int main(void)
     palSetLineMode(LINE_LED3, PAL_MODE_OUTPUT_PUSHPULL);
     //настройка дисплея и инициализация меню
     TFT_Init();
-
-    chMBObjectInit(&tft_mb, tft_mb_buffer, BUFFER_SIZE);
 
     Menu_Create();
     Menu_GPIO_Init();
@@ -197,8 +185,7 @@ int main(void)
       {
         sdWrite(uart3, (uint8_t *)&holl_speed, 2);
         PID_Reg(Reg1,speed*2,holl_speed);
-        if(tft_flag)
-          chThdCreateStatic(tftThread, sizeof(tftThread), NORMALPRIO+1, tft, NULL);
+        chThdCreateStatic(tftThread, sizeof(tftThread), NORMALPRIO+1, tft, (void*)&holl_speed);
         holl_speed=0;
         tim_flag=0;
       }
@@ -224,11 +211,6 @@ void cbgptfun3(GPTDriver *gptp)
 {
     (void)gptp;
     palToggleLine(LINE_LED1);
-    msg_t msg = chMBPostI(&tft_mb, holl_speed);
-    if (msg == MSG_OK)
-      tft_flag=1;
-    else
-      tft_flag=0;
     tim_flag=1;
 }
 
