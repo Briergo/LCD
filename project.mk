@@ -1,6 +1,6 @@
 # C source files
 PROJECT_CSRC 	= 	main.c 									\
-					Motor.c 								\
+					lcd/src/Motor.c 						\
 					lcd/src/TFT_8080.c						\
 					lcd/src/menu.c							\
 					lcd/src/debugger.c						\

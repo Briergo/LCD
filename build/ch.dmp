@@ -76,21 +76,21 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY
  27 .comment      0000004d  00000000  00000000  000200fb  2**0
                   CONTENTS, READONLY
- 28 .debug_line   0001051f  00000000  00000000  00020148  2**0
+ 28 .debug_line   00010527  00000000  00000000  00020148  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 29 .debug_info   00020db0  00000000  00000000  00030667  2**0
+ 29 .debug_info   00020db0  00000000  00000000  0003066f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 30 .debug_abbrev 00004b7f  00000000  00000000  00051417  2**0
+ 30 .debug_abbrev 00004b7f  00000000  00000000  0005141f  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 31 .debug_aranges 00000320  00000000  00000000  00055f98  2**3
+ 31 .debug_aranges 00000320  00000000  00000000  00055fa0  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 32 .debug_str    00004c99  00000000  00000000  000562b8  2**0
+ 32 .debug_str    00004ca1  00000000  00000000  000562c0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 33 .debug_loc    00007ca7  00000000  00000000  0005af51  2**0
+ 33 .debug_loc    00007ca7  00000000  00000000  0005af61  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 34 .debug_ranges 00005c00  00000000  00000000  00062bf8  2**0
+ 34 .debug_ranges 00005c00  00000000  00000000  00062c08  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 35 .debug_frame  00000d7c  00000000  00000000  000687f8  2**2
+ 35 .debug_frame  00000d7c  00000000  00000000  00068808  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 SYMBOL TABLE:
 20000000 l    d  .mstack	00000000 .mstack
@@ -1722,7 +1722,6 @@ SYMBOL TABLE:
 00201ab0 g     F .text	0000006c Vector68
 00000000 g       .ram7	00000000 __flash5_init__
 00200200 g       .text	00000000 __text_base__
-0001e231  w      .debug_info	00000000 .hidden Motor.c.21d213f0
 20000400 g       .mstack	00000000 __main_stack_end__
 00202300 g     F .text	00000070 Vector78
 40024000 g       .ram5_init	00000000 __ram5_init__
@@ -1766,6 +1765,7 @@ SYMBOL TABLE:
 00000000 g       .ram4	00000000 __ram4_free__
 200017a4 g     O .bss	00000004 __malloc_sbrk_start
 20080000 g       *ABS*	00000000 __ram0_end__
+0001e231  w      .debug_info	00000000 .hidden Motor.c.543c5a50
 20000000 g       .mstack	00000000 __main_stack_base__
 002002da  w    F .text	00000000 Vector44
 002002da  w    F .text	00000000 Vector28

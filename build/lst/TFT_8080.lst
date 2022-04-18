@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
   55 0041 01       		.byte	0x1
   56 0042 08       		.byte	0x8
   57 0043 6A020000 		.4byte	.LASF4
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 2
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 2
 
 
   58 0047 04       		.uleb128 0x4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  112 00b0 05       		.uleb128 0x5
  113 00b1 33000000 		.4byte	.LASF15
  114 00b5 02       		.byte	0x2
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 3
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 3
 
 
  115 00b6 3C       		.byte	0x3c
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  169 0114 19       		.byte	0x19
  170 0115 9F000000 		.4byte	0x9f
  171 0119 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 4
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 4
 
 
  172 011a 4800     		.ascii	"H\000"
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  226 017b AB000000 		.4byte	0xab
  227 017f 14       		.byte	0x14
  228 0180 09       		.uleb128 0x9
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 5
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 5
 
 
  229 0181 29020000 		.4byte	.LASF25
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  283 01ea 0F       		.byte	0xf
  284 01eb CD010000 		.4byte	0x1cd
  285 01ef 0F       		.uleb128 0xf
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 6
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 6
 
 
  286 01f0 04       		.byte	0x4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  340 025d 0F       		.byte	0xf
  341 025e 9F000000 		.4byte	0x9f
  342 0262 13       		.uleb128 0x13
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 7
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 7
 
 
  343 0263 D0000000 		.4byte	.LASF37
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  397 02d1 4F01     		.2byte	0x14f
  398 02d3 06       		.byte	0x6
  399 02d4 1D000000 		.4byte	0x1d
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 8
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 8
 
 
  400 02d8 14       		.uleb128 0x14
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  454 0343 1D000000 		.4byte	0x1d
  455 0347 14       		.uleb128 0x14
  456 0348 7900     		.ascii	"y\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 9
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 9
 
 
  457 034a 07       		.byte	0x7
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  511 03b6 793300   		.ascii	"y3\000"
  512 03b9 07       		.byte	0x7
  513 03ba 3501     		.2byte	0x135
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 10
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 10
 
 
  514 03bc 63       		.byte	0x63
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  568 0428 07       		.byte	0x7
  569 0429 2001     		.2byte	0x120
  570 042b 2A       		.byte	0x2a
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 11
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 11
 
 
  571 042c 24000000 		.4byte	0x24
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  625 0499 43       		.byte	0x43
  626 049a 24000000 		.4byte	0x24
  627 049e 12       		.uleb128 0x12
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 12
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 12
 
 
  628 049f 53000000 		.4byte	.LASF43
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  682 050b 15       		.uleb128 0x15
  683 050c CD020000 		.4byte	.LASF50
  684 0510 07       		.byte	0x7
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 13
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 13
 
 
  685 0511 F9       		.byte	0xf9
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  739 0575 07       		.byte	0x7
  740 0576 E5       		.byte	0xe5
  741 0577 29       		.byte	0x29
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 14
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 14
 
 
  742 0578 24000000 		.4byte	0x24
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  796 05db 16       		.uleb128 0x16
  797 05dc 7900     		.ascii	"y\000"
  798 05de 07       		.byte	0x7
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 15
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 15
 
 
  799 05df DC       		.byte	0xdc
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  853 064b 07       		.byte	0x7
  854 064c B8       		.byte	0xb8
  855 064d 62       		.byte	0x62
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 16
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 16
 
 
  856 064e 24000000 		.4byte	0x24
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  910 06b0 07       		.byte	0x7
  911 06b1 A5       		.byte	0xa5
  912 06b2 2A       		.byte	0x2a
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 17
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 17
 
 
  913 06b3 24000000 		.4byte	0x24
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  967 071b 07       		.byte	0x7
  968 071c 90       		.byte	0x90
  969 071d 1E       		.byte	0x1e
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 18
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 18
 
 
  970 071e 24000000 		.4byte	0x24
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1024 0787 29       		.byte	0x29
  1025 0788 06       		.byte	0x6
  1026 0789 9A070000 		.4byte	0x79a
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 19
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 19
 
 
  1027 078d 17       		.uleb128 0x17
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1081 001a 03       		.uleb128 0x3
  1082 001b 24       		.uleb128 0x24
  1083 001c 00       		.byte	0
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 20
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 20
 
 
  1084 001d 0B       		.uleb128 0xb
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1138 0053 00       		.byte	0
  1139 0054 03       		.uleb128 0x3
  1140 0055 08       		.uleb128 0x8
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 21
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 21
 
 
  1141 0056 3A       		.uleb128 0x3a
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1195 008c 0B       		.uleb128 0xb
  1196 008d 49       		.uleb128 0x49
  1197 008e 13       		.uleb128 0x13
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 22
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 22
 
 
  1198 008f 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1252 00c5 0B       		.uleb128 0xb
  1253 00c6 3B       		.uleb128 0x3b
  1254 00c7 05       		.uleb128 0x5
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 23
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 23
 
 
  1255 00c8 39       		.uleb128 0x39
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1309 00fe 34       		.uleb128 0x34
  1310 00ff 00       		.byte	0
  1311 0100 03       		.uleb128 0x3
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 24
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 24
 
 
  1312 0101 08       		.uleb128 0x8
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1366 0137 39       		.uleb128 0x39
  1367 0138 0B       		.uleb128 0xb
  1368 0139 49       		.uleb128 0x49
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 25
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 25
 
 
  1369 013a 13       		.uleb128 0x13
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1423 0170 0B       		.uleb128 0xb
  1424 0171 49       		.uleb128 0x49
  1425 0172 13       		.uleb128 0x13
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 26
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 26
 
 
  1426 0173 00       		.byte	0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1474 0058 443A5C43 		.ascii	"D:\\ChibiStudio20v0\\chibios203/os/rt/include"
  1474      68696269 
  1474      53747564 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 27
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 27
 
 
  1474      696F3230 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1499      696F2E68 
  1499      00
  1500 017f 01       		.uleb128 0x1
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 28
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 28
 
 
  1501 0180 00       		.uleb128 0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1532      696F5F74 
  1532      00
  1533              	.LASF43:
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 29
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 29
 
 
  1534 0053 636F6C6F 		.ascii	"color\000"
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1562      43313720 
  1562      31302E32 
  1562      2E312032 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 30
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 30
 
 
  1562      30323031 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1585 0202 6C6F6E67 		.ascii	"long int\000"
  1585      20696E74 
  1585      00
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 31
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 31
 
 
  1586              	.LASF52:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1613      65642063 
  1613      68617200 
  1614              	.LASF41:
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 32
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 32
 
 
  1615 02a4 706F735F 		.ascii	"pos_x\000"
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1641      68696269 
  1641      53747564 
  1641      696F3230 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 33
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 33
 
 
  1641      76305C77 
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1668              	.LASF17:
  1669 03db 74696D65 		.ascii	"time_conv_t\000"
  1669      5F636F6E 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 34
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 34
 
 
  1669      765F7400 
@@ -2019,12 +2019,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1687      745F7061 
  1687      676500
  1688              		.text
- 1689              		.section	.gnu.lto_.profile.3c2d34f5,"e",%progbits
+ 1689              		.section	.gnu.lto_.profile.3c494021,"e",%progbits
  1690 0000 789C6362 		.ascii	"x\234cb\000\001\000\000\022\000\003"
  1690      00010000 
  1690      120003
  1691              		.text
- 1692              		.section	.gnu.lto_.icf.3c2d34f5,"e",%progbits
+ 1692              		.section	.gnu.lto_.icf.3c494021,"e",%progbits
  1693 0000 789C9BCD 		.ascii	"x\234\233\315\200\000R\014'.\367>\344g\274\371c\306"
  1693      8000520C 
  1693      272EF73E 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1695 0023 878B1CAC 		.ascii	"\207\213\034\254`\222\355\347\317s\317\371\330\317\374"
  1695      6092EDE7 
  1695      CF73CFF9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 35
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 35
 
 
  1695      D8CFFC
@@ -2076,7 +2076,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1703 00a6 39190015 		.ascii	"9\031\000\025.QE"
  1703      2E5145
  1704              		.text
- 1705              		.section	.gnu.lto_.ipa_sra.3c2d34f5,"e",%progbits
+ 1705              		.section	.gnu.lto_.ipa_sra.3c494021,"e",%progbits
  1706 0000 789C9552 		.ascii	"x\234\225R\011\022\203 \014L\270l\3559\275l\177k\177"
  1706      09128320 
  1706      0C4CB86C 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1710 0044 A5409F03 		.ascii	"\245@\237\003\020\350C\024\245\372u\320bE\264Ja$\036"
  1710      10E84314 
  1710      A5FA75D0 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 36
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 36
 
 
  1710      6245B44A 
@@ -2140,7 +2140,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1718      0140CD09 
  1718      32
  1719              		.text
- 1720              		.section	.gnu.lto_.inline.3c2d34f5,"e",%progbits
+ 1720              		.section	.gnu.lto_.inline.3c494021,"e",%progbits
  1721 0000 789CCD54 		.ascii	"x\234\315TKk\023Q\024>\367\334;\223\231d\362P\323TE"
  1721      4B6B1351 
  1721      143EF7DC 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1723      05
  1724 003b 92555094 		.ascii	"\222UP\224\321\272pU\012\322E\321\205\212\212\"\236"
  1724      D1BA7055 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 37
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 37
 
 
  1724      0AD245D1 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1736      186AA920 
  1736      E57E5E43 
  1736      1B0B12F5 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 38
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 38
 
 
  1737 0121 C5C76FB0 		.ascii	"\305\307o\260D\234RebJ\242\222\242\023\226\360T\260"
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1748      409F0CD0 
  1748      0DD7
  1749 01f3 5189D24F 		.ascii	"Q\211\322O\272Of\211\012\355\027\347D\320\353\333\202"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 39
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 39
 
 
  1749      BA4F6689 
@@ -2325,7 +2325,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1757      FB7A
  1758 0290 11       		.ascii	"\021"
  1759              		.text
- 1760              		.section	.gnu.lto_.jmpfuncs.3c2d34f5,"e",%progbits
+ 1760              		.section	.gnu.lto_.jmpfuncs.3c494021,"e",%progbits
  1761 0000 789CCD94 		.ascii	"x\234\315\224;k\033A\020\200w\356\241S.\216%\347e\245"
  1761      3B6B1B41 
  1761      108077EE 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1762      C08D
  1763 0026 4B43A2BC 		.ascii	"KC\242\274\341\\\030\253\016\244\010\304\256\375\023"
  1763      E15C18AB 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 40
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 40
 
 
  1763      0EA408C4 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1774      780FF1
  1775 0102 9E212A9F 		.ascii	"\236!*\237\315eD\303s\0311\023\033H7\030\333A\266\303"
  1775      CD6544C3 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 41
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 41
 
 
  1775      73193113 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1786      5E1141EC 
  1786      48AB419A 
  1786      B68815C5 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 42
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 42
 
 
  1787 01e8 7BCD8A5A 		.ascii	"{\315\212Z\347\325\331S\273\015c\277\201\357a\017}\303"
@@ -2516,9 +2516,9 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1797      FF019E
  1798 02a8 80AED3   		.ascii	"\200\256\323"
  1799              		.text
- 1800              		.section	.gnu.lto_.pureconst.3c2d34f5,"e",%progbits
+ 1800              		.section	.gnu.lto_.pureconst.3c494021,"e",%progbits
  1801 0000 789C05C1 		.ascii	"x\234\005\301\211\021@P\020D\301\305+\367U\256OB\342"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 43
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 43
 
 
  1801      89114050 
@@ -2537,11 +2537,11 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1804 003b 33B85E7E 		.ascii	"3\270^~&\255\017\375"
  1804      26AD0FFD 
  1805              		.text
- 1806              		.section	.gnu.lto_.lto.3c2d34f5,"e",%progbits
+ 1806              		.section	.gnu.lto_.lto.3c494021,"e",%progbits
  1807 0000 09000200 		.ascii	"\011\000\002\000\001\000\000\000"
  1807      01000000 
  1808              		.text
- 1809              		.section	.gnu.lto_simbols.366.3c2d34f5,"e",%progbits
+ 1809              		.section	.gnu.lto_simbols.366.3c494021,"e",%progbits
  1810 0000 789C6DD6 		.ascii	"x\234m\326G\224\024U\024\006\340\372\377\256iz\232\236"
  1810      47941455 
  1810      1406E0FA 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1816      383B60F6 
  1816      9EB3
  1817 0086 FD66EF3B 		.ascii	"\375f\357;\333g\366\201\263\275f\0379\333c\366\261\263"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 44
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 44
 
 
  1817      DB67F681 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1829      DEDBB36A 
  1829      37BC3DA3 
  1829      76D7DBD3 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 45
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 45
 
 
  1829      6A7D4367 
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1840      EE38
  1841 0233 499C208E 		.ascii	"I\234 \216\023\307\210\243\304\021\3420q\2108H\034 "
  1841      13C788A3 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 46
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 46
 
 
  1841      C411E230 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1852      05FC09DC 
  1852      04FE00
  1853 0309 6E00D781 		.ascii	"n\000\327\201k\300U\340\012p\031\270\004\\\004.\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 47
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 47
 
 
  1853      6BC055E0 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1864      220DDA97 
  1864      CB1A3466 
  1864      F46A0E32 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 48
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 48
 
 
  1864      8542B1D4 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1876 04c0 DEB2FC04 		.ascii	"\336\262\374\004\366\234<\230\263 J\266\241\267\364"
  1876      F69C3C98 
  1876      B3204AB6 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 49
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 49
 
 
  1876      A1B7F4
@@ -2910,7 +2910,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1882 0532 9620F80F 		.ascii	"\226 \370\017g\312R\241"
  1882      67CA52A1 
  1883              		.text
- 1884              		.section	.gnu.lto_TFT_GPIO_Init.369.3c2d34f5,"e",%progbits
+ 1884              		.section	.gnu.lto_TFT_GPIO_Init.369.3c494021,"e",%progbits
  1885 0000 789CCB66 		.ascii	"x\234\313fb`0g``P\006bFf\006\306I\023\273\230\030\032"
  1885      62603067 
  1885      60605006 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1890 005e 16C68603 		.ascii	"\026\306\206\003\014\014\023\230\231 \234F \347\025"
  1890      0C0C1398 
  1890      99209C46 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 50
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 50
 
 
  1890      20E715
@@ -2996,9 +2996,9 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1901      5E320300 
  1901      2646B978 
  1902              		.text
- 1903              		.section	.gnu.lto_TFT_Send_Cmd.370.3c2d34f5,"e",%progbits
+ 1903              		.section	.gnu.lto_TFT_Send_Cmd.370.3c494021,"e",%progbits
  1904 0000 789C8D93 		.ascii	"x\234\215\223MHTQ\024\307\317\377\2367\276\031\031("
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 51
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 51
 
 
  1904      4D485451 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1915      3FA1BF
  1916 00d2 AD67E917 		.ascii	"\255g\351\027\036\255\246\305\265\314!3h\363K\217\215"
  1916      1EADA6C5 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 52
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 52
 
 
  1916      B5CC2133 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1927      70E2FC85 
  1927      A0
  1928 01ac D0D7EE5D 		.ascii	"\320\327\356]\364\362\227\372\372O\017\234\353\361O"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 53
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 53
 
 
  1928      F4F297FA 
@@ -3137,7 +3137,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1931      D03F5A4E 
  1931      0869
  1932              		.text
- 1933              		.section	.gnu.lto_TFT_Write_Data.371.3c2d34f5,"e",%progbits
+ 1933              		.section	.gnu.lto_TFT_Write_Data.371.3c494021,"e",%progbits
  1934 0000 789C8D93 		.ascii	"x\234\215\223OHTQ\024\306\317w\317\033\337\030\212A"
  1934      4F485451 
  1934      14C6CF77 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1941      9C
  1942 0090 A2A345AD 		.ascii	"\242\243E\255\327\236>\320\232)`\340!d\035]\360\310"
  1942      D79E3ED0 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 54
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 54
 
 
  1942      9A2960E0 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1953      AE81B631 
  1953      D1
  1954 0162 46135001 		.ascii	"F\023P\0017.\032\177CR\220\336}\266b\275\276y\276\304"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 55
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 55
 
 
  1954      372E1A7F 
@@ -3274,7 +3274,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1960      3B7DDA03 
  1960      927009B5 
  1961              		.text
- 1962              		.section	.gnu.lto_TFT_Init.372.3c2d34f5,"e",%progbits
+ 1962              		.section	.gnu.lto_TFT_Init.372.3c494021,"e",%progbits
  1963 0000 789C7594 		.ascii	"x\234u\224Mh\023A\024\307\337\177\337&\233\264\365 "
  1963      4D681341 
  1963      14C7DF7F 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1967 004e 50AAB39B 		.ascii	"P\252\263\233\314D\015oa`\337\314o~\377\0073\273\007"
  1967      CC440D6F 
  1967      6160DFCC 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 56
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 56
 
 
  1967      6F7EFF07 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1978      26FF
  1979 0127 455C83EC 		.ascii	"E\\\203\3543\304\365\244 yi%7$\311vC<\220$kVR\225$\373"
  1979      33C4F5A4 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 57
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 57
 
 
  1979      20796925 
@@ -3408,7 +3408,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1989 01df B0407F00 		.ascii	"\260@\177\000\353l3\263"
  1989      EB6C33B3 
  1990              		.text
- 1991              		.section	.gnu.lto_TFT_SetOrientation.373.3c2d34f5,"e",%progbits
+ 1991              		.section	.gnu.lto_TFT_SetOrientation.373.3c494021,"e",%progbits
  1992 0000 789C7D93 		.ascii	"x\234}\223[HTQ\024\206\327\332\373\2343\307I\202\250"
  1992      5B485451 
  1992      1486D7DA 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  1993      D0E54107 
  1993      BB38F452 
  1993      A0F510
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 58
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 58
 
 
  1994 0022 BDE9A310 		.ascii	"\275\351\243\0206#4\024\031j\365\350\036\0355\346\305"
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2005      EF9E3346 
  2005      2142115F 
  2005      20DFC793 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 59
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 59
 
 
  2005      E800E19E 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2017      5FE3289A 
  2017      C9A671CC 
  2017      92F86E4A 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 60
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 60
 
 
  2018 01ce 9912535C 		.ascii	"\231\022S\\b$\273\304=\2644\246M\015-Sc\203k\214f\327"
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2029      DABAEBF5 
  2029      B7AA5D35 
  2029      5597CBCA 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 61
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 61
 
 
  2030 02a4 61FF0D97 		.ascii	"a\377\015\227\273\270\276\316U\\y\261\362\212\323\341"
@@ -3613,7 +3613,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2032      97B8E11F 
  2032      92FE941D 
  2033              		.text
- 2034              		.section	.gnu.lto_TFT_Send_Data.374.3c2d34f5,"e",%progbits
+ 2034              		.section	.gnu.lto_TFT_Send_Data.374.3c494021,"e",%progbits
  2035 0000 789C6D91 		.ascii	"x\234m\221\315K[A\024\305\357\231\373\242Q0\024\332"
  2035      CD4B5B41 
  2035      14C5EF99 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2043      DD453E33 
  2043      0E21191C 
  2043      0065E92E 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 62
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 62
 
 
  2043      46EC2464 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2055 0177 E2FB4472 		.ascii	"\342\373Dr6>>2J\017\337%\275\301\305\205\344\340\304"
  2055      363E3E32 
  2055      4A0FDF25 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 63
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 63
 
 
  2055      BDC1C585 
@@ -3734,7 +3734,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2057      0B52A49F 
  2058 01ad A6       		.ascii	"\246"
  2059              		.text
- 2060              		.section	.gnu.lto_TFT_Set_Column.375.3c2d34f5,"e",%progbits
+ 2060              		.section	.gnu.lto_TFT_Set_Column.375.3c494021,"e",%progbits
  2061 0000 789C6D90 		.ascii	"x\234m\220\275KBa\024\306\317s\217\037)\341R\177\200"
  2061      BD4B4261 
  2061      14C6CF73 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2069      903D3800 
  2069      F6E57459 
  2069      98D97174 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 64
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 64
 
 
  2069      B8C5
@@ -3832,13 +3832,13 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2080      2AF9091F 
  2080      B37FE8
  2081              		.text
- 2082              		.section	.gnu.lto_TFT_Set_Page.376.3c2d34f5,"e",%progbits
+ 2082              		.section	.gnu.lto_TFT_Set_Page.376.3c494021,"e",%progbits
  2083 0000 789C6D90 		.ascii	"x\234m\220\275KBa\024\306\317s\217\337\340T\177\200"
  2083      BD4B4261 
  2083      14C6CF73 
  2083      8FDFE054 
  2083      7F80
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 65
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 65
 
 
  2084 0012 D11021A8 		.ascii	"\321\020!\250H\321\245!\002\245!\332rh\020\314\274R"
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2095      5406DDA3 
  2095      E4A11214 
  2095      9D
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 66
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 66
 
 
  2096 00e3 2D0D961D 		.ascii	"-\015\226\035\306\316Vxu\266\231\310\263\353\027ao\260"
@@ -3934,7 +3934,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2102      CD743F01 
  2102      47CF7F3D 
  2103              		.text
- 2104              		.section	.gnu.lto_TFT_Set_XY.377.3c2d34f5,"e",%progbits
+ 2104              		.section	.gnu.lto_TFT_Set_XY.377.3c494021,"e",%progbits
  2105 0000 789C5D90 		.ascii	"x\234]\220\275KBa\024\306\317s\317U\023q\252?\300h\210"
  2105      BD4B4261 
  2105      14C6CF73 
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2109 004e 87F31101 		.ascii	"\207\363\021\001\321\"\021\215H\007\023*\345\242BB\210"
  2109      D122118D 
  2109      4807132A 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 67
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 67
 
 
  2109      E5A24242 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2121 012f 2334B891 		.ascii	"#4\270\2210\002\231t\"\020\235\215.\353\232\256\371"
  2121      30029974 
  2121      22109D8D 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 68
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 68
 
 
  2121      2EEB9AAE 
@@ -4030,7 +4030,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2122      00
  2123 0151 764B77E8 		.ascii	"vKw\350"
  2124              		.text
- 2125              		.section	.gnu.lto_TFT_Draw_Pixel.378.3c2d34f5,"e",%progbits
+ 2125              		.section	.gnu.lto_TFT_Draw_Pixel.378.3c494021,"e",%progbits
  2126 0000 789C4D90 		.ascii	"x\234M\220;K\003Q\020\205\347\354d#!X\351\017P,D\020"
  2126      3B4B0351 
  2126      1085E7EC 
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2135      F2B14A9E 
  2135      FF272F3C 
  2135      72CF2387 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 69
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 69
 
 
  2136 00b4 2BE45B95 		.ascii	"+\344[\225\274\374O^y\344i=\221\337\363')$\236X\334"
@@ -4128,7 +4128,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2145      9944F217 
  2145      B65B8058 
  2146              		.text
- 2147              		.section	.gnu.lto_constrain.379.3c2d34f5,"e",%progbits
+ 2147              		.section	.gnu.lto_constrain.379.3c494021,"e",%progbits
  2148 0000 789C4DCF 		.ascii	"x\234M\317=H[Q\024\007\360\363\277\347&\255\370\261"
  2148      3D485B51 
  2148      1407F0F3 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2149      58508328 
  2149      86D04150 
  2149      3A15A4AD 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 70
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 70
 
 
  2149      4B2145E2 
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2161      4A1827CF 
  2161      D21F5FCA 
  2161      DCDE
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 71
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 71
 
 
  2162 00fd 4D1A7354 		.ascii	"M\032sT\231\331+\364\303\231U\220\020r\227uh\310(\321"
@@ -4251,14 +4251,14 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2171      73AF
  2172 01b5 40       		.ascii	"@"
  2173              		.text
- 2174              		.section	.gnu.lto_TFT_Fill_Screen.380.3c2d34f5,"e",%progbits
+ 2174              		.section	.gnu.lto_TFT_Fill_Screen.380.3c494021,"e",%progbits
  2175 0000 789C9D55 		.ascii	"x\234\235U]LTG\024\236s\347\356\037,\313_\341\301\320"
  2175      5D4C5447 
  2175      149E73E7 
  2175      EE1F2CCB 
  2175      5FE1C1D0 
  2176 0014 041F9AA6 		.ascii	"\004\037\232\246\211\025jj\240}\201D\323\247\246I#\217"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 72
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 72
 
 
  2176      89156A6A 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2187      FEE3AB
  2188 00ea B8D44004 		.ascii	"\270\324@\004\372\245\020}\322\234<-\241G\366K\000\335"
  2188      FAA5107D 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 73
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 73
 
 
  2188      D29C3C2D 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2200 01ba 499F5994 		.ascii	"I\237Y\224B6\015\333\000\"\220C\021BtI\261\2746P\010"
  2200      42360DDB 
  2200      00229043 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 74
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 74
 
 
  2200      11427449 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2212 0292 ACD98004 		.ascii	"\254\331\200\004\327\006\032\232\003\250\245\263,\030"
  2212      D7061A9A 
  2212      03A8A5B3 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 75
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 75
 
 
  2212      2C18
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2224 036a B4A1B52D 		.ascii	"\264\241\265-t \2113\030\211&J\355\351\035x\022\373"
  2224      74208933 
  2224      1889264A 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 76
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 76
 
 
  2224      EDE91D78 
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2235      52573E76 
  2235      2F837DE9 
  2236 0449 19C0ABD9 		.ascii	"\031\300\253\331\321\355\237\277,\351n\226\304\264\022"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 77
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 77
 
 
  2236      D1ED9FBF 
@@ -4618,11 +4618,11 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2247      35B74039 
  2247      EC07EF7F 
  2248 0522 0D0E6510 		.ascii	"\015\016e\020"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 78
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 78
 
 
  2249              		.text
- 2250              		.section	.gnu.lto_TFT_Fill_Rectangle.381.3c2d34f5,"e",%progbits
+ 2250              		.section	.gnu.lto_TFT_Fill_Rectangle.381.3c494021,"e",%progbits
  2251 0000 789C4D91 		.ascii	"x\234M\221Oh\023A\024\306\3377o6\177\250\370_\360\250"
  2251      4F681341 
  2251      14C6DF37 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2261      4A4748F6 
  2261      47E4FB26 
  2261      F9A4
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 79
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 79
 
 
  2262 00d4 9D7C6AC9 		.ascii	"\235|j\311w\226<\025\221\353Mr\261\235\\\262\344gK\236"
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2272      E91D
  2273 01a3 CE9ECF9E 		.ascii	"\316\236\317\236\036\273\354e\363\335\251+\251\314x"
  2273      1EBBEC65 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 80
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 80
 
 
  2273      F3DDA92B 
@@ -4762,7 +4762,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2277      F9C23F46 
  2277      23C426
  2278              		.text
- 2279              		.section	.gnu.lto_TFT_Draw_Char.382.3c2d34f5,"e",%progbits
+ 2279              		.section	.gnu.lto_TFT_Draw_Char.382.3c494021,"e",%progbits
  2280 0000 789C7555 		.ascii	"x\234uU[L\\U\024=\353\236{\347\336\231\341Y(\005>\312"
  2280      5B4C5C55 
  2280      143DEB9E 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2286      CB36F06E 
  2286      7F
  2287 0084 627E6AD2 		.ascii	"b~j\322\304EHB\033\035}o\031\370\206\243R\363P_\226"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 81
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 81
 
 
  2287      C4454842 
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2298      C63DE5E1 
  2298      4E8F77BA 
  2299 015d 39B42313 		.ascii	"9\264#\023\237\013\356~T1\312\254yGPQ\017u\311G}q'\352"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 82
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 82
 
 
  2299      9F0BEE7E 
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2310      F26FC2BD 
  2310      3618077F 
  2310      272A79C7 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 83
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 83
 
 
  2310      37D17672 
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2321      A263
  2322 0323 C1D69D82 		.ascii	"\301\326\235\202\257f\247\365\346\256\326\273N\364\346"
  2322      AF66A7F5 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 84
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 84
 
 
  2322      E6AED6BB 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2334 03f9 8B2FD5C7 		.ascii	"\213/\325\307\232\252\253^\256\252}\245\251y_\313\201"
  2334      9AAAAB5E 
  2334      AEAA7DA5 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 85
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 85
 
 
  2334      A9795FCB 
@@ -5064,7 +5064,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2339 044e 73FF038F 		.ascii	"s\377\003\217=\0308"
  2339      3D1838
  2340              		.text
- 2341              		.section	.gnu.lto_TFT_Draw_String.383.3c2d34f5,"e",%progbits
+ 2341              		.section	.gnu.lto_TFT_Draw_String.383.3c494021,"e",%progbits
  2342 0000 789C5D93 		.ascii	"x\234]\223]h\\U\020\307\347\177\346\334{\367#\273\244"
  2342      5D685C55 
  2342      10C7E77F 
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2348      C80F09C2 
  2348      6C30ADC8 
  2348      F7FD7D
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 86
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 86
 
 
  2349 007c 9EC27C30 		.ascii	"\236\302|0\375\373R\017\352\260>\253\361 -V\267\236"
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2360 013e D3BB9222 		.ascii	"\323\273\222\"r\377{\036r\222>\\uj\376\346\355\212\357"
  2360      72FF7B1E 
  2360      72923E5C 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 87
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 87
 
 
  2360      756AFEE6 
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2371      EFDE90
  2372 0220 3BAC9F31 		.ascii	";\254\2371i\273\345\231H\300\026v\266v8\272\217\354"
  2372      69BBE599 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 88
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 88
 
 
  2372      48C01676 
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2383      7439EBC1 
  2383      5A2252E9 
  2384 02ff 57F12F8C 		.ascii	"W\361/\214\376|\376I\233\253\302\210o+\321\275\007z"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 89
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 89
 
 
  2384      FE7CFE49 
@@ -5313,7 +5313,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2390      7F01B8FB 
  2390      825C
  2391              		.text
- 2392              		.section	.gnu.lto_TFT_Draw_Line.384.3c2d34f5,"e",%progbits
+ 2392              		.section	.gnu.lto_TFT_Draw_Line.384.3c494021,"e",%progbits
  2393 0000 789C6D95 		.ascii	"x\234m\225}L\325e\024\307\237\363<\277{\177\367\205"
  2393      7D4CD565 
  2393      14C79FF3 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2397      68998AB9 
  2397      B2368735 
  2397      CB31B3CE 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 90
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 90
 
 
  2398 005a 39BF977B 		.ascii	"9\277\227{w\365\016\036\236\227\317\371\236\227\347"
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2410 0127 367014E0 		.ascii	"6p\024\340+\254)n,\271\353#\3565\213\273\352r_\247s"
  2410      2BAC296E 
  2410      2CB9EB23 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 91
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 91
 
 
  2410      EE358BBB 
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2422      C83361BB 
  2422      07DEEF37 
  2422      34071349 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 92
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 92
 
 
  2422      CC6A
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2434 02d6 9B2A1337 		.ascii	"\233*\0237\352\036nYl\252)\270\205T]\004#\302\025\033"
  2434      EA1E6E59 
  2434      6CAA29B8 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 93
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 93
 
 
  2434      85545D04 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2446 03a9 5445A1A6 		.ascii	"TE\241\246\331\274\023\300\035\224\360a\203\032\032"
  2446      D9BC13C0 
  2446      1D94F061 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 94
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 94
 
 
  2446      831A1A
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2458 0481 A939579D 		.ascii	"\2519W\235G\240\371\242\325\372#\330^\032\265&\032\265"
  2458      47A0F9A2 
  2458      D5FA23D8 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 95
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 95
 
 
  2458      5E1AB526 
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2469      97F3CA4A 
  2469      9E
  2470 055e 5BB368F1 		.ascii	"[\263h\361\3022!k\212e\365\002Y\263\300SZ\261\276\242"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 96
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 96
 
 
  2470      C232216B 
@@ -5713,7 +5713,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2472 0587 FFF95202 		.ascii	"\377\371R\002\302"
  2472      C2
  2473              		.text
- 2474              		.section	.gnu.lto_TFT_Draw_Horizontal_Line.385.3c2d34f5,"e",%progbits
+ 2474              		.section	.gnu.lto_TFT_Draw_Horizontal_Line.385.3c494021,"e",%progbits
  2475 0000 789C5D92 		.ascii	"x\234]\222MHTQ\024\307\317\377\236\367\346\303d\012"
  2475      4D485451 
  2475      14C7CFFF 
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2483      2697BB6C 
  2483      50E94AF1 
  2483      5EA1
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 97
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 97
 
 
  2484 00af 7FC7528B 		.ascii	"\177\307R\213\313p\246r\3102Q\232K\311I\3068g\031\260"
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2495 0184 3FA034E0 		.ascii	"?\2404\340\225\265\016\\\327\300p\011p\247\245M\322"
  2495      95B50E5C 
  2495      D7C07009 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 98
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 98
 
 
  2495      70A7A54D 
@@ -5878,13 +5878,13 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2507      4EF575D9 
  2507      A16877B4 
  2507      0791BFB9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 99
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 99
 
 
  2507      08
  2508 0267 0885     		.ascii	"\010\205"
  2509              		.text
- 2510              		.section	.gnu.lto_TFT_Draw_Vertical_Line.386.3c2d34f5,"e",%progbits
+ 2510              		.section	.gnu.lto_TFT_Draw_Vertical_Line.386.3c494021,"e",%progbits
  2511 0000 789C5D92 		.ascii	"x\234]\222MHTQ\024\307\317\377\2367_&c0\321\332\240"
  2511      4D485451 
  2511      14C7CFFF 
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2521      2C8572B1 
  2521      384C07B3 
  2521      5A2FBD9A 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 100
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 100
 
 
  2521      D63A402E 
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2532      680DB1
  2533 019a 1492ADEF 		.ascii	"\024\222\255\357n\231t\211\0122\315q*\361n\201Mwl\200"
  2533      6E997489 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 101
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 101
 
 
  2533      0A32CD71 
@@ -6053,12 +6053,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2543      3B11FB03 
  2543      22F50AEF 
  2544              		.text
- 2545              		.section	.gnu.lto_TFT_Draw_Triangle.387.3c2d34f5,"e",%progbits
+ 2545              		.section	.gnu.lto_TFT_Draw_Triangle.387.3c494021,"e",%progbits
  2546 0000 789C6DD2 		.ascii	"x\234m\322\317K\224A\030\007\360\347;\317\373\356\272"
  2546      CF4B9441 
  2546      1807F0E7 
  2546      3BCFFBEE 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 102
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 102
 
 
  2546      BA
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2557      C4DD9C
  2558 00df 7605E3BE 		.ascii	"v\005\343\276Fn5\356\026\264\3533n3rkq\267\232$J\374"
  2558      466E35EE 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 103
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 103
 
 
  2558      16B4EB33 
@@ -6177,8 +6177,8 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2569      A0543E02 
  2569      A2C5C2A2 
  2570              		.text
- 2571              		.section	.gnu.lto_TFT_Draw_Circle.388.3c2d34f5,"e",%progbits
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 104
+ 2571              		.section	.gnu.lto_TFT_Draw_Circle.388.3c494021,"e",%progbits
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 104
 
 
  2572 0000 789CC556 		.ascii	"x\234\305Vkh\024W\024\276g\356\314\354+\273Y\223\032"
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2583      606ABA4C 
  2583      FD1C21DF 
  2583      B4363954 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 105
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 105
 
 
  2584 00d9 12E186AD 		.ascii	"\022\341\206\255\221\026\227L\262\314\001l\213\302U"
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2595 01a7 73925927 		.ascii	"s\222Y'\375\001\316\001%\241\206\247\372{Z}a\240\206"
  2595      FD01CE01 
  2595      25A186A7 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 106
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 106
 
 
  2595      FA7B5A7D 
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2607 0283 B0C42C5A 		.ascii	"\260\304,Z\362h\311gXn6\300\011( \334\034\362\315\005"
  2607      F268C967 
  2607      586E36C0 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 107
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 107
 
 
  2607      092820DC 
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2618      B029680A 
  2618      B246C0
  2619 0361 9B4E8F61 		.ascii	"\233N\217a\233\030\024\365\364\004\036&\301\016y\020"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 108
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 108
 
 
  2619      9B1814F5 
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2630      15
  2631 0434 F73E2856 		.ascii	"\367>(Vn?\217\311\343<W8\3748S\312\265\205\302\223\207"
  2631      6E3F8FC9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 109
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 109
 
 
  2631      E33C5738 
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2642      B952B3
  2643 0511 099CE522 		.ascii	"\011\234\345\",o\351MwZ\221\324\273\037C\036\334\331"
  2643      2C6FE94D 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 110
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 110
 
 
  2643      775A91D4 
@@ -6597,8 +6597,8 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2654      36FD0707 
  2654      8FA1EB
  2655              		.text
- 2656              		.section	.gnu.lto_TFT_Fill_Circle.389.3c2d34f5,"e",%progbits
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 111
+ 2656              		.section	.gnu.lto_TFT_Fill_Circle.389.3c494021,"e",%progbits
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 111
 
 
  2657 0000 789C6D55 		.ascii	"x\234mU[L\\U\024=\373\234{\347\011\303\360\220\"\255"
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2668      22403D89 
  2668      61BF93A4 
  2669 00dc C94BE2A0 		.ascii	"\311K\342\240T\206\351\361\372\374\301\000A\027\353"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 112
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 112
 
 
  2669      5486E9F1 
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2680      DBFF8C58 
  2680      D6AD
  2681 01b2 5DD7D2A5 		.ascii	"]\327\322\2455\2041M\311\202yR\006\013\223\205\207\205"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 113
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 113
 
 
  2681      3584314D 
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2692      2E0FC3B0 
  2692      55395C6E 
  2692      D0E434D9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 114
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 114
 
 
  2692      A0
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2704 034f 99191461 		.ascii	"\231\031\024a\317\305\245\205:\216Jd\264\2735?\007\301"
  2704      CFC5A585 
  2704      3A8E4A64 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 115
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 115
 
 
  2704      B4BB353F 
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2716      5FD98822 
  2716      F7CD2144 
  2716      74FBE3CD 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 116
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 116
 
 
  2716      DBF6
@@ -6927,7 +6927,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2721      BFD3033A 
  2721      C7
  2722              		.text
- 2723              		.section	.gnu.lto_TFT_Image.390.3c2d34f5,"e",%progbits
+ 2723              		.section	.gnu.lto_TFT_Image.390.3c494021,"e",%progbits
  2724 0000 789C6D94 		.ascii	"x\234m\224]h\034U\024\307\317\177\316\235\335M\262\233"
  2724      5D681C55 
  2724      14C7CF7F 
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2729      9CDFFCCF 
  2730 006b BDE79E99 		.ascii	"\275\347\236\231j\227\250\213\210z\344\217\010a<?\354"
  2730      6A97A88B 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 117
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 117
 
 
  2730      887AE48F 
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2741      3451DB92 
  2741      15DDBD8C 
  2741      CE7EAC
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 118
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 118
 
 
  2742 0147 EB6C55F2 		.ascii	"\353lU\362J\005\371\247%\367\224Eo\216\224E\247+\320"
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2753      2C8B
  2754 0214 1158A022 		.ascii	"\021X\240\"WY\255B\343\212\224\374\352}nX\2212\342\303"
  2754      5759AD42 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 119
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 119
 
 
  2754      E38A94FC 
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2765      7891EBAC 
  2765      CA57132D 
  2765      E139
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 120
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 120
 
 
  2766 02ea C8032D61 		.ascii	"\310\003-a1\\ \310vY\262\265\330\032\032\375d\031\255"
@@ -7190,7 +7190,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2775      FF0132CC 
  2775      B9FE
  2776              		.text
- 2777              		.section	.gnu.lto_TFT_Fill_Rectangle.part.0.397.3c2d34f5,"e",%progbits
+ 2777              		.section	.gnu.lto_TFT_Fill_Rectangle.part.0.397.3c494021,"e",%progbits
  2778 0000 789C55D2 		.ascii	"x\234U\322Mh\023A\024\007\360\367\3377\273ITPZ\257\202"
  2778      4D681341 
  2778      1407F0F7 
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2778      54505AAF 
  2779 0015 9EC44B1B 		.ascii	"\236\304K\033\202\305\320\223\320\342I(b\017\036\202"
  2779      82C5D093 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 121
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 121
 
 
  2779      D0E24928 
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2790      D68D2DC4 
  2790      B1
  2791 00f6 458B9DB0 		.ascii	"E\213\235\260\330\375\331\233r\227i]\212c\313\006\373"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 122
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 122
 
 
  2791      D8FDD99B 
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2802      205FCCA4 
  2803 01c4 2FA673D3 		.ascii	"/\246s\323\305\322\331\311\363c\376x\356\350\3200\365"
  2803      C5D2D9C9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 123
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 123
 
 
  2803      F363FE78 
@@ -7338,7 +7338,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2806      144BFF01 
  2806      6023F4BD 
  2807              		.text
- 2808              		.section	.gnu.lto_.symbol_nodes.3c2d34f5,"e",%progbits
+ 2808              		.section	.gnu.lto_.symbol_nodes.3c494021,"e",%progbits
  2809 0000 789C7594 		.ascii	"x\234u\224\273\216\323@\024\206g\316\331\265c\233\330"
  2809      BB8ED340 
  2809      148667CE 
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2816      9ADF8102 
  2816      AFF903
  2817 0090 28F49A3F 		.ascii	"(\364\232?\201:^\363\022(\362\232\277\200b\257\371\033"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 124
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 124
 
 
  2817      813A5EF3 
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2828      558846CD 
  2828      B842C615 
  2828      72567356 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 125
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 125
 
 
  2829 016b 70DD01AB 		.ascii	"p\335\001\253\214\325\220\325!\307\216\3351\017\307"
@@ -7498,10 +7498,10 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2840      07E37EE6 
  2840      1A
  2841              		.text
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 126
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 126
 
 
- 2842              		.section	.gnu.lto_.refs.3c2d34f5,"e",%progbits
+ 2842              		.section	.gnu.lto_.refs.3c494021,"e",%progbits
  2843 0000 789C0DC5 		.ascii	"x\234\015\3051\016\000\020\000\004\301=NT\022\324\""
  2843      310E0010 
  2843      0004C13D 
@@ -7517,7 +7517,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2845      D8F00023 
  2845      BE0174
  2846              		.text
- 2847              		.section	.gnu.lto_.decls.3c2d34f5,"e",%progbits
+ 2847              		.section	.gnu.lto_.decls.3c494021,"e",%progbits
  2848 0000 789CA559 		.ascii	"x\234\245Y{TT\327\325\277\373\236\031f\270\0143F1m\276"
  2848      7B5454D7 
  2848      D5BFFB9E 
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2855      14CA6D94 
  2855      0E
  2856 0094 942E4E3A 		.ascii	"\224.N:(\266\217\236\000\307\361(\006\224 \024\001\305"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 127
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 127
 
 
  2856      28B68F9E 
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2867      184B40EA 
  2867      3B7AD018 
  2867      CC5E
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 128
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 128
 
 
  2868 016b F645F351 		.ascii	"\366E\363Qz\301\377\030\216\023f\331\337PN\352\2058"
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2880 0233 F5A7B7CE 		.ascii	"\365\247\267\316\264o\336\200g\257u6\372\264\014\342"
  2880      B46FDE80 
  2880      67AF7536 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 129
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 129
 
 
  2880      FAB40CE2 
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2892 030d 3C89A1C3 		.ascii	"<\211\241\303_\"\003\302\2769\362G\352\251k^IA\010\365"
  2892      5F2203C2 
  2892      BE39F247 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 130
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 130
 
 
  2892      EAA96B5E 
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2903      9D1AE664 
  2903      3F4C
  2904 03fe 3DFDD801 		.ascii	"=\375\330\001\\\021\022>P\374\367j,\317\011\200\362"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 131
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 131
 
 
  2904      5C11123E 
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2915      E0F1748E 
  2916 04d1 28F6BD84 		.ascii	"(\366\275\204\337\030`\313\234\326\276`\215\307]\215"
  2916      DF1860CB 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 132
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 132
 
 
  2916      9CD6BE60 
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2928 05ae 80254ABC 		.ascii	"\200%J\274t\363'\202Q\010\036\021\036\301qNn2\217~\311"
  2928      74F32782 
  2928      51081E11 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 133
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 133
 
 
  2928      1EC1714E 
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2939      01BDEC
  2940 0689 AAA3917A 		.ascii	"\252\243\221z\021\336\003\320\015#\266\332\3109\346"
  2940      11DE03D0 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 134
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 134
 
 
  2940      0D23B6DA 
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2951      A1
  2952 076d 9594B1C0 		.ascii	"\225\224\261\300\233Z+\027\2062\243\322~F\271\252Q\256"
  2952      9B5A2B17 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 135
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 135
 
 
  2952      8632A3D2 
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2963      D9ED4D4F 
  2963      E64B
  2964 0850 17D1DE4C 		.ascii	"\027\321\336L\265\340h\270^I\362Kz\256\230V\205\274"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 136
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 136
 
 
  2964      B5E068B8 
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2975      C85EC6FE 
  2976 0924 D6FAC302 		.ascii	"\326\372\303\0023Z\263@5\302\365\332\257\032\355W\215"
  2976      335AB340 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 137
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 137
 
 
  2976      35C2F5DA 
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2987      C4739BCC 
  2988 09f9 8C5A9F46 		.ascii	"\214Z\237F\355\014\017\365*\265z\225\332##\311g\324"
  2988      ED0C0FF5 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 138
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 138
 
 
  2988      2AB57A95 
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  2999      B573EEAF 
  2999      93
  3000 0ada B3E2A185 		.ascii	"\263\342\241\2052\2539WpS\257y\357bI\356HF\267\316\244"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 139
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 139
 
 
  3000      32AB3957 
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3011      217B5F88 
  3011      1E720E43 
  3011      A611E9DD 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 140
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 140
 
 
  3011      8B
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3023      BF4BA4B8 
  3023      2B3FBBDD 
  3023      6AD2E617 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 141
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 141
 
 
  3023      68CC
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3035 0d52 4CF1787D 		.ascii	"L\361x}\251\221\323g\274;.*r\352\324\350\310\267b\336"
  3035      A991D367 
  3035      BC3B2E2A 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 142
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 142
 
 
  3035      72EAD4E8 
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3046      F024A7FA 
  3046      BC
  3047 0e44 F1EE641B 		.ascii	"\361\356d\033\235\230\354NL\264Owx]\256\344\027\324"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 143
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 143
 
 
  3047      9D98EC4E 
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3058      AF9EC4D4 
  3058      E74647D2 
  3058      7E42
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 144
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 144
 
 
  3059 0f1f 78E464AC 		.ascii	"x\344d\254#E\331\177\357\361$\376?\\\010B\330"
@@ -8587,7 +8587,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3059      3F5C0842 
  3059      D8
  3060              		.text
- 3061              		.section	.gnu.lto_.symtab.3c2d34f5,"e",%progbits
+ 3061              		.section	.gnu.lto_.symtab.3c494021,"e",%progbits
  3062 0000 5446545F 		.ascii	"TFT_GPIO_Init\000"
  3062      4750494F 
  3062      5F496E69 
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3090      00000000 
  3091 008a 79010000 		.ascii	"y\001\000\000"
  3092 008e 4D41585F 		.ascii	"MAX_Y\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 145
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 145
 
 
  3092      5900
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3127 0128 13010000 		.ascii	"\023\001\000\000"
  3128 012c 5446545F 		.ascii	"TFT_Draw_Pixel\000"
  3128      44726177 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 146
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 146
 
 
  3128      5F506978 
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3162      00000000 
  3163 01d4 86010000 		.ascii	"\206\001\000\000"
  3164 01d8 5446545F 		.ascii	"TFT_Draw_String\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 147
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 147
 
 
  3164      44726177 
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3194      5F436972 
  3194      636C6500 
  3195 0293 00       		.ascii	"\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 148
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 148
 
 
  3196 0294 00       		.ascii	"\000"
@@ -8866,7 +8866,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3222      00000000 
  3223 0315 76010000 		.ascii	"v\001\000\000"
  3224              		.text
- 3225              		.section	.gnu.lto_.ext_symtab.3c2d34f5,"e",%progbits
+ 3225              		.section	.gnu.lto_.ext_symtab.3c494021,"e",%progbits
  3226 0000 01       		.ascii	"\001"
  3227 0001 01       		.ascii	"\001"
  3228 0002 00       		.ascii	"\000"
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3234 0008 00       		.ascii	"\000"
  3235 0009 02       		.ascii	"\002"
  3236 000a 01       		.ascii	"\001"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 149
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 149
 
 
  3237 000b 02       		.ascii	"\002"
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3284      272D6727 
  3284      20272D6D 
  3285 0066 61742D61 		.ascii	"at-abi=soft' '-march=armv7e-m' '-O2' '-fomit-frame-"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 150
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 150
 
 
  3285      62693D73 
@@ -8963,12 +8963,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 1
  3289              		.text
  3290              		.comm	__gnu_lto_slim,1,1
  3291              		.ident	"GCC: (GNU Arm Embedded Toolchain 10-2020-q4-major) 10.2.1 20201103 (release)"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s 			page 151
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s 			page 151
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 TFT_8080.c
-C:\Users\Vania\AppData\Local\Temp\ccECxkN5.s:23     .gnu.debuglto_.debug_info:00000000 TFT_8080.c.d87a452d
+C:\Users\Vania\AppData\Local\Temp\ccUOhyqx.s:23     .gnu.debuglto_.debug_info:00000000 TFT_8080.c.d87a452d
                             *COM*:00000001 __gnu_lto_slim
 
 NO UNDEFINED SYMBOLS
