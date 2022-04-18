@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 1
 
 
    1              		.cpu cortex-m7
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
   55 0041 C6010000 		.4byte	.LASF8
   56 0045 01       		.byte	0x1
   57 0046 2B       		.byte	0x2b
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 2
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 2
 
 
   58 0047 18       		.byte	0x18
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  112 00b0 9A000000 		.4byte	0x9a
  113 00b4 BF000000 		.4byte	0xbf
  114 00b8 07       		.uleb128 0x7
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 3
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 3
 
 
  115 00b9 24000000 		.4byte	0x24
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  169 0127 10       		.byte	0x10
  170 0128 0A       		.uleb128 0xa
  171 0129 4F030000 		.4byte	.LASF17
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 4
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 4
 
 
  172 012d 03       		.byte	0x3
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  226 0198 0A       		.uleb128 0xa
  227 0199 64010000 		.4byte	.LASF25
  228 019d 03       		.byte	0x3
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 5
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 5
 
 
  229 019e 0E03     		.2byte	0x30e
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  283 0209 37040000 		.4byte	.LASF33
  284 020d 03       		.byte	0x3
  285 020e 1603     		.2byte	0x316
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 6
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 6
 
 
  286 0210 11       		.byte	0x11
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  340 027d 03       		.byte	0x3
  341 027e 1E03     		.2byte	0x31e
  342 0280 11       		.byte	0x11
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 7
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 7
 
 
  343 0281 9A000000 		.4byte	0x9a
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  397 02ea 43523200 		.ascii	"CR2\000"
  398 02ee 04       		.byte	0x4
  399 02ef F801     		.2byte	0x1f8
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 8
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 8
 
 
  400 02f1 19       		.byte	0x19
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  454 035d 04       		.byte	0x4
  455 035e 0002     		.2byte	0x200
  456 0360 19       		.byte	0x19
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 9
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 9
 
 
  457 0361 9A000000 		.4byte	0x9a
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  511 03cd 0802     		.2byte	0x208
  512 03cf 19       		.byte	0x19
  513 03d0 9A000000 		.4byte	0x9a
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 10
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 10
 
 
  514 03d4 50       		.byte	0x50
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  568 043a 3E040000 		.4byte	0x43e
  569 043e 10       		.uleb128 0x10
  570 043f D8030000 		.4byte	.LASF61
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 11
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 11
 
 
  571 0443 1C       		.byte	0x1c
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  625 04ae 00       		.byte	0
  626 04af 04       		.uleb128 0x4
  627 04b0 23050000 		.4byte	.LASF68
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 12
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 12
 
 
  628 04b4 05       		.byte	0x5
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  682 0523 06       		.byte	0x6
  683 0524 3503     		.2byte	0x335
  684 0526 1D       		.byte	0x1d
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 13
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 13
 
 
  685 0527 AF040000 		.4byte	0x4af
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  739 0592 1D       		.byte	0x1d
  740 0593 8E000000 		.4byte	0x8e
  741 0597 40       		.byte	0x40
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 14
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 14
 
 
  742 0598 0A       		.uleb128 0xa
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  796 0606 8E000000 		.4byte	0x8e
  797 060a 00       		.byte	0
  798 060b 15       		.uleb128 0x15
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 15
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 15
 
 
  799 060c 3F010000 		.4byte	.LASF81
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  853 0682 71060000 		.4byte	0x671
  854 0686 15       		.uleb128 0x15
  855 0687 77030000 		.4byte	.LASF85
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 16
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 16
 
 
  856 068b 07       		.byte	0x7
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  910 06fa 26070000 		.4byte	0x726
  911 06fe 16       		.uleb128 0x16
  912 06ff CE000000 		.4byte	.LASF82
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 17
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 17
 
 
  913 0703 07       		.byte	0x7
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  967 0775 19       		.uleb128 0x19
  968 0776 D2020000 		.4byte	.LASF93
  969 077a 8F070000 		.4byte	0x78f
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 18
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 18
 
 
  970 077e 00       		.byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1024 0024 00       		.byte	0
  1025 0025 04       		.uleb128 0x4
  1026 0026 16       		.uleb128 0x16
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 19
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 19
 
 
  1027 0027 00       		.byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1081 005d 0D       		.uleb128 0xd
  1082 005e 00       		.byte	0
  1083 005f 03       		.uleb128 0x3
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 20
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 20
 
 
  1084 0060 08       		.uleb128 0x8
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1138 0096 00       		.byte	0
  1139 0097 0B       		.uleb128 0xb
  1140 0098 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 21
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 21
 
 
  1141 0099 49       		.uleb128 0x49
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1195 00cf 01       		.uleb128 0x1
  1196 00d0 13       		.uleb128 0x13
  1197 00d1 00       		.byte	0
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 22
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 22
 
 
  1198 00d2 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1252 0108 19       		.uleb128 0x19
  1253 0109 01       		.uleb128 0x1
  1254 010a 13       		.uleb128 0x13
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 23
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 23
 
 
  1255 010b 00       		.byte	0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1309 0141 34       		.uleb128 0x34
  1310 0142 19       		.uleb128 0x19
  1311 0143 00       		.byte	0
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 24
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 24
 
 
  1312 0144 00       		.byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1359      53747564 
  1359      696F3230 
  1359      76305C63 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 25
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 25
 
 
  1360 0081 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1383 01a0 73746D33 		.ascii	"stm32_tim.h\000"
  1383      325F7469 
  1383      6D2E6800 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 26
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 26
 
 
  1384 01ac 03       		.uleb128 0x3
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1415 006d 41484232 		.ascii	"AHB2ENR\000"
  1415      454E5200 
  1416              	.LASF53:
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 27
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 27
 
 
  1417 0075 444D4152 		.ascii	"DMAR\000"
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1447 00f3 44434B43 		.ascii	"DCKCFGR1\000"
  1447      46475231 
  1447      00
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 28
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 28
 
 
  1448              	.LASF32:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1476              	.LASF10:
  1477 01a4 6C6F6E67 		.ascii	"long unsigned int\000"
  1477      20756E73 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 29
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 29
 
 
  1477      69676E65 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1498      2D736563 
  1499              	.LASF57:
  1500 02c7 50574D5F 		.ascii	"PWM_UNINIT\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 30
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 30
 
 
  1500      554E494E 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1525              	.LASF85:
  1526 0377 70776D5F 		.ascii	"pwm_lld_disable_periodic_notification\000"
  1526      6C6C645F 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 31
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 31
 
 
  1526      64697361 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1552      3100
  1553              	.LASF26:
  1554 0423 52455345 		.ascii	"RESERVED2\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 32
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 32
 
 
  1554      52564544 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1582      75656E63 
  1582      7900
  1583              	.LASF97:
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 33
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 33
 
 
  1584 04ba 50574D44 		.ascii	"PWMD1\000"
@@ -1968,17 +1968,17 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1604      6261636B 
  1604      00
  1605              		.text
- 1606              		.section	.gnu.lto_.profile.18ae6996,"e",%progbits
+ 1606              		.section	.gnu.lto_.profile.3c2cc478,"e",%progbits
  1607 0000 789CE360 		.ascii	"x\234\343`\000\002F\036\020\311\000\000\000\273\000"
  1607      0002461E 
  1607      10C90000 
  1607      00BB00
  1608 000f 16       		.ascii	"\026"
  1609              		.text
- 1610              		.section	.gnu.lto_.icf.18ae6996,"e",%progbits
+ 1610              		.section	.gnu.lto_.icf.3c2cc478,"e",%progbits
  1611 0000 789CF365 		.ascii	"x\234\363e@\000^\206\237o\256\356\340aln\330\263\202"
  1611      40005E86 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 34
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 34
 
 
  1611      9F6FAEEE 
@@ -2006,7 +2006,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1616 0056 5C1800C1 		.ascii	"\\\030\000\301\253&\027"
  1616      AB2617
  1617              		.text
- 1618              		.section	.gnu.lto_.ipa_sra.18ae6996,"e",%progbits
+ 1618              		.section	.gnu.lto_.ipa_sra.3c2cc478,"e",%progbits
  1619 0000 789C7D8D 		.ascii	"x\234}\215\213\015\2000\010D\357\025\324\252\035\300"
  1619      8B0D8030 
  1619      0844EF15 
@@ -2033,12 +2033,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1624 0057 5A01DFD8 		.ascii	"Z\001\337\330\021\305"
  1624      11C5
  1625              		.text
- 1626              		.section	.gnu.lto_.inline.18ae6996,"e",%progbits
+ 1626              		.section	.gnu.lto_.inline.3c2cc478,"e",%progbits
  1627 0000 789CAD54 		.ascii	"x\234\255T=\213\023a\020~f\336ww\337K\342\261\376\001"
  1627      3D8B1361 
  1627      107E66DE 
  1627      7777DF4B 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 35
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 35
 
 
  1627      E2B1FE01 
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1639      D09A3AD5 
  1639      4B8B91D8 
  1639      1C7A6881 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 36
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 36
 
 
  1639      F6BF
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1650      2115FFD2 
  1651 01b3 FE6590F2 		.ascii	"\376e\220\362\237\301\\\311d\306;\312a.x\027LWp\316"
  1651      9FC15CC9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 37
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 37
 
 
  1651      64C63BCA 
@@ -2194,7 +2194,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1657      03FE8D2B 
  1657      62
  1658              		.text
- 1659              		.section	.gnu.lto_.jmpfuncs.18ae6996,"e",%progbits
+ 1659              		.section	.gnu.lto_.jmpfuncs.3c2cc478,"e",%progbits
  1660 0000 789CB58D 		.ascii	"x\234\265\215\335\015\203@\014\203\355$\345\370\223"
  1660      DD0D8340 
  1660      0C83ED24 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1664      911D9546 
  1664      974E50A8 
  1664      4925D96C 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 38
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 38
 
 
  1664      062F
@@ -2231,7 +2231,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1666      FC578A1D 
  1666      418C4B26 
  1667              		.text
- 1668              		.section	.gnu.lto_.pureconst.18ae6996,"e",%progbits
+ 1668              		.section	.gnu.lto_.pureconst.3c2cc478,"e",%progbits
  1669 0000 789C05C1 		.ascii	"x\234\005\301\207\015\000 \014\300\260\202\302\356\033"
  1669      870D0020 
  1669      0CC0B082 
@@ -2244,11 +2244,11 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1671 0024 03944D07 		.ascii	"\003\224M\007\343"
  1671      E3
  1672              		.text
- 1673              		.section	.gnu.lto_.lto.18ae6996,"e",%progbits
+ 1673              		.section	.gnu.lto_.lto.3c2cc478,"e",%progbits
  1674 0000 09000200 		.ascii	"\011\000\002\000\001\000\000\000"
  1674      01000000 
  1675              		.text
- 1676              		.section	.gnu.lto_pwm_lld_init.367.18ae6996,"e",%progbits
+ 1676              		.section	.gnu.lto_pwm_lld_init.367.3c2cc478,"e",%progbits
  1677 0000 789C7590 		.ascii	"x\234u\220\261KBQ\024\306\317\367\316{f\020m\255\021"
  1677      B14B4251 
  1677      14C6CFF7 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1682      4443B559 
  1682      1FC5
  1683 0068 197C05AA 		.ascii	"\031|\005\252h\250`\227g\244|w\372Ob\325\203\313DmY"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 39
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 39
 
 
  1683      68A86097 
@@ -2338,12 +2338,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1694      4BAAB0BD 
  1694      91CAE733 
  1694      B369FA06 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 40
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 40
 
 
  1695 014d 965E7EFC 		.ascii	"\226^~\374"
  1696              		.text
- 1697              		.section	.gnu.lto_pwm_lld_start.368.18ae6996,"e",%progbits
+ 1697              		.section	.gnu.lto_pwm_lld_start.368.3c2cc478,"e",%progbits
  1698 0000 789C8D98 		.ascii	"x\234\215\230\177lTU\026\307\337yw\332N\333\351\364"
  1698      7F6C5455 
  1698      16C7DF79 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1708      2FC018
  1709 00bc FE2B5AAF 		.ascii	"\376+Z\257\250\212\307V\276\343\315\312\357\2017b\340"
  1709      A88AC756 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 41
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 41
 
 
  1709      BEE3CDCA 
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1720      4A6A9A27 
  1720      DDEBCBC8 
  1721 01a3 CCCACEC9 		.ascii	"\314\312\316\311\315\313/\030\007/\302\353l\012\272"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 42
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 42
 
 
  1721      CDCB2F18 
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1732      9914
  1733 0274 96452ED9 		.ascii	"\226E.\331dr\310\344\222\311#\223O\246\200\31482\343"
  1733      6472C8E4 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 43
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 43
 
 
  1733      92C92393 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1744      D0C00AC4 
  1744      C1
  1745 034b C74002E5 		.ascii	"\307@\002\345Pf\030\275.\322\377D$\303l\216\301\216"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 44
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 44
 
 
  1745      506618BD 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1756      87291C9A 
  1756      461D7580 
  1756      D136DC
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 45
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 45
 
 
  1757 0426 23A664D4 		.ascii	"#\246d\324\031\333\004\277w\253P<A.?s\217\376\334\304"
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1768 04f2 A278B18C 		.ascii	"\242x\261\214w\323\342\234DcI\001\207\271\360\306\034"
  1768      77D3E29C 
  1768      44634901 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 46
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 46
 
 
  1768      87B9F0C6 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1779      3FCB1A5D 
  1779      221DB6
  1780 05d7 635CB218 		.ascii	"c\\\262\030\334\256\315\035\016?\243\000\250\324\305"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 47
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 47
 
 
  1780      DCAECD1D 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1791      7B7C5547 
  1791      4387
  1792 06ad 2EDD2F54 		.ascii	".\335/T\367\371\250\007\350\371 \235c\375X(\212\336"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 48
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 48
 
 
  1792      F7F9A807 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1803      C8415544 
  1803      BCF17428 
  1803      A03B15
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 49
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 49
 
 
  1804 0788 D0E32281 		.ascii	"\320\343\"\201>2\002\350&]\354\340\026\351\346P\322"
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1816      FD0AEC45 
  1816      584D
  1817 0855 930C3F20 		.ascii	"\223\014? \231h\026q\332i{m\264\267\367\373\250\207"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 50
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 50
 
 
  1817      99681671 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1828      E21D9151 
  1828      5924
  1829 0923 96527DF1 		.ascii	"\226R}\361\305\335\231N\365]\342\335\334i2\3168\030"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 51
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 51
 
 
  1829      C5DD994E 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1840      B28253C9 
  1840      FDD246A5 
  1840      1B535C52 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 52
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 52
 
 
  1840      EB3553BC 
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1851      AF69E6
  1852 0ad2 47A6B145 		.ascii	"G\246\261E\336\305\310\014\353{M\363\220yv\302\023\316"
  1852      DEC5C80C 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 53
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 53
 
 
  1852      EB7B4DF3 
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1864 0ba2 81CDF55E 		.ascii	"\201\315\365^\333\265\031%\245\263\177\363\304S%\367"
  1864      DBB51925 
  1864      A5B37FF3 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 54
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 54
 
 
  1864      C45325F7 
@@ -3187,7 +3187,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1865      DFB0E67F 
  1865      07AF94B0 
  1866              		.text
- 1867              		.section	.gnu.lto_pwm_lld_stop.369.18ae6996,"e",%progbits
+ 1867              		.section	.gnu.lto_pwm_lld_stop.369.3c2cc478,"e",%progbits
  1868 0000 789C8D92 		.ascii	"x\234\215\222OHTQ\024\306\317w\317{\243\223fA\224\322"
  1868      4F485451 
  1868      14C6CF77 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1878      39062C6F 
  1878      A7704076 
  1878      1CA18305 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 55
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 55
 
 
  1878      AD3FCC4E 
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1890 0193 85B24BD4 		.ascii	"\205\262K\324\214P\316\360\332d\006\002\246\240d\350"
  1890      8C50CEF0 
  1890      DA640602 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 56
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 56
 
 
  1890      A6A064E8 
@@ -3347,7 +3347,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1900 0246 1F49AD10 		.ascii	"\037I\255\020\013"
  1900      0B
  1901              		.text
- 1902              		.section	.gnu.lto_pwm_lld_enable_channel.370.18ae6996,"e",%progbits
+ 1902              		.section	.gnu.lto_pwm_lld_enable_channel.370.3c2cc478,"e",%progbits
  1903 0000 789C7D51 		.ascii	"x\234}QMHTQ\030\375\316\373\356\233\347Lj\020\364\273"
  1903      4D485451 
  1903      18FDCEFB 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1904      5A09B911 
  1904      7461BA14 
  1904      C49C
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 57
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 57
 
 
  1905 0026 62062667 		.ascii	"b\006&gJ\0337\201\327\237\012t\241cD\026\0325<B\335"
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1916 00f9 28B0E54C 		.ascii	"(\260\345Lz\364p\311.\350\215\337#Z\257\177\301\370"
  1916      7AF470C9 
  1916      2EE88DDF 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 58
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 58
 
 
  1916      235AAF7F 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1928 01cf F619A36F 		.ascii	"\366\031\243o\215\314\016\243\366v\366?\320\377\371"
  1928      8DCC0EA3 
  1928      F676F63F 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 59
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 59
 
 
  1928      D0FFF9
@@ -3511,7 +3511,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1934      3BF1078F 
  1934      14FC34
  1935              		.text
- 1936              		.section	.gnu.lto_pwm_lld_disable_channel.371.18ae6996,"e",%progbits
+ 1936              		.section	.gnu.lto_pwm_lld_disable_channel.371.3c2cc478,"e",%progbits
  1937 0000 789C5550 		.ascii	"x\234UPMk\023Q\024\275g\356\233\311\207\251\356\264"
  1937      4D6B1351 
  1937      14BD67EE 
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1941      6682C181 
  1942 0056 F7E69EFB 		.ascii	"\367\346\236\373\3169\367\203-\242\022\021]\221\003"
  1942      CE39F783 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 60
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 60
 
 
  1942      2DA21211 
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1953      FE824D15 
  1953      583E47D6 
  1954 0138 15B6CFD1 		.ascii	"\025\266\317\321\200\247\312\377x\306qy\243\227~b\356"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 61
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 61
 
 
  1954      80A7CAFF 
@@ -3658,11 +3658,11 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1965 0207 989CBC56 		.ascii	"\230\234\274V\370\013\026\367\306\271"
  1965      F80B16F7 
  1965      C6B9
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 62
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 62
 
 
  1966              		.text
- 1967              		.section	.gnu.lto_pwm_lld_enable_periodic_notification.372.18ae6996,"e",%progbits
+ 1967              		.section	.gnu.lto_pwm_lld_enable_periodic_notification.372.3c2cc478,"e",%progbits
  1968 0000 789C7D52 		.ascii	"x\234}RMh\023Q\020\236og\2234b[\360`\325\203\364\"\322"
  1968      4D681351 
  1968      109E6F67 
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1978      ED11496E 
  1978      AC7D
  1979 00d0 6CAC4315 		.ascii	"l\254C\025\024li\372\342\317|\242\320J\267\233\360\022"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 63
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 63
 
 
  1979      146C69FA 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1990      F8958B2C 
  1990      AF0735E8 
  1991 01a7 728DECB6 		.ascii	"r\215\354\266\361\337zo[\323\010\311\021e\356\256u\007"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 64
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 64
 
 
  1991      F1DF7A6F 
@@ -3815,7 +3815,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  1997      E6
  1998 021e ED       		.ascii	"\355"
  1999              		.text
- 2000              		.section	.gnu.lto_pwm_lld_disable_periodic_notification.373.18ae6996,"e",%progbits
+ 2000              		.section	.gnu.lto_pwm_lld_disable_periodic_notification.373.3c2cc478,"e",%progbits
  2001 0000 789C7590 		.ascii	"x\234u\2209H\003Q\020\206\347\337\331\325\004\024+Q"
  2001      39480351 
  2001      1086E7DF 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2004      110B1FCC 
  2005 004c 30FFBCF7 		.ascii	"0\377\274\367\315\361FA\024!\242Z10ai1\245\221R\252"
  2005      CDF14641 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 65
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 65
 
 
  2005      1421A25A 
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2016      BA5BDBF1 
  2016      BA9F9966 
  2016      FC
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 66
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 66
 
 
  2017 0131 AE46D411 		.ascii	"\256F\324\021h\355i\217D\373\243\241\221\321p4n\371"
@@ -3925,7 +3925,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2021      6835D137 
  2021      192C9196 
  2022              		.text
- 2023              		.section	.gnu.lto_pwm_lld_enable_channel_notification.374.18ae6996,"e",%progbits
+ 2023              		.section	.gnu.lto_pwm_lld_enable_channel_notification.374.3c2cc478,"e",%progbits
  2024 0000 789C8D52 		.ascii	"x\234\215RMHTQ\030\275\347}o\336\233\311\247\265\263"
  2024      4D485451 
  2024      18BDE77D 
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2030 0070 2965B56D 		.ascii	")e\265m\030C\351\353\006^\201Q\2059\234.\323o\302\215"
  2030      1843E9EB 
  2030      065E8151 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 67
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 67
 
 
  2030      85399C2E 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2042      09852321 
  2042      A8EC0FD4 
  2042      99FA5D0A 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 68
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 68
 
 
  2043 0155 64A904AF 		.ascii	"d\251\004\257!B\036\264\360\006wt\330u\314\346\036\225"
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2054 022a 04133DC1 		.ascii	"\004\023=\301\216\326x\260+\321\335\333\023ll\252\217"
  2054      8ED678B0 
  2054      2BD1DDDB 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 69
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 69
 
 
  2054      136C6CAA 
@@ -4098,7 +4098,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2057      0D923315 
  2057      E8
  2058              		.text
- 2059              		.section	.gnu.lto_pwm_lld_disable_channel_notification.375.18ae6996,"e",%progbits
+ 2059              		.section	.gnu.lto_pwm_lld_disable_channel_notification.375.3c2cc478,"e",%progbits
  2060 0000 789C7551 		.ascii	"x\234uQKh\023Q\024\275g\356|:!\333b\335).J7\235q\202"
  2060      4B681351 
  2060      14BD67EE 
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2067      25E93849 
  2067      BD
  2068 009a 4DA53EB7 		.ascii	"M\245>\267\266\225r)d\306\026\304\203M`C\242\205\030"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 70
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 70
 
 
  2068      B6957229 
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2079 016c FAB11D2A 		.ascii	"\372\261\035*z\372\211\322\376n\335\215\376`\225\361"
  2079      7AFA89D2 
  2079      FE6EDD8D 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 71
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 71
 
 
  2079      FE6095F1 
@@ -4227,7 +4227,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2084      7AFA4EEE 
  2085 01d6 423FB4F3 		.ascii	"B?\264\363"
  2086              		.text
- 2087              		.section	.gnu.lto_pwm_lld_serve_interrupt.376.18ae6996,"e",%progbits
+ 2087              		.section	.gnu.lto_pwm_lld_serve_interrupt.376.3c2cc478,"e",%progbits
  2088 0000 789C7D95 		.ascii	"x\234}\225]l\024U\024\307\357\271w>w\366\333\240.4\261"
  2088      5D6C1455 
  2088      14C7EFB9 
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2093      3FE73737 
  2093      BB632A21 
  2094 006f 13425E02 		.ascii	"\023B^\002B K\240Z\031\244\3044\315\235*\245'*\357P"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 72
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 72
 
 
  2094      42204BA0 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2105      E50E9855 
  2105      136C26C1 
  2105      54703F21 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 73
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 73
 
 
  2105      7BFF3114 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2117 0229 A0803B2B 		.ascii	"\240\200;+\320\000'\273\315b-X\027\037q\233V\341\322"
  2117      D00027BB 
  2117      CD622D58 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 74
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 74
 
 
  2117      171F719B 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2128      37019E0F 
  2129 030c B1F821C8 		.ascii	"\261\370!\310bF\260\320\341\272\333\245\032\3460\351"
  2129      6246B0D0 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 75
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 75
 
 
  2129      E1BADBA5 
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2140      EB42
  2141 03e2 3FC4C0FF 		.ascii	"?\304\300\377\317!d\367\256\027\017\274|\270\353\325"
  2141      CF2164F7 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 76
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 76
 
 
  2141      AE170FBC 
@@ -4528,7 +4528,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2146      177F2FC9 
  2146      D2
  2147              		.text
- 2148              		.section	.gnu.lto_pwm_lld_stop.part.0.380.18ae6996,"e",%progbits
+ 2148              		.section	.gnu.lto_pwm_lld_stop.part.0.380.3c2cc478,"e",%progbits
  2149 0000 789C7D52 		.ascii	"x\234}R?h\023a\024\177\277\357]\322\234H\025\027\035"
  2149      3F681361 
  2149      147FBFEF 
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2154      42B81523 
  2154      6BEDC90E 
  2154      077B82B7 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 77
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 77
 
 
  2155 0071 C1CCF48E 		.ascii	"\301\314\364\216 c\214OO\272x\215\240\002\2159\2061"
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2166      D6F176D1 
  2166      AD325ACB 
  2166      89049F13 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 78
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 78
 
 
  2167 0146 66D6BF61 		.ascii	"f\326\277aui\017\325W\024\015`\031\024?P\343\016\274"
@@ -4671,14 +4671,14 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2176      A6BF6CAF 
  2176      DA6E
  2177              		.text
- 2178              		.section	.gnu.lto_pwm_lld_disable_channel.part.0.381.18ae6996,"e",%progbits
+ 2178              		.section	.gnu.lto_pwm_lld_disable_channel.part.0.381.3c2cc478,"e",%progbits
  2179 0000 789C6D52 		.ascii	"x\234mRMh\023Q\020~\337\316n6\265-\202\340\317I\364"
  2179      4D681351 
  2179      107EDFCE 
  2179      6E36B52D 
  2179      82E0CF49 
  2180 0015 24BD74D7 		.ascii	"$\275t\327\015\376\340I\260\227Bz(\355\261Pj\242$\020"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 79
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 79
 
 
  2180      0DFEE049 
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2191      E5
  2192 00ea 42BBFB43 		.ascii	"B\273\373C$uY\213\307(\217\277\362\312x\215\231+\341"
  2192      2475598B 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 80
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 80
 
 
  2192      C7288FBF 
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2203      9FB9
  2204 01c4 8AE51CE6 		.ascii	"\212\345\034\346d\316\227\011\374\177\310\363h\010\027"
  2204      64CE9709 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 81
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 81
 
 
  2204      FC7FC8F3 
@@ -4835,7 +4835,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2211      DC2F1807 
  2211      E8F7
  2212              		.text
- 2213              		.section	.gnu.lto_.symbol_nodes.18ae6996,"e",%progbits
+ 2213              		.section	.gnu.lto_.symbol_nodes.3c2cc478,"e",%progbits
  2214 0000 789C7DD0 		.ascii	"x\234}\320=\012\302@\020\005\340\231\267\211\321$ba"
  2214      3D0AC240 
  2214      1005E099 
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2218 004c A6FC82F0 		.ascii	"\246\374\202\360\037\336A\360\305\263Hs\201\356\026"
  2218      1FDE41F0 
  2218      C5B34873 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 82
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 82
 
 
  2218      81EE16
@@ -4889,7 +4889,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2224      35E90D8B 
  2224      A28304
  2225              		.text
- 2226              		.section	.gnu.lto_.refs.18ae6996,"e",%progbits
+ 2226              		.section	.gnu.lto_.refs.3c2cc478,"e",%progbits
  2227 0000 789C0DC6 		.ascii	"x\234\015\306\261\021\000 \014\003\261\267\035\240c"
  2227      B1110020 
  2227      0C03B1B7 
@@ -4903,7 +4903,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2229      381B3E13 
  2229      580133
  2230              		.text
- 2231              		.section	.gnu.lto_.decls.18ae6996,"e",%progbits
+ 2231              		.section	.gnu.lto_.decls.3c2cc478,"e",%progbits
  2232 0000 789CBD59 		.ascii	"x\234\275Y{TTG\232\257\257\252\241\233\006\224\211d"
  2232      7B545447 
  2232      9AAFAFAA 
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2234      EBC9198E 
  2234      D2ED4006 
  2234      8181D6C9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 83
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 83
 
 
  2235 0037 9CDDB3E7 		.ascii	"\234\335\263\347\252Q\021\025H\242\011*Q0\232\3017F"
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2246      69C34D6C 
  2246      7F8EED7E 
  2246      90313888 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 84
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 84
 
 
  2247 010e 7400A90E 		.ascii	"t\000\251\016i\020\316\215\303v5\322N\244j\244\321\252"
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2258      8D082137 
  2258      944C6A92 
  2258      C945A587 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 85
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 85
 
 
  2258      9077FA
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2269      E6801C
  2270 02b0 05089BAF 		.ascii	"\005\010\233\257v\023\305o\214\260D\001\266H\275\315"
  2270      7613C56F 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 86
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 86
 
 
  2270      8CB04401 
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2281      F3
  2282 0386 F8FFA005 		.ascii	"\370\377\240\005\302\023\016\007\002\323]4_\211\221"
  2282      C2130E07 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 87
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 87
 
 
  2282      02D35D34 
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2294      BA40B7EE 
  2294      CBE088AB 
  2294      ABB24C
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 88
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 88
 
 
  2295 0464 C7EC0EDE 		.ascii	"\307\354\016\336\001*&_\307\234\016\336\375<\241?\246"
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2306      14BC2FAC 
  2306      602DC2D0 
  2307 0538 7BE756D9 		.ascii	"{\347V\331C\300\340\003\252\002W\260\360\352\302Y\225"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 89
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 89
 
 
  2307      43C0E003 
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2318      C43308B2 
  2318      2B899B55 
  2318      B9BE46D4 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 90
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 90
 
 
  2318      CC6514
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2329      B6C94238 
  2329      506CF22B 
  2330 06e6 AB749F21 		.ascii	"\253t\237!\364\273k\253\313\231\265\256a\3017\001vV"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 91
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 91
 
 
  2330      F4BB6BAB 
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2341 07ae 934C6624 		.ascii	"\223Lf$V\241\012\015\3672\352dN\346u6\300\240\370\016"
  2341      56A10A0D 
  2341      F732EA64 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 92
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 92
 
 
  2341      4EE67536 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2353      3CD52561 
  2353      BA8A7FFC 
  2353      07D41FE0 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 93
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 93
 
 
  2354 088e 4390DF0B 		.ascii	"C\220\337\01355\342>\317\020\252\2429D\336\325\033\265"
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2365      55780895 
  2365      784282AF 
  2365      648E54CE 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 94
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 94
 
 
  2365      BDBE
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2377 0a2d 5A759679 		.ascii	"Zu\226y\321\354\206`i.\336\2702L\260\254\327Xp\265\332"
  2377      D1EC8660 
  2377      692EDEB8 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 95
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 95
 
 
  2377      324CB0AC 
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2388      49D822A4 
  2389 0b0b A5489F38 		.ascii	"\245H\2378\245\252% \016'e\021\254\314\211\236&\037"
  2389      A5AA2520 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 96
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 96
 
 
  2389      0E276511 
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2400      6083A54F 
  2400      25BA4FEF 
  2401 0be5 1BA39E46 		.ascii	"\033\243\236F7\353\2309\301>Y\336\373\2263X\306x\205"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 97
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 97
 
 
  2401      37EB9839 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2412      5431153A 
  2412      66417059 
  2412      48C242CB 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 98
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 98
 
 
  2413 0cc4 C6A507E6 		.ascii	"\306\245\007\346w\010\271\365\240\226\375\177n>\376"
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2425 0d8f 698E316F 		.ascii	"i\2161o\376[\234;i8y\311r{\250k\330o\206{\247\271~M"
  2425      FE5B9C3B 
  2425      693879C9 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 99
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 99
 
 
  2425      727BA86B 
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2437      4CF53B71 
  2437      90E79FE2 
  2437      47E3C3D2 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 100
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 100
 
 
  2437      32B3
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2449      E7C4F1E3 
  2450 0f47 53468EE3 		.ascii	"SF\216\343}\336\035\347J\341\335\260\224\024\367\030"
  2450      7DDE1DE7 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 101
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 101
 
 
  2450      4AE1DDB0 
@@ -6047,7 +6047,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2460      07E3
  2461 0ff3 250C29   		.ascii	"%\014)"
  2462              		.text
- 2463              		.section	.gnu.lto_.symtab.18ae6996,"e",%progbits
+ 2463              		.section	.gnu.lto_.symtab.3c2cc478,"e",%progbits
  2464 0000 70776D5F 		.ascii	"pwm_lld_init\000"
  2464      6C6C645F 
  2464      696E6974 
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2468 0010 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
  2468      00000000 
  2469 0018 5C010000 		.ascii	"\\\001\000\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 102
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 102
 
 
  2470 001c 50574D44 		.ascii	"PWMD1\000"
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2500      6572696F 
  2501 00dc 00       		.ascii	"\000"
  2502 00dd 00       		.ascii	"\000"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 103
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 103
 
 
  2503 00de 00       		.ascii	"\000"
@@ -6178,12 +6178,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2533 01be 00       		.ascii	"\000"
  2534 01bf 00000000 		.ascii	"\000\000\000\000\000\000\000\000"
  2534      00000000 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 104
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 104
 
 
  2535 01c7 70010000 		.ascii	"p\001\000\000"
  2536              		.text
- 2537              		.section	.gnu.lto_.ext_symtab.18ae6996,"e",%progbits
+ 2537              		.section	.gnu.lto_.ext_symtab.3c2cc478,"e",%progbits
  2538 0000 01       		.ascii	"\001"
  2539 0001 01       		.ascii	"\001"
  2540 0002 00       		.ascii	"\000"
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2569      6F6E7327 
  2570 00ff 626C6572 		.ascii	"bler' '-alms=./build/lst/hal_pwm_lld.lst'\000"
  2570      2720272D 
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 105
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 105
 
 
  2570      616C6D73 
@@ -6247,12 +6247,12 @@ ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 1
  2571              		.text
  2572              		.comm	__gnu_lto_slim,1,1
  2573              		.ident	"GCC: (GNU Arm Embedded Toolchain 10-2020-q4-major) 10.2.1 20201103 (release)"
-ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s 			page 106
+ARM GAS  C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s 			page 106
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal_pwm_lld.c
-C:\Users\Vania\AppData\Local\Temp\ccaMeVSu.s:23     .gnu.debuglto_.debug_info:00000000 hal_pwm_lld.c.2387df25
+C:\Users\Vania\AppData\Local\Temp\ccwOIiEQ.s:23     .gnu.debuglto_.debug_info:00000000 hal_pwm_lld.c.2387df25
                             *COM*:00000001 __gnu_lto_slim
 
 NO UNDEFINED SYMBOLS

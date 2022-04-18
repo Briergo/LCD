@@ -9,7 +9,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "hal.h"
 /* USER CODE END Includes */
 
 /* Private define ------------------------------------------------------------*/
@@ -45,7 +45,7 @@ typedef struct node
 node_t;
 
 extern node_t* current;
-
+extern GPTDriver *timer4;
 
 
 /* Private function prototypes -----------------------------------------------*/
@@ -60,6 +60,7 @@ void down_button(void* args);
 void left_button(void* args);
 void right_button(void* args);
 void Menu_GPIO_Init(void);
+void cbgptfun4(GPTDriver *gptp);
 
 /* USER CODE END PFP */
 
