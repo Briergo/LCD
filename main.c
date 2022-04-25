@@ -7,17 +7,15 @@
 #include "pid.h"
 #include "sensor.h"
 #include "MenuThread.h"
-#include <stdio.h>
 
 
-mailbox_t holl_mb;
-msg_t holl_mb_buffer[BUFFER_SIZE];
+
+
 uint8_t flag_start=0;
 uint8_t tim_flag=0;
-int16_t speed = 5;
 uint8_t flag_ok=0;
 uint8_t angle=0;
-
+uint8_t flagmenu2=0;
 
 void cbgptfun3(GPTDriver *gptp);
 GPTDriver *timer3 = &GPTD3;
@@ -33,9 +31,7 @@ GPTConfig gpt3_conf = {
 
 int main(void)
 {
-    msg_t my_msg;
-    char String[15];
-
+    int16_t speed_uart=0;
     halInit();
     chSysInit();
     Uart_Init();
@@ -45,21 +41,18 @@ int main(void)
     palSetLineMode(LINE_LED3, PAL_MODE_OUTPUT_PUSHPULL);
     //запуск таймера 3
     gptStart(timer3, &gpt3_conf);
-    Menu_Thread_Start();
     Pid_Start();
+    Menu_Thread_Start();
+
     //запуск в непрерывном режиме с периодом 0.1 с
     gptStartContinuous(timer3, 5000);
-    Motor_Forward();
     while (1)
     {
-      msg_t msg = chMBFetchTimeout(&holl_mb, &my_msg, chTimeMS2I(80));
-          if (msg == MSG_OK)
-          {
-            sprintf(String,"%d",(int16_t)my_msg);
-            TFT_Fill_Screen(160,200,200,220,WHITE);
-            TFT_Draw_String(160,200,RED,WHITE,String,2);
-          }
-     }
+      chThdSleepMilliseconds(200);
+      speed_uart=Get_Holl_Sensor();
+      dbgprintf("%d",set_speed);
+      //sdWrite(uart3, (uint8_t *)&speed,2);
+    }
 }
 
 

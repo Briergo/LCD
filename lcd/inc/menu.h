@@ -34,6 +34,7 @@ extern unsigned char  right_flag;
 typedef struct node 
 {
   char* text;
+  char* starttext;
   char cmd;
   struct node* prev;
   struct node* next;
@@ -41,10 +42,11 @@ typedef struct node
   struct node* child;
   unsigned int x_pos;
   unsigned int y_pos;
+  char* bool_value;
+  int16_t menu_value;
 }
 node_t;
 
-extern node_t* current;
 extern GPTDriver *timer4;
 
 
@@ -61,6 +63,7 @@ void left_button(void* args);
 void right_button(void* args);
 void Menu_GPIO_Init(void);
 void cbgptfun4(GPTDriver *gptp);
+void Menu_Button(void);
 
 /* USER CODE END PFP */
 

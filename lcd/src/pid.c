@@ -8,11 +8,13 @@
 #include "pid.h"
 #include "Motor.h"
 #include "sensor.h"
+#include "debugger.h"
 
 struct regulator Reg1;
 
 mailbox_t pid_mb;
 msg_t pid_mb_buffer[BUFFER_SIZE];
+int16_t set_speed=0;
 
 static THD_WORKING_AREA(pidThread, 256);// 256 - stack size
 
@@ -23,10 +25,10 @@ static THD_FUNCTION(pid, arg)
     int32_t input=0;
     while(1)
     {
-      msg_t msg = chMBFetchTimeout(&pid_mb, &my_msg, chTimeMS2I(80));
+      msg_t msg = chMBFetchTimeout(&pid_mb, &my_msg, chTimeMS2I(50));
       if (msg == MSG_OK)
           {
-            input=PID_Reg(Reg1,speed*2,(int16_t)my_msg);
+            input=PID_Reg(Reg1,set_speed,(int16_t)my_msg);
             Motor_Speed((int16_t)input);
           }
     }

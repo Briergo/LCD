@@ -23,7 +23,7 @@ struct regulator {
   Last_Process_Value;
 } ;
 
-extern int16_t speed;
+extern int16_t set_speed;
 extern struct regulator Reg1;
 extern mailbox_t pid_mb;
 extern msg_t pid_mb_buffer[BUFFER_SIZE];
