@@ -11,7 +11,7 @@
 #include "hal.h"
 
 #define BUFFER_SIZE 100
-#define MAX_I_Reg 2147483647
+#define MAX_I_Reg 10000
 #define MAX_VALUE 10000
 
 struct regulator {
@@ -20,7 +20,8 @@ struct regulator {
   D;
   int32_t Summ_Error,
   Max_Summ_Error,
-  Last_Process_Value;
+  Last_Process_Value,
+  Last_Input;
 } ;
 
 extern int16_t set_speed;
@@ -28,7 +29,7 @@ extern struct regulator Reg1;
 extern mailbox_t pid_mb;
 extern msg_t pid_mb_buffer[BUFFER_SIZE];
 
-int32_t PID_Reg(struct regulator parm, int zadanie, int measure);
+int16_t PID_Reg(struct regulator parm, int zadanie, int measure);
 void Init_PID_Reg(void);
 void Pid_Start(void);
 

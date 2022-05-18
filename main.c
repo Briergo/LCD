@@ -20,6 +20,9 @@ uint8_t flagmenu2=0;
 void cbgptfun3(GPTDriver *gptp);
 GPTDriver *timer3 = &GPTD3;
 
+mailbox_t uart_mb;
+msg_t uart_mb_buffer[BUFFER_SIZE];
+
 
 // Настраиваем частоту третьего таймера 50_000Гц (предделитель 4320, целое число, меньше чем 2^16) и указывает первую функцию как обработчик прерываний
 GPTConfig gpt3_conf = {
@@ -31,11 +34,12 @@ GPTConfig gpt3_conf = {
 
 int main(void)
 {
-    int16_t speed_uart=0;
+    msg_t my_msg;
     halInit();
     chSysInit();
     Uart_Init();
     chMBObjectInit(&holl_mb, holl_mb_buffer, BUFFER_SIZE);
+    chMBObjectInit(&uart_mb, uart_mb_buffer, BUFFER_SIZE);
     palSetLineMode(LINE_LED1, PAL_MODE_OUTPUT_PUSHPULL);
     palSetLineMode(LINE_LED2, PAL_MODE_OUTPUT_PUSHPULL);
     palSetLineMode(LINE_LED3, PAL_MODE_OUTPUT_PUSHPULL);
@@ -48,10 +52,9 @@ int main(void)
     gptStartContinuous(timer3, 5000);
     while (1)
     {
-      chThdSleepMilliseconds(200);
-      speed_uart=Get_Holl_Sensor();
-      dbgprintf("%d",set_speed);
-      //sdWrite(uart3, (uint8_t *)&speed,2);
+      msg_t msg = chMBFetchTimeout(&uart_mb, &my_msg, chTimeMS2I(200));
+      //if (msg == MSG_OK)
+        //sdWrite(uart3, (uint8_t *)&my_msg,2);
     }
 }
 
@@ -69,6 +72,7 @@ void cbgptfun3(GPTDriver *gptp)
     angle++;
     if(angle>1)
     {
+      chMBPostI(&uart_mb, speed_sensor);
       chMBPostI(&holl_mb, speed_sensor);
       angle=0;
     }
