@@ -107,7 +107,8 @@ static THD_FUNCTION(menu, arg)
                   mutex=chMtxTryLock(&mtx);
                   if(mutex==true)
                   {
-                    current->menu_value++;
+                    if(current->menu_value<=200)
+                    current->menu_value+=5;
                     sprintf(Value,"%d",current->menu_value);
                     TFT_Fill_Screen(current->x_pos+145,current->x_pos+200,current->y_pos,current->y_pos+20,WHITE);
                     TFT_Draw_String(current->x_pos+150,current->y_pos, GREEN, WHITE,Value , 2);
@@ -147,7 +148,8 @@ static THD_FUNCTION(menu, arg)
                   mutex=chMtxTryLock(&mtx);
                   if(mutex==true)
                   {
-                    current->menu_value--;
+                    if(current->menu_value>0)
+                      current->menu_value-=5;
                     sprintf(Value,"%d",current->menu_value);
                     TFT_Fill_Screen(current->x_pos+145,current->x_pos+200,current->y_pos,current->y_pos+20,WHITE);
                     TFT_Draw_String(current->x_pos+150,current->y_pos, GREEN, WHITE,Value , 2);
@@ -200,30 +202,45 @@ static THD_FUNCTION(cmd, arg)
               case START:
               {
                 Motor_Forward();
+                Reg1.Summ_Error=0;
                 menu1_1->bool_value="TRUE";
                 menu1_2->bool_value="FALSE";
+                menu1_3->bool_value="TRUE";
                 TFT_Fill_Screen(menu1_1->x_pos+220,menu1_1->x_pos+270,menu1_1->y_pos,menu1_1->y_pos+20,WHITE);
                 TFT_Draw_String(menu1_1->x_pos+220,menu1_1->y_pos, BLUE, WHITE, menu1_1->bool_value, 1);
                 TFT_Fill_Screen(menu1_2->x_pos+220,menu1_2->x_pos+270,menu1_2->y_pos,menu1_2->y_pos+20,WHITE);
                 TFT_Draw_String(menu1_2->x_pos+220,menu1_2->y_pos, BLUE, WHITE, menu1_2->bool_value, 1);
+                TFT_Fill_Screen(menu1_3->x_pos+220,menu1_3->x_pos+270,menu1_3->y_pos,menu1_3->y_pos+20,WHITE);
+                TFT_Draw_String(menu1_3->x_pos+220,menu1_3->y_pos, BLUE, WHITE, menu1_3->bool_value, 1);
               }
               break;
               case STOP:
               {
                 Motor_Stop();
+                Reg1.Summ_Error=0;
                 menu1_1->bool_value="FALSE";
                 menu1_2->bool_value="TRUE";
+                menu1_3->bool_value="FALSE";
+                menu1_4->bool_value="FALSE";
                 TFT_Fill_Screen(menu1_1->x_pos+220,menu1_1->x_pos+270,menu1_1->y_pos,menu1_1->y_pos+20,WHITE);
                 TFT_Draw_String(menu1_1->x_pos+220,menu1_1->y_pos, BLUE, WHITE, menu1_1->bool_value, 1);
                 TFT_Fill_Screen(menu1_2->x_pos+220,menu1_2->x_pos+270,menu1_2->y_pos,menu1_2->y_pos+20,WHITE);
                 TFT_Draw_String(menu1_2->x_pos+220,menu1_2->y_pos, BLUE, WHITE, menu1_2->bool_value, 1);
+                TFT_Fill_Screen(menu1_3->x_pos+220,menu1_3->x_pos+270,menu1_3->y_pos,menu1_3->y_pos+20,WHITE);
+                TFT_Draw_String(menu1_3->x_pos+220,menu1_3->y_pos, BLUE, WHITE, menu1_3->bool_value, 1);
+                TFT_Fill_Screen(menu1_4->x_pos+220,menu1_4->x_pos+270,menu1_4->y_pos,menu1_4->y_pos+20,WHITE);
+                TFT_Draw_String(menu1_4->x_pos+220,menu1_4->y_pos, BLUE, WHITE, menu1_4->bool_value, 1);
               }
               break;
               case FORWARD:
               {
                 Motor_Forward();
+                Reg1.Summ_Error=0;
+                menu1_1->bool_value="TRUE";
                 menu1_3->bool_value="TRUE";
                 menu1_4->bool_value="FALSE";
+                TFT_Fill_Screen(menu1_1->x_pos+220,menu1_1->x_pos+270,menu1_1->y_pos,menu1_1->y_pos+20,WHITE);
+                TFT_Draw_String(menu1_1->x_pos+220,menu1_1->y_pos, BLUE, WHITE, menu1_1->bool_value, 1);
                 TFT_Fill_Screen(menu1_3->x_pos+220,menu1_3->x_pos+270,menu1_3->y_pos,menu1_3->y_pos+20,WHITE);
                 TFT_Draw_String(menu1_3->x_pos+220,menu1_3->y_pos, BLUE, WHITE, menu1_3->bool_value, 1);
                 TFT_Fill_Screen(menu1_4->x_pos+220,menu1_4->x_pos+270,menu1_4->y_pos,menu1_4->y_pos+20,WHITE);
@@ -233,8 +250,12 @@ static THD_FUNCTION(cmd, arg)
               case BACK:
               {
                 Motor_Back();
+                Reg1.Summ_Error=0;
+                menu1_1->bool_value="TRUE";
                 menu1_3->bool_value="FALSE";
                 menu1_4->bool_value="TRUE";
+                TFT_Fill_Screen(menu1_1->x_pos+220,menu1_1->x_pos+270,menu1_1->y_pos,menu1_1->y_pos+20,WHITE);
+                TFT_Draw_String(menu1_1->x_pos+220,menu1_1->y_pos, BLUE, WHITE, menu1_1->bool_value, 1);
                 TFT_Fill_Screen(menu1_3->x_pos+220,menu1_3->x_pos+270,menu1_3->y_pos,menu1_3->y_pos+20,WHITE);
                 TFT_Draw_String(menu1_3->x_pos+220,menu1_3->y_pos, BLUE, WHITE, menu1_3->bool_value, 1);
                 TFT_Fill_Screen(menu1_4->x_pos+220,menu1_4->x_pos+270,menu1_4->y_pos,menu1_4->y_pos+20,WHITE);

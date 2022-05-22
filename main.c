@@ -8,7 +8,10 @@
 #include "sensor.h"
 #include "MenuThread.h"
 
-
+#define WRITECMD 4
+#define WRITEPID 7
+#define GO 5
+#define STOP 6
 
 
 uint8_t flag_start=0;
@@ -16,12 +19,16 @@ uint8_t tim_flag=0;
 uint8_t flag_ok=0;
 uint8_t angle=0;
 uint8_t flagmenu2=0;
+extern node_t* menu3_1;
+extern node_t* menu3_2;
+extern node_t* menu3_3;
 
 void cbgptfun3(GPTDriver *gptp);
 GPTDriver *timer3 = &GPTD3;
 
 mailbox_t uart_mb;
 msg_t uart_mb_buffer[BUFFER_SIZE];
+uint8_t buff[BUFFER_SIZE];
 
 
 // Настраиваем частоту третьего таймера 50_000Гц (предделитель 4320, целое число, меньше чем 2^16) и указывает первую функцию как обработчик прерываний
@@ -35,6 +42,7 @@ GPTConfig gpt3_conf = {
 int main(void)
 {
     msg_t my_msg;
+    uint16_t start=0;
     halInit();
     chSysInit();
     Uart_Init();
@@ -52,9 +60,39 @@ int main(void)
     gptStartContinuous(timer3, 5000);
     while (1)
     {
+      sdReadTimeout(uart3,buff,11,chTimeMS2I(100));
+      start=buff[0];
+        if(start==1)
+        {
+          palToggleLine(LINE_LED2);
+          if(((buff[1]<<8)+buff[2])==WRITECMD)
+          {
+            palToggleLine(LINE_LED3);
+            if(((buff[9]<<9)+buff[10])==GO)
+            {
+              Reg1.Summ_Error=0;
+              Motor_Forward();
+            }
+            if(((buff[9]<<9)+buff[10])==STOP)
+            {
+              Reg1.Summ_Error=0;
+              Motor_Stop();
+            }
+          }
+          if(((buff[1]<<8)+buff[2])==WRITEPID)
+          {
+            menu3_1->menu_value=(buff[3]<<8)+buff[4];
+            Reg1.P=menu3_1->menu_value;
+            menu3_2->menu_value=(buff[5]<<8)+buff[6];
+            Reg1.D= menu3_2->menu_value;
+            menu3_3->menu_value=(buff[7]<<8)+buff[8];
+            Reg1.I=menu3_3->menu_value;
+          }
+        }
+
       msg_t msg = chMBFetchTimeout(&uart_mb, &my_msg, chTimeMS2I(200));
-      //if (msg == MSG_OK)
-        //sdWrite(uart3, (uint8_t *)&my_msg,2);
+      if (msg == MSG_OK)
+        sdWrite(uart3, (uint8_t *)&my_msg,2);
     }
 }
 
@@ -66,9 +104,10 @@ void cbgptfun3(GPTDriver *gptp)
     (void)gptp;
     int16_t speed_sensor=0;
     palToggleLine(LINE_LED1);
-    speed_sensor=Get_Holl_Sensor();
+    speed_sensor=Get_Holl_Sensor()*5;
     Clear_Holl_Sensor();
-    chMBPostI(&pid_mb, speed_sensor);
+    if(flag_start)
+      chMBPostI(&pid_mb, speed_sensor);
     angle++;
     if(angle>1)
     {

@@ -20,8 +20,7 @@ struct regulator {
   D;
   int32_t Summ_Error,
   Max_Summ_Error,
-  Last_Process_Value,
-  Last_Input;
+  Last_Process_Value;
 } ;
 
 extern int16_t set_speed;
@@ -29,7 +28,7 @@ extern struct regulator Reg1;
 extern mailbox_t pid_mb;
 extern msg_t pid_mb_buffer[BUFFER_SIZE];
 
-int16_t PID_Reg(struct regulator parm, int zadanie, int measure);
+int16_t PID_Reg( int zadanie, int measure);
 void Init_PID_Reg(void);
 void Pid_Start(void);
 
